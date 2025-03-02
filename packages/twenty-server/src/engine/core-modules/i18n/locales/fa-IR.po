@@ -156,6 +156,32 @@ msgstr "عملیات تجمیع (Aggregate)"
 msgid "Aggregated / filtered event to be displayed on the timeline"
 msgstr "رویداد تجمیع/فیلتر شده برای نمایش در تایم‌لاین"
 
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/people-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/opportunities-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/companies-all.view.ts
+msgid "All"
+msgstr "همه"
+
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/notes-all.view.ts
+msgid "All Notes"
+msgstr "همه‌ی یادداشت‌ها"
+
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/tasks-all.view.ts
+msgid "All Tasks"
+msgstr "همه‌ی وظایف"
+
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/workflow-runs-all.view.ts
+msgid "All Workflow Runs"
+msgstr "همه‌ی اجراهای گردش‌کار"
+
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/workflow-versions-all.view.ts
+msgid "All Workflow Versions"
+msgstr "همه‌ی ورژن‌های گردش‌کار"
+
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/workflows-all.view.ts
+msgid "All Workflows"
+msgstr "همه‌ی گردش‌کارها"
+
 #: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
 msgid "Amount"
 msgstr "مبلغ"
@@ -211,6 +237,10 @@ msgstr "ARR"
 #: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
 msgid "Assigned tasks"
 msgstr "وظایف واگذار شده"
+
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/tasks-assigned-to-me.ts
+msgid "Assigned to Me"
+msgstr "وظایف واگذار شده به من"
 
 #: src/modules/task/standard-objects/task.workspace-entity.ts
 msgid "Assignee"
@@ -363,6 +393,15 @@ msgstr "متن"
 #: src/modules/note/standard-objects/note.workspace-entity.ts
 msgid "Body (deprecated)"
 msgstr "متن (منسوخ)"
+
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/opportunity-table-by-stage.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/opportunity-by-stage.view.ts
+msgid "By Stage"
+msgstr "بر اساس استیج"
+
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/tasks-by-status.view.ts
+msgid "By Status"
+msgstr "بر اساس وضعیت"
 
 #: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
 msgid "Cached record name"
@@ -1216,6 +1255,7 @@ msgstr "توکن بازنشانی ارائه‌دهنده پیام‌رسان"
 #: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
 #: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
 #: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-event-listener.workspace-entity.ts
 #: src/modules/view/standard-objects/view.workspace-entity.ts
 #: src/modules/person/standard-objects/person.workspace-entity.ts
 #: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
@@ -1317,6 +1357,13 @@ msgstr "فرد مرتبط با هدف یادداشت"
 #: src/modules/company/standard-objects/company.workspace-entity.ts
 msgid "Number of employees in the company"
 msgstr "تعداد کارمندان در شرکت"
+
+#. placeholder {0}: referenceObjectMetadata.nameSingular
+#. placeholder {0}: targetObjectMetadata.nameSingular
+#: src/engine/api/graphql/graphql-query-runner/helpers/process-nested-relations.helper.ts
+#: src/engine/api/graphql/graphql-query-runner/helpers/process-nested-relations-v2.helper.ts
+msgid "Object {0} not found"
+msgstr "آبجکت {0} پیدا نشد"
 
 #: src/modules/timeline/standard-objects/behavioral-event.workspace-entity.ts
 msgid "Object id"
@@ -1621,6 +1668,10 @@ msgstr "شروع مرحله همگام‌سازی در تاریخ"
 #: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
 msgid "Sync status"
 msgstr "وضعیت همگام‌سازی"
+
+#: src/engine/workspace-manager/workspace-migration-runner/workspace-migration-runner.service.ts
+msgid "Table \"{tableName}\" not found"
+msgstr "جدول \"{tableName}\" پیدا نشد"
 
 #: src/modules/webhook/standard-objects/webhook.workspace-entity.ts
 msgid "Target Url"

@@ -153,6 +153,13 @@ msgstr "کلیدهای API فعالی که توسط شما یا تیمتان ا�
 msgid "Add"
 msgstr "افزودن"
 
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoGroupNoRecordAtAll.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateByGroupNoRecordAtAll.tsx
+msgid "Add a {objectLabel}"
+msgstr "افزودن {objectLabel}"
+
 #: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsListCard.tsx
 msgid "Add account"
 msgstr "افزودن حساب"
@@ -164,6 +171,11 @@ msgstr "افزودن دامنه‌ی مجاز دسترسی"
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
 msgid "Add Field"
 msgstr "افزودن فیلد"
+
+#: src/modules/activities/files/components/Attachments.tsx
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "Add file"
+msgstr "افزودن فایل"
 
 #: src/modules/object-record/object-filter-dropdown/components/AddObjectFilterFromDetailsButton.tsx
 msgid "Add filter"
@@ -268,6 +280,10 @@ msgstr "همه آبجکت‌ها"
 msgid "All roles"
 msgstr "همه نقش‌ها"
 
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "All tasks addressed. Maintain the momentum."
+msgstr "تمام وظایف رسیدگی شده اند."
+
 #: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
 msgid "Allow logins through Google's single sign-on functionality."
 msgstr "امکان ورود از طریق ورود تک‌مرحله‌ای گوگل را فعال کن."
@@ -349,6 +365,10 @@ msgstr "عربی"
 #: src/pages/settings/SettingsBilling.tsx
 msgid "Are you sure that you want to change your billing interval?"
 msgstr "آیا مطمئنید که می‌خواهید دوره‌ی پرداخت خود را تغییر دهید؟"
+
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Are you sure you want to delete this record? It can be recovered from the Options menu."
+msgstr "آیا مطمئنید که می خواهید این رکورد را حذف کنید؟ می توان آن را از منوی گزینه ها بازیابی کرد."
 
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
@@ -455,6 +475,8 @@ msgid "Calculate"
 msgstr "محاسبه"
 
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
 msgid "Calendar"
 msgstr "تقویم"
 
@@ -902,6 +924,11 @@ msgstr "حذف کلید API"
 msgid "Delete record"
 msgstr "حذف رکورد"
 
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Delete Record"
+msgstr "حذف رکورد"
+
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
 msgid "Delete records"
@@ -1117,12 +1144,17 @@ msgstr "ایمیل/دامنه"
 #: src/pages/settings/accounts/SettingsAccountsEmails.tsx
 #: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
 msgid "Emails"
 msgstr "ایمیل‌ها"
 
 #: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
 msgid "Emails settings"
 msgstr "تنظیمات ایمیل"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Emailst"
+msgstr "لیست ایمیل"
 
 #: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
 msgid "employees"
@@ -1137,6 +1169,10 @@ msgstr "کارمندان"
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiff.tsx
 msgid "Empty"
 msgstr "خالی"
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "Empty Inbox"
+msgstr "صندوق خالی است"
 
 #: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
 msgid "Endpoint URL"
@@ -1334,6 +1370,7 @@ msgstr "نوع فیلد"
 #: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
 #: src/pages/settings/data-model/constants/SettingsObjectTableMetadata.ts
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownFieldsContent.tsx
 msgid "Fields"
@@ -1342,6 +1379,10 @@ msgstr "فیلدها"
 #: src/testing/mock-data/tableData.ts
 msgid "Fields Count"
 msgstr "تعداد فیلد"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Files"
+msgstr "فایل‌ها"
 
 #: src/modules/object-record/record-table/record-table-header/components/RecordTableColumnHeadDropdownMenu.tsx
 #: src/modules/object-record/object-filter-dropdown/components/SingleEntityObjectFilterDropdownButton.tsx
@@ -1374,6 +1415,12 @@ msgstr "۵ خط اول"
 #: src/modules/object-record/record-field/meta-types/input/constants/FirstNamePlaceholder.ts
 msgid "First Name"
 msgstr "نام"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Flow"
+msgstr "جریان"
 
 #: src/modules/auth/sign-in-up/components/SignInUpWorkspaceScopeForm.tsx
 msgid "Forgot your password?"
@@ -1424,24 +1471,25 @@ msgid "Global"
 msgstr "سراسری"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-#~ msgid "Go to Companies"
-#~ msgstr "رفتن به شرکت‌ها"
+msgid "Go to Companies"
+msgstr "رفتن به شرکت‌ها"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-#~ msgid "Go to Opportunity"
-#~ msgstr "رفتن به فرصت"
+msgid "Go to Opportunities"
+msgstr "رفتن به فرصت‌ها"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-#~ msgid "Go to People"
-#~ msgstr "رفتن به افراد"
+msgid "Go to People"
+msgstr "رفتن به افراد"
 
 #: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
 msgid "Go to Settings"
 msgstr "رفتن به تنظیمات"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-#~ msgid "Go to Tasks"
-#~ msgstr "رفتن به وظایف"
+msgid "Go to Tasks"
+msgstr "رفتن به وظایف"
 
 #: src/pages/settings/SettingsWorkspace.tsx
 msgid "Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."
@@ -1787,6 +1835,10 @@ msgstr "تولید فایل متادیتا ناموفق بود"
 msgid "Min"
 msgstr "کمترین"
 
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "Mission accomplished!"
+msgstr "ماموریت انجام شده!"
+
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterMenuContent.tsx
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterDropdownContent.tsx
 #: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownMenuContent.tsx
@@ -1893,6 +1945,10 @@ msgstr "کلید جدید"
 msgid "New Key"
 msgstr "کلید جدید"
 
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "New note"
+msgstr "افزودن یادداشت"
+
 #: src/pages/settings/data-model/SettingsNewObject.tsx
 msgid "New Object"
 msgstr "آبجکت جدید"
@@ -1916,6 +1972,14 @@ msgstr "پیکربندی SSO جدید"
 msgid "New SSO provider"
 msgstr "ارائه‌دهنده SSO جدید"
 
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "New task"
+msgstr "افزودن وظیفه"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+msgid "No {objectLabel} found"
+msgstr "آیتمی پیدا نشد"
+
 #: src/pages/settings/workspace/SettingsDomain.tsx
 msgid "No change detected"
 msgstr "تغییری مشاهده نشد"
@@ -1928,13 +1992,41 @@ msgstr "هیچ حساب متصلی وجود ندارد"
 msgid "No country"
 msgstr "بدون کشور"
 
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateSoftDelete.tsx
+msgid "No Deleted {objectLabel} found"
+msgstr "هیچ {objectLabel} حذف شده یافت نشد"
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "No email exchange has occurred with this record yet."
+msgstr "هنوز هیچ تبادل ایمیلی با این رکورد انجام نشده است."
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "No Events"
+msgstr "رویدادی وجود ندارد"
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "No events have been scheduled with this"
+msgstr "هیچی رویدادی ثبت نشده با"
+
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "No Files"
+msgstr "فایلی وجود ندارد"
+
 #: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
 msgid "No more members to assign"
 msgstr "عضو دیگری برای تخصیص باقی نمانده است"
 
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "No notes"
+msgstr "یادداشتی وجود ندارد"
+
 #: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
 msgid "No records found"
 msgstr "هیچ رکوردی یافت نشد"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+msgid "No records matching the filter criteria were found."
+msgstr "هیچ رکوردی مطابق با معیارهای فیلتر یافت نشد."
 
 #: src/modules/settings/roles/role-assignment/components/RoleAssignmentWorkspaceMemberPickerDropdownContent.tsx
 msgid "No Results"
@@ -1975,6 +2067,15 @@ msgstr "خالی نیست"
 msgid "Not synced"
 msgstr "همگام‌سازی نشده"
 
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Note"
+msgstr "یادداشت"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Notes"
+msgstr "یادداشت‌ها"
+
 #: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
 msgid "Number"
 msgstr "عدد"
@@ -1990,6 +2091,10 @@ msgstr "نوع عدد"
 #: src/modules/command-menu/components/CommandMenu.tsx
 msgid "Object"
 msgstr "آبجکت"
+
+#: src/testing/decorators/getFieldDecorator.tsx
+msgid "Object {objectNameSingular} not found"
+msgstr "آیتمی پیدا نشد"
 
 #: src/modules/settings/data-model/fields/forms/relation/components/SettingsDataModelFieldRelationForm.tsx
 msgid "Object destination"
@@ -2052,6 +2157,10 @@ msgstr "یا"
 #: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 msgid "Other"
 msgstr "سایر"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Output"
+msgstr "خروجی"
 
 #: src/pages/not-found/NotFound.tsx
 msgid "Page Not Found"
@@ -2628,6 +2737,10 @@ msgstr "تنظیمات سیستم - {systemTimeFormatLabel}"
 msgid "Table"
 msgstr "جدول"
 
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Tasks"
+msgstr "وظایف"
+
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
 msgid "Terms of Service"
 msgstr "شرایط سرویس"
@@ -2696,6 +2809,14 @@ msgstr "مقادیر این فیلد باید یکتا باشد"
 msgid "The whole event details will be shared with your team."
 msgstr "تمام جزئیات رویداد با تیمتان به اشتراک گذاشته می‌شود."
 
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "There are no associated files with this record."
+msgstr "هیچ فایل مرتبطی با این رکورد وجود ندارد."
+
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "There are no associated notes with this record."
+msgstr "هیچ یادداشت مرتبطی با این رکورد وجود ندارد."
+
 #: src/pages/auth/PasswordReset.tsx
 msgid "There was an error while updating password."
 msgstr "هنگام به‌روزرسانی گذرواژه خطایی رخ داد."
@@ -2725,6 +2846,10 @@ msgstr "فرمت زمان"
 #: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeZoneSelect.tsx
 msgid "Time zone"
 msgstr "منطقه زمانی"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Timeline"
+msgstr "خط زمانی"
 
 #: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
 msgid "Timestamp and participants will be shared with your team."
@@ -3017,6 +3142,10 @@ msgstr "یک کلید محرمانه بنویسید"
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
 msgid "yes"
 msgstr "بله"
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "yet."
+msgstr "تا به حال"
 
 #: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
 msgid "You are not allowed to create records for this object"

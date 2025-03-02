@@ -1,3 +1,4 @@
+import { t } from '@lingui/core/macro';
 import { ObjectMetadataStandardIdToIdMap } from 'src/engine/metadata-modules/object-metadata/interfaces/object-metadata-standard-id-to-id-map';
 
 import {
@@ -11,7 +12,7 @@ export const workflowsAllView = (
   objectMetadataStandardIdToIdMap: ObjectMetadataStandardIdToIdMap,
 ) => {
   return {
-    name: 'All Workflows',
+    name: t`All Workflows`,
     objectMetadataId:
       objectMetadataStandardIdToIdMap[STANDARD_OBJECT_IDS.workflow].id,
     type: 'table',

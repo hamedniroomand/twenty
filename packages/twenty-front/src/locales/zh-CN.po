@@ -158,6 +158,13 @@ msgstr "由您或您的团队创建的活跃 API 密钥。"
 msgid "Add"
 msgstr "添加"
 
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoGroupNoRecordAtAll.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateByGroupNoRecordAtAll.tsx
+msgid "Add a {objectLabel}"
+msgstr ""
+
 #: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsListCard.tsx
 msgid "Add account"
 msgstr "添加账户"
@@ -169,6 +176,11 @@ msgstr "添加批准的访问域"
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
 msgid "Add Field"
 msgstr "添加字段"
+
+#: src/modules/activities/files/components/Attachments.tsx
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "Add file"
+msgstr ""
 
 #: src/modules/object-record/object-filter-dropdown/components/AddObjectFilterFromDetailsButton.tsx
 msgid "Add filter"
@@ -273,6 +285,10 @@ msgstr "所有对象"
 msgid "All roles"
 msgstr "所有角色"
 
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "All tasks addressed. Maintain the momentum."
+msgstr ""
+
 #: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
 msgid "Allow logins through Google's single sign-on functionality."
 msgstr "允许通过 Google 的单点登录功能登录。"
@@ -362,6 +378,10 @@ msgstr "您确定要更改计费周期吗？"
 #: src/pages/settings/roles/components/RoleAssignmentConfirmationModalSubtitle.tsx
 #~ msgid "Are you sure you want to assign this role?"
 #~ msgstr "Are you sure you want to assign this role?"
+
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Are you sure you want to delete this record? It can be recovered from the Options menu."
+msgstr ""
 
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
@@ -468,6 +488,8 @@ msgid "Calculate"
 msgstr "计算"
 
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
 msgid "Calendar"
 msgstr "日历"
 
@@ -915,6 +937,11 @@ msgstr "删除 API 密钥"
 msgid "Delete record"
 msgstr "删除记录"
 
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Delete Record"
+msgstr ""
+
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
 msgid "Delete records"
@@ -1134,12 +1161,17 @@ msgstr "电子邮件/域名"
 #: src/pages/settings/accounts/SettingsAccountsEmails.tsx
 #: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
 msgid "Emails"
 msgstr "电子邮件"
 
 #: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
 msgid "Emails settings"
 msgstr "电子邮件设置"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Emailst"
+msgstr ""
 
 #: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
 msgid "employees"
@@ -1154,6 +1186,10 @@ msgstr "员工"
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiff.tsx
 msgid "Empty"
 msgstr "空"
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "Empty Inbox"
+msgstr ""
 
 #: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
 msgid "Endpoint URL"
@@ -1359,6 +1395,7 @@ msgstr "字段类型"
 #: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
 #: src/pages/settings/data-model/constants/SettingsObjectTableMetadata.ts
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownFieldsContent.tsx
 msgid "Fields"
@@ -1367,6 +1404,10 @@ msgstr "字段"
 #: src/testing/mock-data/tableData.ts
 msgid "Fields Count"
 msgstr "字段计数"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Files"
+msgstr ""
 
 #: src/modules/object-record/record-table/record-table-header/components/RecordTableColumnHeadDropdownMenu.tsx
 #: src/modules/object-record/object-filter-dropdown/components/SingleEntityObjectFilterDropdownButton.tsx
@@ -1399,6 +1440,12 @@ msgstr "前 5 行"
 #: src/modules/object-record/record-field/meta-types/input/constants/FirstNamePlaceholder.ts
 msgid "First Name"
 msgstr "名字"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Flow"
+msgstr ""
 
 #: src/modules/auth/sign-in-up/components/SignInUpWorkspaceScopeForm.tsx
 msgid "Forgot your password?"
@@ -1453,24 +1500,25 @@ msgstr "全局"
 #~ msgstr ""
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-#~ msgid "Go to Companies"
-#~ msgstr ""
+msgid "Go to Companies"
+msgstr ""
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-#~ msgid "Go to Opportunity"
-#~ msgstr ""
+msgid "Go to Opportunities"
+msgstr ""
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-#~ msgid "Go to People"
-#~ msgstr ""
+msgid "Go to People"
+msgstr ""
 
 #: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
 msgid "Go to Settings"
 msgstr "转到设置"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-#~ msgid "Go to Tasks"
-#~ msgstr ""
+msgid "Go to Tasks"
+msgstr ""
 
 #: src/pages/settings/SettingsWorkspace.tsx
 msgid "Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."
@@ -1820,6 +1868,10 @@ msgstr "元数据文件生成失败"
 msgid "Min"
 msgstr "最小"
 
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "Mission accomplished!"
+msgstr ""
+
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterMenuContent.tsx
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterDropdownContent.tsx
 #: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownMenuContent.tsx
@@ -1926,6 +1978,10 @@ msgstr "新密钥"
 msgid "New Key"
 msgstr "新密钥"
 
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "New note"
+msgstr ""
+
 #: src/pages/settings/data-model/SettingsNewObject.tsx
 msgid "New Object"
 msgstr "新对象"
@@ -1953,9 +2009,17 @@ msgstr "新 SSO 配置"
 msgid "New SSO provider"
 msgstr "新 SSO 提供商"
 
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "New task"
+msgstr ""
+
 #: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhooksNew.tsx
 #~ msgid "New Webhook"
 #~ msgstr "New Webhook"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+msgid "No {objectLabel} found"
+msgstr ""
 
 #: src/pages/settings/workspace/SettingsDomain.tsx
 msgid "No change detected"
@@ -1968,6 +2032,26 @@ msgstr "无连接账户"
 #: src/modules/settings/data-model/fields/forms/phones/components/SettingsDataModelFieldPhonesForm.tsx
 msgid "No country"
 msgstr "无国家"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateSoftDelete.tsx
+msgid "No Deleted {objectLabel} found"
+msgstr ""
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "No email exchange has occurred with this record yet."
+msgstr ""
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "No Events"
+msgstr ""
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "No events have been scheduled with this"
+msgstr ""
+
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "No Files"
+msgstr ""
 
 #: src/pages/settings/roles/components/RoleAssignment.tsx
 #~ msgid "No members assigned to this role yet"
@@ -1989,9 +2073,17 @@ msgstr "无国家"
 msgid "No more members to assign"
 msgstr "没有更多成员可分配"
 
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "No notes"
+msgstr ""
+
 #: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
 msgid "No records found"
 msgstr "未找到记录"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+msgid "No records matching the filter criteria were found."
+msgstr ""
 
 #: src/pages/settings/roles/components/RoleWorkspaceMemberPickerDropdownContent.tsx
 #~ msgid "No Result"
@@ -2036,6 +2128,15 @@ msgstr "非空"
 msgid "Not synced"
 msgstr "未同步"
 
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Note"
+msgstr ""
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Notes"
+msgstr ""
+
 #: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
 msgid "Number"
 msgstr "数字"
@@ -2051,6 +2152,10 @@ msgstr "数字类型"
 #: src/modules/command-menu/components/CommandMenu.tsx
 msgid "Object"
 msgstr "对象"
+
+#: src/testing/decorators/getFieldDecorator.tsx
+msgid "Object {objectNameSingular} not found"
+msgstr ""
 
 #: src/modules/settings/data-model/fields/forms/relation/components/SettingsDataModelFieldRelationForm.tsx
 msgid "Object destination"
@@ -2113,6 +2218,10 @@ msgstr "或"
 #: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 msgid "Other"
 msgstr "其他"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Output"
+msgstr ""
 
 #: src/pages/not-found/NotFound.tsx
 msgid "Page Not Found"
@@ -2709,6 +2818,10 @@ msgstr "系统设置 - {systemTimeFormatLabel}"
 msgid "Table"
 msgstr "表格"
 
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Tasks"
+msgstr ""
+
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
 msgid "Terms of Service"
 msgstr "服务条款"
@@ -2777,6 +2890,14 @@ msgstr "此字段的值必须唯一"
 msgid "The whole event details will be shared with your team."
 msgstr "整个事件详情将与您的团队分享。"
 
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "There are no associated files with this record."
+msgstr ""
+
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "There are no associated notes with this record."
+msgstr ""
+
 #: src/pages/auth/PasswordReset.tsx
 msgid "There was an error while updating password."
 msgstr "更新密码时出错。"
@@ -2818,6 +2939,10 @@ msgstr "时间格式"
 #: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeZoneSelect.tsx
 msgid "Time zone"
 msgstr "时区"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Timeline"
+msgstr ""
 
 #: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
 msgid "Timestamp and participants will be shared with your team."
@@ -3114,6 +3239,10 @@ msgstr "撰写秘密"
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
 msgid "yes"
 msgstr "是"
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "yet."
+msgstr ""
 
 #: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
 msgid "You are not allowed to create records for this object"
