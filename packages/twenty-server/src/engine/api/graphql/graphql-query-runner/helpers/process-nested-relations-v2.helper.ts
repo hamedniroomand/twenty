@@ -8,6 +8,7 @@ import {
   SelectQueryBuilder,
 } from 'typeorm';
 
+import { t } from '@lingui/core/macro';
 import { ObjectRecord } from 'src/engine/api/graphql/workspace-query-builder/interfaces/object-record.interface';
 import { RelationType } from 'src/engine/metadata-modules/field-metadata/interfaces/relation-type.interface';
 
@@ -170,7 +171,7 @@ export class ProcessNestedRelationsV2Helper {
 
     if (!targetObjectMetadataItemWithFieldsMaps) {
       throw new GraphqlQueryRunnerException(
-        `Object ${targetObjectMetadata.nameSingular} not found`,
+        t`Object ${targetObjectMetadata.nameSingular} not found`,
         GraphqlQueryRunnerExceptionCode.OBJECT_METADATA_NOT_FOUND,
       );
     }

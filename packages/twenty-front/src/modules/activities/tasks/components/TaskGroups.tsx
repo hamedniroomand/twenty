@@ -19,6 +19,8 @@ import { Task } from '@/activities/types/Task';
 import { CoreObjectNameSingular } from '@/object-metadata/types/CoreObjectNameSingular';
 import { useHasObjectReadOnlyPermission } from '@/settings/roles/hooks/useHasObjectReadOnlyPermission';
 import { useTabList } from '@/ui/layout/tab/hooks/useTabList';
+import { t } from '@lingui/core/macro';
+import { Trans } from '@lingui/react/macro';
 import groupBy from 'lodash.groupby';
 import { AddTaskButton } from './AddTaskButton';
 import { TaskList } from './TaskList';
@@ -68,16 +70,16 @@ export const TaskGroups = ({ targetableObjects }: TaskGroupsProps) => {
         <AnimatedPlaceholder type="noTask" />
         <AnimatedPlaceholderEmptyTextContainer>
           <AnimatedPlaceholderEmptyTitle>
-            Mission accomplished!
+            <Trans>Mission accomplished!</Trans>
           </AnimatedPlaceholderEmptyTitle>
           <AnimatedPlaceholderEmptySubTitle>
-            All tasks addressed. Maintain the momentum.
+            <Trans>All tasks addressed. Maintain the momentum.</Trans>
           </AnimatedPlaceholderEmptySubTitle>
         </AnimatedPlaceholderEmptyTextContainer>
         {!hasObjectReadOnlyPermission && (
           <Button
             Icon={IconPlus}
-            title="New task"
+            title={t`New task`}
             variant={'secondary'}
             onClick={() =>
               openCreateActivity({

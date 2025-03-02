@@ -18,6 +18,8 @@ import { useAttachments } from '@/activities/files/hooks/useAttachments';
 import { useUploadAttachmentFile } from '@/activities/files/hooks/useUploadAttachmentFile';
 import { ActivityTargetableObject } from '@/activities/types/ActivityTargetableEntity';
 import { useHasObjectReadOnlyPermission } from '@/settings/roles/hooks/useHasObjectReadOnlyPermission';
+import { t } from '@lingui/core/macro';
+import { Trans } from '@lingui/react/macro';
 import { isDefined } from 'twenty-shared';
 
 const StyledAttachmentsContainer = styled.div`
@@ -83,10 +85,10 @@ export const Attachments = ({
             <AnimatedPlaceholder type="noFile" />
             <AnimatedPlaceholderEmptyTextContainer>
               <AnimatedPlaceholderEmptyTitle>
-                No Files
+              <Trans>No Files</Trans>
               </AnimatedPlaceholderEmptyTitle>
               <AnimatedPlaceholderEmptySubTitle>
-                There are no associated files with this record.
+                <Trans>There are no associated files with this record.</Trans>
               </AnimatedPlaceholderEmptySubTitle>
             </AnimatedPlaceholderEmptyTextContainer>
             <StyledFileInput
@@ -97,7 +99,7 @@ export const Attachments = ({
             {!hasObjectReadOnlyPermission && (
               <Button
                 Icon={IconPlus}
-                title="Add file"
+                title={t`Add file`}
                 variant="secondary"
                 onClick={handleUploadFileClick}
               />
@@ -125,7 +127,7 @@ export const Attachments = ({
               Icon={IconPlus}
               size="small"
               variant="secondary"
-              title="Add file"
+              title={t`Add file`}
               onClick={handleUploadFileClick}
             ></Button>
           )

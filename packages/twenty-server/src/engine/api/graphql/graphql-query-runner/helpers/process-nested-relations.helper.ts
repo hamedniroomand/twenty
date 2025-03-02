@@ -7,6 +7,7 @@ import {
   SelectQueryBuilder,
 } from 'typeorm';
 
+import { t } from '@lingui/core/macro';
 import { ObjectRecord } from 'src/engine/api/graphql/workspace-query-builder/interfaces/object-record.interface';
 
 import {
@@ -216,7 +217,7 @@ export class ProcessNestedRelationsHelper {
 
     if (!referenceObjectMetadataItemWithFieldsMaps) {
       throw new GraphqlQueryRunnerException(
-        `Object ${referenceObjectMetadata.nameSingular} not found`,
+        t`Object ${referenceObjectMetadata.nameSingular} not found`,
         GraphqlQueryRunnerExceptionCode.OBJECT_METADATA_NOT_FOUND,
       );
     }

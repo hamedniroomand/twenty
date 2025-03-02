@@ -6,6 +6,7 @@ import { RecordTableEmptyStateDisplay } from '@/object-record/record-table/empty
 import { getEmptyStateSubTitle } from '@/object-record/record-table/empty-state/utils/getEmptyStateSubTitle';
 import { getEmptyStateTitle } from '@/object-record/record-table/empty-state/utils/getEmptyStateTitle';
 import { useCreateNewTableRecord } from '@/object-record/record-table/hooks/useCreateNewTableRecords';
+import { t } from '@lingui/core/macro';
 
 export const RecordTableEmptyStateNoGroupNoRecordAtAll = () => {
   const { objectMetadataItem, recordTableId } = useRecordTableContextOrThrow();
@@ -21,7 +22,7 @@ export const RecordTableEmptyStateNoGroupNoRecordAtAll = () => {
 
   const objectLabel = useObjectLabel(objectMetadataItem);
 
-  const buttonTitle = `Add a ${objectLabel}`;
+  const buttonTitle = t`Add a ${objectLabel}`;
 
   const title = getEmptyStateTitle(
     objectMetadataItem.nameSingular,
