@@ -31,11 +31,17 @@ html[lang="fa"] div[contenteditable=true] {
 html[lang="fa"] input, html[lang="fa"] textarea {
   direction: rtl;
 }
-html[lang="fa"] .modal-backdrop {
+html[lang="fa"] .modal-backdrop,
+html[lang="fa"] .StyledTd,
+html[lang="fa"] .StyledShowPageSummaryCard {
   direction: rtl;
 }
 html[lang="fa"] input[type="email"],
 html[lang="fa"] input[placeholder="Email"],
 html[lang="fa"] input[type="password"] {
   direction: ltr;
+}
+html[lang="fa"],
+html[lang="fa"] * {
+  font-family: Vazirmatn, sans-serif;
 }
