@@ -22,6 +22,7 @@ import { SkeletonLoader } from '@/activities/components/SkeletonLoader';
 import { useCustomResolver } from '@/activities/hooks/useCustomResolver';
 import { ActivityTargetableObject } from '@/activities/types/ActivityTargetableEntity';
 import { CoreObjectNameSingular } from '@/object-metadata/types/CoreObjectNameSingular';
+import { Trans } from '@lingui/react/macro';
 import { TimelineCalendarEventsWithTotal } from '~/generated/graphql';
 
 const StyledContainer = styled.div`
@@ -104,11 +105,11 @@ export const Calendar = ({
         <AnimatedPlaceholder type="noMatchRecord" />
         <AnimatedPlaceholderEmptyTextContainer>
           <AnimatedPlaceholderEmptyTitle>
-            No Events
+            <Trans>No Events</Trans>
           </AnimatedPlaceholderEmptyTitle>
           <AnimatedPlaceholderEmptySubTitle>
-            No events have been scheduled with this{' '}
-            {targetableObject.targetObjectNameSingular} yet.
+            <Trans>No events have been scheduled with this</Trans>{' '}
+            {targetableObject.targetObjectNameSingular} <Trans>yet.</Trans>
           </AnimatedPlaceholderEmptySubTitle>
         </AnimatedPlaceholderEmptyTextContainer>
       </AnimatedPlaceholderEmptyContainer>

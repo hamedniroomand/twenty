@@ -1,3 +1,4 @@
+import { t } from '@lingui/core/macro';
 import { ObjectMetadataStandardIdToIdMap } from 'src/engine/metadata-modules/object-metadata/interfaces/object-metadata-standard-id-to-id-map';
 
 import { WORKFLOW_RUN_STANDARD_FIELD_IDS } from 'src/engine/workspace-manager/workspace-sync-metadata/constants/standard-field-ids';
@@ -8,7 +9,7 @@ export const workflowRunsAllView = (
   objectMetadataStandardIdToIdMap: ObjectMetadataStandardIdToIdMap,
 ) => {
   return {
-    name: 'All Workflow Runs',
+    name: t`All Workflow Runs`,
     objectMetadataId:
       objectMetadataStandardIdToIdMap[STANDARD_OBJECT_IDS.workflowRun].id,
     type: 'table',

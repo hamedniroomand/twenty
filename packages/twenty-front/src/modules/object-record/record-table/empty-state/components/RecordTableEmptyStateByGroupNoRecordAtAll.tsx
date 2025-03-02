@@ -9,6 +9,7 @@ import { getEmptyStateSubTitle } from '@/object-record/record-table/empty-state/
 import { getEmptyStateTitle } from '@/object-record/record-table/empty-state/utils/getEmptyStateTitle';
 import { useSetRecoilComponentFamilyStateV2 } from '@/ui/utilities/state/component-state/hooks/useSetRecoilComponentFamilyStateV2';
 import { ViewType } from '@/views/types/ViewType';
+import { t } from '@lingui/core/macro';
 
 export const RecordTableEmptyStateByGroupNoRecordAtAll = () => {
   const { objectMetadataItem } = useRecordTableContextOrThrow();
@@ -20,7 +21,7 @@ export const RecordTableEmptyStateByGroupNoRecordAtAll = () => {
 
   const objectLabel = useObjectLabel(objectMetadataItem);
 
-  const buttonTitle = `Add a ${objectLabel}`;
+  const buttonTitle = t`Add a ${objectLabel}`;
 
   const title = getEmptyStateTitle(
     objectMetadataItem.nameSingular,

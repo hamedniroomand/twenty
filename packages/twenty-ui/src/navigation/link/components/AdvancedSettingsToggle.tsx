@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { useLingui } from '@lingui/react/macro';
+import { Trans, useLingui } from '@lingui/react/macro';
 import { IconPoint } from '@ui/display';
 import { Toggle } from '@ui/input';
 import { MAIN_COLORS } from '@ui/theme';
@@ -62,7 +62,9 @@ export const AdvancedSettingsToggle = ({
         />
       </StyledIconContainer>
       <StyledToggleContainer htmlFor={inputId}>
-        <StyledText>{t`Advanced:`}</StyledText>
+        <StyledText>
+          <Trans>Advanced:</Trans>
+        </StyledText>
 
         <Toggle
           id={inputId}

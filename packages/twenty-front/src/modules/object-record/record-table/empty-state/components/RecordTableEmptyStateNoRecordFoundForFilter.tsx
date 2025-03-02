@@ -4,6 +4,7 @@ import { useObjectLabel } from '@/object-metadata/hooks/useObjectLabel';
 import { useRecordTableContextOrThrow } from '@/object-record/record-table/contexts/RecordTableContext';
 import { RecordTableEmptyStateDisplay } from '@/object-record/record-table/empty-state/components/RecordTableEmptyStateDisplay';
 import { useCreateNewTableRecord } from '@/object-record/record-table/hooks/useCreateNewTableRecords';
+import { t } from '@lingui/core/macro';
 
 export const RecordTableEmptyStateNoRecordFoundForFilter = () => {
   const { recordTableId, objectMetadataItem } = useRecordTableContextOrThrow();
@@ -19,11 +20,11 @@ export const RecordTableEmptyStateNoRecordFoundForFilter = () => {
 
   const objectLabel = useObjectLabel(objectMetadataItem);
 
-  const buttonTitle = `Add a ${objectLabel}`;
+  const buttonTitle = t`Add a ${objectLabel}`;
 
-  const title = `No ${objectLabel} found`;
+  const title = t`No ${objectLabel} found`;
 
-  const subTitle = 'No records matching the filter criteria were found.';
+  const subTitle = t`No records matching the filter criteria were found.`;
 
   return (
     <RecordTableEmptyStateDisplay

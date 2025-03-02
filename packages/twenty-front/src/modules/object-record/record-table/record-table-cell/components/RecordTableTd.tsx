@@ -94,6 +94,7 @@ export const RecordTableTd = ({
       hasBottomBorder={hasBottomBorder}
       width={width}
       colSpan={colSpan}
+      className='StyledTd'
       // eslint-disable-next-line react/jsx-props-no-spreading
       {...dragHandleProps}
     >

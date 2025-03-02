@@ -9,6 +9,7 @@ import { useRecordTable } from '@/object-record/record-table/hooks/useRecordTabl
 import { useHasObjectReadOnlyPermission } from '@/settings/roles/hooks/useHasObjectReadOnlyPermission';
 import { ConfirmationModal } from '@/ui/layout/modal/components/ConfirmationModal';
 import { useRightDrawer } from '@/ui/layout/right-drawer/hooks/useRightDrawer';
+import { t } from '@lingui/core/macro';
 import { isNull } from '@sniptt/guards';
 import { useCallback, useContext, useState } from 'react';
 import { useRecoilValue } from 'recoil';
@@ -83,9 +84,9 @@ export const useDeleteSingleRecordAction: ActionHookWithObjectMetadataItem = ({
       <ConfirmationModal
         isOpen={isDeleteRecordsModalOpen}
         setIsOpen={setIsDeleteRecordsModalOpen}
-        title={'Delete Record'}
+        title={t`Delete Record`}
         subtitle={
-          'Are you sure you want to delete this record? It can be recovered from the Options menu.'
+          t`Are you sure you want to delete this record? It can be recovered from the Options menu.`
         }
         onConfirmClick={() => {
           handleDeleteClick();
@@ -93,7 +94,7 @@ export const useDeleteSingleRecordAction: ActionHookWithObjectMetadataItem = ({
             closeRightDrawer({ emitCloseEvent: false });
           }
         }}
-        deleteButtonText={'Delete Record'}
+        deleteButtonText={t`Delete Record`}
       />
     ),
   };

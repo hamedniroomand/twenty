@@ -11,6 +11,7 @@ import {
 } from '@/object-record/record-store/contexts/RecordFieldValueSelectorContext';
 import { recordStoreFamilyState } from '@/object-record/record-store/states/recordStoreFamilyState';
 import { ObjectRecord } from '@/object-record/types/ObjectRecord';
+import { t } from '@lingui/core/macro';
 import { isDefined } from 'twenty-shared';
 import { getCompaniesMock } from '~/testing/mock-data/companies';
 import { generatedMockObjectMetadataItems } from '~/testing/mock-data/generatedMockObjectMetadataItems';
@@ -109,7 +110,7 @@ export const getFieldDecorator =
     );
 
     if (!isDefined(objectMetadataItem)) {
-      throw new Error(`Object ${objectNameSingular} not found`);
+      throw new Error(t`Object ${objectNameSingular} not found`);
     }
 
     if (!isDefined(fieldMetadataItem)) {

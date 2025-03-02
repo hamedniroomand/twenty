@@ -9,6 +9,7 @@ import { RecordTableEmptyStateDisplay } from '@/object-record/record-table/empty
 import { tableFiltersComponentState } from '@/object-record/record-table/states/tableFiltersComponentState';
 import { useRecoilComponentValueV2 } from '@/ui/utilities/state/component-state/hooks/useRecoilComponentValueV2';
 
+import { t } from '@lingui/core/macro';
 import { isDefined } from 'twenty-shared';
 
 export const RecordTableEmptyStateSoftDelete = () => {
@@ -47,7 +48,7 @@ export const RecordTableEmptyStateSoftDelete = () => {
     <RecordTableEmptyStateDisplay
       buttonTitle={'Remove Deleted filter'}
       subTitle={'No deleted records matching the filter criteria were found.'}
-      title={`No Deleted ${objectLabel} found`}
+      title={t`No Deleted ${objectLabel} found`}
       ButtonIcon={IconFilterOff}
       animatedPlaceholderType="noDeletedRecord"
       onClick={handleButtonClick}

@@ -1,0 +1,3188 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-01-30 18:16+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fa\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid ": Empty"
+msgstr ": خالی"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid ": Future"
+msgstr ": آینده"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid ": Not"
+msgstr ": نیست"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid ": NotEmpty"
+msgstr ": خالی نیست"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid ": NotNull"
+msgstr ": null نیست"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid ": Past"
+msgstr ": گذشته"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid ": Today"
+msgstr ": امروز"
+
+#: src/modules/object-record/record-board/record-board-column/utils/computeAggregateValueAndLabel.ts
+msgid "{aggregateLabel} of {fieldLabel}"
+msgstr "{aggregateLabel} از {fieldLabel}"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "{apiKeyName} API Key"
+msgstr "کلید API «{apiKeyName}»"
+
+#: src/modules/action-menu/actions/record-agnostic-actions/run-workflow-actions/hooks/useRunWorkflowActions.tsx
+#: src/modules/action-menu/actions/record-actions/workflow-run-record-actions/hooks/useWorkflowRunRecordActions.tsx
+msgid "{name}"
+msgstr "{name}"
+
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentConfirmationModalSubtitle.tsx
+msgid "{workspaceMemberName} will be unassigned from the following role:"
+msgstr "نقش زیر از «{workspaceMemberName}» گرفته خواهد شد:"
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "1 000 workflow node executions"
+msgstr "۱۰۰۰ اجرای نود در گردش‌کار"
+
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldSelect.tsx
+msgid "1. Select a field type"
+msgstr "۱. انتخاب نوع فیلد"
+
+#: src/modules/settings/data-model/components/SettingsDataModelNewFieldBreadcrumbDropDown.tsx
+#: src/modules/settings/data-model/components/SettingsDataModelNewFieldBreadcrumbDropDown.tsx
+msgid "1. Type"
+msgstr "۱. نوع"
+
+#: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeFormatSelect.tsx
+msgid "12h ({hour12Label})"
+msgstr "۱۲ساعته ({hour12Label})"
+
+#: src/modules/settings/data-model/components/SettingsDataModelNewFieldBreadcrumbDropDown.tsx
+#: src/modules/settings/data-model/components/SettingsDataModelNewFieldBreadcrumbDropDown.tsx
+msgid "2. Configure"
+msgstr "۲. پیکربندی"
+
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
+msgid "2. Configure field"
+msgstr "۲. پیکربندی فیلد"
+
+#: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeFormatSelect.tsx
+msgid "24h ({hour24Label})"
+msgstr "۲۴ساعته ({hour24Label})"
+
+#: src/pages/onboarding/CreateWorkspace.tsx
+msgid "A shared environment where you will be able to manage your customer relations with your team."
+msgstr "یک فضای مشترک که در آن می‌توانید روابط مشتریان خود را با تیمتان مدیریت کنید."
+
+#: src/modules/settings/roles/role-permissions/components/RolePermissions.tsx
+msgid "Ability to interact with each object"
+msgstr "امکان تعامل با هر آبجکت (شیء)"
+
+#: src/modules/ui/input/components/ImageInput.tsx
+msgid "Abort"
+msgstr "انصراف"
+
+#: src/pages/settings/data-model/SettingsNewObject.tsx
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "About"
+msgstr "درباره"
+
+#: src/pages/settings/accounts/SettingsAccounts.tsx
+#: src/pages/settings/accounts/SettingsAccounts.tsx
+msgid "Account"
+msgstr "حساب"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+#: src/modules/settings/profile/components/DeleteAccount.tsx
+msgid "Account Deletion"
+msgstr "حذف حساب"
+
+#: src/pages/settings/accounts/SettingsAccountsEmails.tsx
+#: src/pages/settings/accounts/SettingsAccountsCalendars.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Accounts"
+msgstr "حساب‌ها"
+
+#: src/modules/settings/roles/role-permissions/components/RolePermissionsSettingsTableHeader.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissionsObjectsTableHeader.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentTableHeader.tsx
+msgid "Actions"
+msgstr "عملیات"
+
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/modules/workflow/components/RecordShowPageWorkflowHeader.tsx
+#: src/modules/settings/security/components/SSO/SettingsSecuritySSORowDropdownMenu.tsx
+#: src/modules/settings/data-model/object-details/components/SettingsObjectFieldDisabledActionDropdown.tsx
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Activate"
+msgstr "فعال کردن"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Activate Workflow"
+msgstr "فعال کردن گردش‌کار"
+
+#: src/pages/settings/data-model/SettingsObjects.tsx
+#: src/pages/settings/data-model/SettingsObjectFieldTable.tsx
+msgid "Active"
+msgstr "فعال"
+
+#: src/pages/settings/developers/SettingsDevelopers.tsx
+msgid "Active API keys created by you or your team."
+msgstr "کلیدهای API فعالی که توسط شما یا تیمتان ایجاد شده‌اند."
+
+#: src/modules/ui/layout/page/components/PageAddButton.tsx
+msgid "Add"
+msgstr "افزودن"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoGroupNoRecordAtAll.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateByGroupNoRecordAtAll.tsx
+msgid "Add a {objectLabel}"
+msgstr "افزودن {objectLabel}"
+
+#: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsListCard.tsx
+msgid "Add account"
+msgstr "افزودن حساب"
+
+#: src/modules/settings/security/components/approvedAccessDomains/SettingsApprovedAccessDomainsListCard.tsx
+msgid "Add Approved Access Domain"
+msgstr "افزودن دامنه‌ی مجاز دسترسی"
+
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
+msgid "Add Field"
+msgstr "افزودن فیلد"
+
+#: src/modules/activities/files/components/Attachments.tsx
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "Add file"
+msgstr "افزودن فایل"
+
+#: src/modules/object-record/object-filter-dropdown/components/AddObjectFilterFromDetailsButton.tsx
+msgid "Add filter"
+msgstr "افزودن فیلتر"
+
+#: src/modules/object-record/record-table/record-table-section/components/RecordTableRecordGroupSectionAddNew.tsx
+msgid "Add new"
+msgstr "افزودن جدید"
+
+#: src/pages/settings/data-model/SettingsObjects.tsx
+msgid "Add object"
+msgstr "افزودن آبجکت"
+
+#: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectForm.tsx
+msgid "Add option"
+msgstr "افزودن گزینه"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOIdentitiesProvidersListCard.tsx
+msgid "Add SSO Identity Provider"
+msgstr "افزودن ارائه‌دهنده هویت SSO"
+
+#: src/modules/settings/accounts/components/SettingsAccountsBlocklistInput.tsx
+msgid "Add to blocklist"
+msgstr "افزودن به فهرست مسدود"
+
+#: src/modules/views/view-picker/components/ViewPickerOptionDropdown.tsx
+#: src/modules/views/view-picker/components/ViewPickerOptionDropdown.tsx
+msgid "Add to Favorite"
+msgstr "افزودن به علاقه‌مندی‌ها"
+
+#: src/modules/action-menu/components/__stories__/RightDrawerActionMenuDropdown.stories.tsx
+#: src/modules/action-menu/components/__stories__/RecordIndexActionMenuDropdown.stories.tsx
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowRunsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowRunsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "Add to favorites"
+msgstr "افزودن به علاقه‌مندی‌ها"
+
+#: src/modules/views/view-picker/components/ViewPickerListContent.tsx
+msgid "Add view"
+msgstr "افزودن نما"
+
+#: src/modules/object-record/record-table/empty-state/utils/getEmptyStateTitle.ts
+msgid "Add your first {objectLabel}"
+msgstr "اولین {objectLabel} خود را اضافه کنید"
+
+#: src/modules/ui/layout/show-page/components/ShowPageSummaryCard.tsx
+msgid "Added {beautifiedCreatedAt}"
+msgstr "افزوده‌شده در {beautifiedCreatedAt}"
+
+#: src/modules/settings/security/components/approvedAccessDomains/SettingsApprovedAccessDomainsListCard.tsx
+msgid "Added {beautifyPastDateRelative}"
+msgstr "افزوده‌شده {beautifyPastDateRelative}"
+
+#: src/modules/settings/accounts/components/SettingsAccountsBlocklistTable.tsx
+msgid "Added to blocklist"
+msgstr "به فهرست مسدود اضافه شد"
+
+#: src/modules/settings/roles/components/RolesDefaultRole.tsx
+msgid "Adjust the role-related settings"
+msgstr "تنظیمات مربوط به نقش را مدیریت کنید"
+
+#: src/modules/object-record/object-filter-dropdown/components/AdvancedFilterButton.tsx
+msgid "Advanced filter"
+msgstr "فیلتر پیشرفته"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Afrikaans"
+msgstr "آفریکانس"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
+msgid "All"
+msgstr "همه"
+
+#: src/modules/object-record/record-show/record-detail-section/components/RecordDetailRelationSection.tsx
+msgid "All ({relationRecordsCount})"
+msgstr "همه ({relationRecordsCount})"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "All Actions"
+msgstr "همه اقدامات"
+
+#: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
+msgid "All emails and events linked to this account will be deleted"
+msgstr "همه ایمیل‌ها و رویدادهای مرتبط با این حساب حذف خواهند شد"
+
+#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+msgid "All lines"
+msgstr "همه خطوط"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "All Objects"
+msgstr "همه آبجکت‌ها"
+
+#: src/modules/settings/roles/components/Roles.tsx
+msgid "All roles"
+msgstr "همه نقش‌ها"
+
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "All tasks addressed. Maintain the momentum."
+msgstr "تمام وظایف رسیدگی شده اند."
+
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "Allow logins through Google's single sign-on functionality."
+msgstr "امکان ورود از طریق ورود تک‌مرحله‌ای گوگل را فعال کن."
+
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "Allow logins through Microsoft's single sign-on functionality."
+msgstr "امکان ورود از طریق ورود تک‌مرحله‌ای مایکروسافت را فعال کن."
+
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "Allow the invitation of new users by sharing an invite link."
+msgstr "امکان دعوت کاربران جدید با اشتراک‌گذاری لینک دعوت را فعال کن."
+
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "Allow users to sign in with an email and password."
+msgstr "امکان ورود با ایمیل و گذرواژه را فعال کن."
+
+#: src/pages/auth/PasswordReset.tsx
+msgid "An error occurred while updating password"
+msgstr "خطایی در به‌روزرسانی گذرواژه رخ داد"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "An optional description"
+msgstr "توضیح اختیاری"
+
+#: src/modules/auth/sign-in-up/components/FooterNote.tsx
+msgid "and"
+msgstr "و"
+
+#: src/pages/settings/security/SettingsSecurity.tsx
+msgid "Anyone with an email address at these domains is allowed to sign up for this workspace."
+msgstr "هر کسی که ایمیلش در این دامنه‌ها باشد، اجازه دارد در این فضای کاری ثبت‌نام کند."
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "API & Webhooks"
+msgstr "API و وبهوک‌ها"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "API Key"
+msgstr "کلید API"
+
+#: src/modules/settings/developers/components/ApiKeyInput.tsx
+msgid "API Key copied to clipboard"
+msgstr "کلید API در کلیپ‌بورد کپی شد"
+
+#: src/pages/settings/developers/SettingsDevelopers.tsx
+msgid "API keys"
+msgstr "کلیدهای API"
+
+#: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
+msgid "API Name"
+msgstr "نام API"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+msgid "API Name (Plural)"
+msgstr "نام API (جمع)"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+msgid "API Name (Singular)"
+msgstr "نام API (مفرد)"
+
+#: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectForm.tsx
+msgid "API values"
+msgstr "مقادیر API"
+
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+msgid "Appearance"
+msgstr "نمای ظاهری"
+
+#: src/pages/settings/security/SettingsSecurity.tsx
+msgid "Approved Domains"
+msgstr "دامنه‌های تأییدشده"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Arabic"
+msgstr "عربی"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Are you sure that you want to change your billing interval?"
+msgstr "آیا مطمئنید که می‌خواهید دوره‌ی پرداخت خود را تغییر دهید؟"
+
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Are you sure you want to delete this record? It can be recovered from the Options menu."
+msgstr "آیا مطمئنید که می خواهید این رکورد را حذف کنید؟ می توان آن را از منوی گزینه ها بازیابی کرد."
+
+#: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
+#: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
+msgid "Ascending"
+msgstr "صعودی"
+
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentConfirmationModal.tsx
+msgid "Assign {workspaceMemberName}?"
+msgstr "واگذاری نقش به {workspaceMemberName}؟"
+
+#: src/modules/settings/roles/components/Roles.tsx
+msgid "Assign roles to specify each member's access permissions"
+msgstr "برای مشخص کردن سطح دسترسی هر عضو، نقش‌ها را تخصیص دهید"
+
+#: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
+msgid "Assign to member"
+msgstr "واگذاری به عضو"
+
+#: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
+msgid "Assigned members"
+msgstr "اعضای تخصیص‌یافته"
+
+#: src/modules/settings/roles/components/RolesTableHeader.tsx
+msgid "Assigned to"
+msgstr "تخصیص‌یافته به"
+
+#: src/pages/settings/roles/SettingsRoleEdit.tsx
+msgid "Assignment"
+msgstr "تخصیص نقش"
+
+#: src/modules/auth/sign-in-up/components/SignInUpPasswordField.tsx
+msgid "At least 8 characters long."
+msgstr "حداقل ۸ کاراکتر داشته باشد."
+
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "At least one authentication method must be enabled"
+msgstr "حداقل یکی از روش‌های احراز هویت باید فعال باشد"
+
+#: src/pages/settings/security/SettingsSecurity.tsx
+msgid "Authentication"
+msgstr "احراز هویت"
+
+#: src/modules/auth/hooks/useVerifyLogin.ts
+msgid "Authentication failed"
+msgstr "فرایند احراز هویت ناموفق بود"
+
+#: src/pages/auth/Authorize.tsx
+msgid "Authorize"
+msgstr "مجوز دادن"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Authorized URI"
+msgstr "URI مجاز"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Authorized URL copied to clipboard"
+msgstr "آدرس مجاز در کلیپ‌بورد کپی شد"
+
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarChannelDetails.tsx
+msgid "Auto-creation"
+msgstr "ایجاد خودکار"
+
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarChannelDetails.tsx
+msgid "Automatically create contacts for people you've participated in an event with."
+msgstr "به‌صورت خودکار برای افرادی که در یک رویداد با آن‌ها بودید، مخاطب بسازد."
+
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarChannelDetails.tsx
+msgid "Automatically create contacts for people."
+msgstr "مخاطبان را به‌صورت خودکار ایجاد کن."
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageChannelDetails.tsx
+msgid "Automatically create People records when receiving or sending emails"
+msgstr "هنگام دریافت یا ارسال ایمیل، رکورد افراد را به‌صورت خودکار ایجاد کن"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Average"
+msgstr "میانگین"
+
+#: src/pages/not-found/NotFound.tsx
+msgid "Back to content"
+msgstr "بازگشت به صفحه اصلی"
+
+#: src/pages/settings/SettingsBilling.tsx
+#: src/pages/settings/SettingsBilling.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Billing"
+msgstr "صورت‌حساب"
+
+#: src/modules/settings/accounts/components/SettingsAccountsBlocklistSection.tsx
+msgid "Blocklist"
+msgstr "فهرست مسدود"
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "Book a Call"
+msgstr "رزرو تماس"
+
+#: src/modules/auth/sign-in-up/components/FooterNote.tsx
+msgid "By using Twenty, you agree to the"
+msgstr "با استفاده از Twenty، شما با موارد زیر موافقت می‌کنید:"
+
+#: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterValue.tsx
+msgid "Calculate"
+msgstr "محاسبه"
+
+#: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Calendar"
+msgstr "تقویم"
+
+#: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
+msgid "Calendar settings"
+msgstr "تنظیمات تقویم"
+
+#: src/pages/settings/accounts/SettingsAccountsCalendars.tsx
+#: src/pages/settings/accounts/SettingsAccountsCalendars.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Calendars"
+msgstr "تقویم‌ها"
+
+#: src/pages/auth/Authorize.tsx
+#: src/modules/ui/layout/modal/components/ConfirmationModal.tsx
+#: src/modules/ui/feedback/snack-bar-manager/components/SnackBar.tsx
+#: src/modules/settings/components/SaveAndCancelButtons/CancelButton.tsx
+msgid "Cancel"
+msgstr "انصراف"
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "Cancel anytime"
+msgstr "هر زمان خواستید لغو کنید"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Cancel Plan"
+msgstr "لغو پلن"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Cancel your subscription"
+msgstr "لغو اشتراک شما"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Catalan"
+msgstr "کاتالان"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Change {to}"
+msgstr "تغییر به {to}"
+
+#: src/pages/auth/PasswordReset.tsx
+#: src/modules/settings/profile/components/ChangePassword.tsx
+#: src/modules/settings/profile/components/ChangePassword.tsx
+msgid "Change Password"
+msgstr "تغییر گذرواژه"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Chinese — Simplified"
+msgstr "چینی - ساده‌شده"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Chinese — Traditional"
+msgstr "چینی - سنتی"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Choose an object"
+msgstr "یک آبجکت انتخاب کنید"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOIdentitiesProvidersForm.tsx
+msgid "Choose between OIDC and SAML protocols"
+msgstr "یکی از پروتکل‌های OIDC یا SAML را انتخاب کنید"
+
+#: src/modules/settings/data-model/fields/forms/currency/components/SettingsDataModelFieldCurrencyForm.tsx
+msgid "Choose the default currency that will apply"
+msgstr "ارز پیش‌فرض موردنظر خود را انتخاب کنید"
+
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
+msgid "Choose the fields that will identify your records"
+msgstr "فیلدهایی را که رکوردها را شناسایی می‌کنند انتخاب کنید"
+
+#: src/modules/settings/accounts/components/SettingsNewAccountSection.tsx
+msgid "Choose your provider"
+msgstr "ارائه‌دهنده خود را انتخاب کنید"
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "Choose your Trial"
+msgstr "دوره آزمایشی خود را انتخاب کنید"
+
+#: src/modules/ui/input/components/internal/date/components/InternalDatePicker.tsx
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Client ID"
+msgstr "Client ID"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Client Settings"
+msgstr "تنظیمات Client"
+
+#: src/modules/ui/feedback/snack-bar-manager/components/SnackBar.tsx
+msgid "Close"
+msgstr "بستن"
+
+#: src/modules/ui/layout/page-header/components/PageHeaderOpenCommandMenuButton.tsx
+msgid "Close command menu"
+msgstr "بستن منوی فرمان"
+
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarChannelsGeneral.tsx
+msgid "Color code"
+msgstr "کد رنگ"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownViewSettingsContent.tsx
+msgid "Compact view"
+msgstr "نمای فشرده"
+
+#: src/pages/settings/security/SettingsSecurity.tsx
+msgid "Configure an SSO connection"
+msgstr "راه‌اندازی یک اتصال SSO"
+
+#: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+msgid "Configure and customize your calendar preferences."
+msgstr "تنظیم و سفارشی‌سازی ترجیحات تقویم شما."
+
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+msgid "Configure how dates are displayed across the app"
+msgstr "تنظیم نحوه نمایش تاریخ در سراسر اپلیکیشن"
+
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarChannelsGeneral.tsx
+msgid "Configure how we should display your events in your calendar"
+msgstr "تعیین کنید رویدادهایتان در تقویم چگونه نمایش داده شوند"
+
+#: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+msgid "Configure your emails and calendar settings."
+msgstr "تنظیمات ایمیل و تقویم خود را پیکربندی کنید."
+
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentConfirmationModal.tsx
+msgid "Confirm"
+msgstr "تأیید"
+
+#: src/modules/settings/accounts/components/SettingsNewAccountSection.tsx
+msgid "Connect a new account to your workspace"
+msgstr "یک حساب جدید به فضای کاری خود متصل کنید"
+
+#: src/modules/settings/accounts/components/SettingsAccountsListEmptyStateCard.tsx
+msgid "Connect with Google"
+msgstr "اتصال با گوگل"
+
+#: src/modules/settings/accounts/components/SettingsAccountsListEmptyStateCard.tsx
+msgid "Connect with Microsoft"
+msgstr "اتصال با مایکروسافت"
+
+#: src/pages/settings/accounts/SettingsAccounts.tsx
+msgid "Connected accounts"
+msgstr "حساب‌های متصل"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageChannelDetails.tsx
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarChannelDetails.tsx
+msgid "Contact auto-creation"
+msgstr "ایجاد خودکار مخاطبان"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Contains"
+msgstr "شامل است"
+
+#: src/modules/command-menu/components/CommandMenu.tsx
+msgid "Context"
+msgstr "بستر"
+
+#: src/pages/onboarding/InviteTeam.tsx
+#: src/pages/onboarding/CreateWorkspace.tsx
+#: src/pages/onboarding/CreateProfile.tsx
+#: src/pages/onboarding/ChooseYourPlan.tsx
+#: src/modules/auth/sign-in-up/components/SignInUpWithCredentials.tsx
+msgid "Continue"
+msgstr "ادامه"
+
+#: src/modules/auth/sign-in-up/components/SignInUpWithCredentials.tsx
+msgid "Continue with Email"
+msgstr "ادامه با ایمیل"
+
+#: src/modules/auth/sign-in-up/components/SignInUpWithGoogle.tsx
+msgid "Continue with Google"
+msgstr "ورود با گوگل"
+
+#: src/modules/auth/sign-in-up/components/SignInUpWithMicrosoft.tsx
+msgid "Continue with Microsoft"
+msgstr "ورود با مایکروسافت"
+
+#: src/pages/settings/workspace/SettingsCustomDomainRecords.tsx
+msgid "Copied to clipboard!"
+msgstr "در کلیپ‌بورد کپی شد!"
+
+#: src/modules/command-menu/components/CommandMenu.tsx
+msgid "Copilot"
+msgstr "کوپایلت"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+#: src/modules/settings/developers/components/ApiKeyInput.tsx
+msgid "Copy"
+msgstr "کپی"
+
+#: src/pages/onboarding/InviteTeam.tsx
+msgid "Copy invitation link"
+msgstr "کپی لینک دعوت"
+
+#: src/modules/workspace/components/WorkspaceInviteLink.tsx
+msgid "Copy link"
+msgstr "کپی لینک"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "Copy this key as it will not be visible again"
+msgstr "این کلید را کپی کنید؛ زیرا دیگر نمایش داده نخواهد شد"
+
+#: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterMenuContent.tsx
+#: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterDropdownContent.tsx
+#: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownMenuContent.tsx
+msgid "Count"
+msgstr "شمارش"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Count all"
+msgstr "شمارش همه"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Count empty"
+msgstr "شمارش خالی"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Count not empty"
+msgstr "شمارش موارد غیرخالی"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Count unique values"
+msgstr "شمارش مقادیر یکتا"
+
+#: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
+msgid "Create"
+msgstr "ایجاد"
+
+#: src/modules/object-record/record-table/empty-state/utils/getEmptyStateSubTitle.ts
+msgid "Create a workflow and return here to view its versions"
+msgstr "یک گردش‌کار بسازید و برای مشاهده نسخه‌های آن به اینجا برگردید"
+
+#: src/pages/settings/developers/SettingsDevelopers.tsx
+msgid "Create API key"
+msgstr "ایجاد کلید API"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+msgid "Create new record"
+msgstr "ایجاد رکورد جدید"
+
+#: src/pages/onboarding/CreateProfile.tsx
+msgid "Create profile"
+msgstr "ایجاد پروفایل"
+
+#: src/modules/settings/roles/components/Roles.tsx
+msgid "Create Role"
+msgstr "ایجاد نقش"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownRecordGroupFieldsContent.tsx
+msgid "Create select field"
+msgstr "ایجاد فیلد انتخابی (Select)"
+
+#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+#: src/modules/views/components/UpdateViewButtonGroup.tsx
+msgid "Create view"
+msgstr "ایجاد نما"
+
+#: src/pages/settings/developers/SettingsDevelopers.tsx
+msgid "Create Webhook"
+msgstr "ایجاد وبهوک"
+
+#: src/pages/onboarding/CreateWorkspace.tsx
+msgid "Create your workspace"
+msgstr "فضای کاری‌تان را بسازید"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Created"
+msgstr "ایجاد شده"
+
+#: src/pages/settings/workspace/SettingsCustomDomain.tsx
+msgid "Custom Domain"
+msgstr "دامنه سفارشی"
+
+#: src/pages/settings/workspace/SettingsDomain.tsx
+msgid "Custom domain updated"
+msgstr "دامنه سفارشی به‌روزرسانی شد"
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "Custom objects"
+msgstr "آبجکت‌های سفارشی"
+
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
+msgid "Customise the fields available in the {objectLabelSingular} views."
+msgstr "فیلدهای قابل‌استفاده در نماهای {objectLabelSingular} را سفارشی کنید."
+
+#: src/pages/settings/SettingsWorkspace.tsx
+msgid "Customize Domain"
+msgstr "سفارشی‌سازی دامنه"
+
+#: src/modules/object-record/record-table/record-table-header/components/RecordTableHeaderPlusButtonContent.tsx
+msgid "Customize fields"
+msgstr "سفارشی‌سازی فیلدها"
+
+#: src/pages/settings/security/SettingsSecurity.tsx
+msgid "Customize your workspace security"
+msgstr "امنیت فضای کاری خود را سفارشی کنید"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Czech"
+msgstr "چکی"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/modules/settings/profile/components/DeleteWorkspace.tsx
+#: src/modules/settings/profile/components/DeleteAccount.tsx
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
+msgid "Danger zone"
+msgstr "منطقه خطر"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Danish"
+msgstr "دانمارکی"
+
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+msgid "Dark"
+msgstr "تاریک"
+
+#: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
+msgid "Data deletion"
+msgstr "حذف داده"
+
+#: src/pages/settings/data-model/SettingsObjects.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Data model"
+msgstr "مدل داده"
+
+#: src/pages/settings/data-model/SettingsObjectFieldTable.tsx
+#: src/pages/settings/data-model/SettingsObjectFieldTable.tsx
+msgid "Data type"
+msgstr "نوع داده"
+
+#: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterMenuContent.tsx
+#: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterDropdownContent.tsx
+#: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownMenuContent.tsx
+#: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownContent.tsx
+msgid "Date"
+msgstr "تاریخ"
+
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+msgid "Date and time"
+msgstr "تاریخ و زمان"
+
+#: src/pages/settings/profile/appearance/components/DateTimeSettingsDateFormatSelect.tsx
+msgid "Date format"
+msgstr "فرمت تاریخ"
+
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/modules/workflow/components/RecordShowPageWorkflowHeader.tsx
+#: src/modules/settings/security/components/SSO/SettingsSecuritySSORowDropdownMenu.tsx
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Deactivate"
+msgstr "غیرفعال کردن"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
+msgid "Deactivate \"Synchronize Objects Labels and API Names\" to set a custom API name"
+msgstr "برای تنظیم یک نام API سفارشی، «همگام‌سازی برچسب و نام API آبجکت‌ها» را غیرفعال کنید"
+
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
+msgid "Deactivate object"
+msgstr "غیرفعال کردن آبجکت"
+
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+msgid "Deactivate this field"
+msgstr "غیرفعال کردن این فیلد"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Deactivate Workflow"
+msgstr "غیرفعال کردن گردش‌کار"
+
+#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+msgid "Deactivated"
+msgstr "غیرفعال شده"
+
+#: src/modules/settings/data-model/fields/forms/address/components/SettingsDataModelFieldAddressForm.tsx
+msgid "Default Country"
+msgstr "کشور پیش‌فرض"
+
+#: src/modules/settings/data-model/fields/forms/phones/components/SettingsDataModelFieldPhonesForm.tsx
+msgid "Default Country Code"
+msgstr "کد کشور پیش‌فرض"
+
+#: src/modules/settings/data-model/fields/forms/currency/components/SettingsDataModelFieldCurrencyForm.tsx
+#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+msgid "Default Value"
+msgstr "مقدار پیش‌فرض"
+
+#: src/pages/settings/data-model/SettingsNewObject.tsx
+msgid "Define the name and description of your object"
+msgstr "نام و توضیحات آبجکت خود را مشخص کنید"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageChannelDetails.tsx
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarChannelDetails.tsx
+msgid "Define what will be visible to other users in your workspace"
+msgstr "مشخص کنید چه بخش‌هایی برای سایر کاربران در فضای کاری قابل مشاهده باشد"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+#: src/modules/views/view-picker/components/ViewPickerOptionDropdown.tsx
+#: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
+#: src/modules/settings/security/components/SSO/SettingsSecuritySSORowDropdownMenu.tsx
+#: src/modules/settings/data-model/object-details/components/SettingsObjectFieldDisabledActionDropdown.tsx
+#: src/modules/action-menu/components/__stories__/RightDrawerActionMenuDropdown.stories.tsx
+#: src/modules/action-menu/components/__stories__/RecordIndexActionMenuDropdown.stories.tsx
+#: src/modules/action-menu/components/__stories__/RecordIndexActionMenuBarEntry.stories.tsx
+#: src/modules/action-menu/components/__stories__/RecordIndexActionMenuBarEntry.stories.tsx
+#: src/modules/action-menu/components/__stories__/RecordIndexActionMenuBar.stories.tsx
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "Delete"
+msgstr "حذف"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+#: src/modules/settings/profile/components/DeleteAccount.tsx
+#: src/modules/settings/profile/components/DeleteAccount.tsx
+#: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
+msgid "Delete account"
+msgstr "حذف حساب"
+
+#: src/modules/settings/profile/components/DeleteAccount.tsx
+msgid "Delete account and all the associated data"
+msgstr "حذف حساب و تمام داده‌های مرتبط با آن"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "Delete API key"
+msgstr "حذف کلید API"
+
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+msgid "Delete record"
+msgstr "حذف رکورد"
+
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Delete Record"
+msgstr "حذف رکورد"
+
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "Delete records"
+msgstr "حذف رکوردها"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "Delete this integration"
+msgstr "حذف این یکپارچگی"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Delete webhook"
+msgstr "حذف وبهوک"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Delete workflow"
+msgstr "حذف گردش‌کار"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Delete workflows"
+msgstr "حذف چند گردش‌کار"
+
+#: src/modules/settings/profile/components/DeleteWorkspace.tsx
+#: src/modules/settings/profile/components/DeleteWorkspace.tsx
+msgid "Delete workspace"
+msgstr "حذف فضای کاری"
+
+#: src/modules/settings/profile/components/DeleteWorkspace.tsx
+msgid "Delete your whole workspace"
+msgstr "حذف کل فضای کاری شما"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Deleted"
+msgstr "حذف شده"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
+#~ msgid "Deleted {objectNamePlural}"
+#~ msgstr "{objectNamePlural} حذف شد"
+
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "Deleted records"
+msgstr "رکوردهای حذف شده"
+
+#: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
+#: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
+msgid "Descending"
+msgstr "نزولی"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
+msgid "Description"
+msgstr "توضیحات"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+msgid "Destroy"
+msgstr "نابود کردن"
+
+#: src/pages/settings/developers/SettingsDevelopers.tsx
+#: src/pages/settings/developers/SettingsDevelopers.tsx
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Developers"
+msgstr "توسعه‌دهندگان"
+
+#: src/modules/workflow/components/RecordShowPageWorkflowHeader.tsx
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Discard Draft"
+msgstr "کنار گذاشتن پیش‌نویس"
+
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarChannelsGeneral.tsx
+msgid "Display"
+msgstr "نمایش"
+
+#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+msgid "Display as a plain number or a percentage"
+msgstr "نمایش به صورت یک عدد ساده یا درصد"
+
+#: src/modules/settings/data-model/fields/forms/date/components/SettingsDataModelFieldDateForm.tsx
+msgid "Display as relative date"
+msgstr "نمایش به صورت تاریخ نسبی"
+
+#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+msgid "Display text on multiple lines"
+msgstr "نمایش متن در چند خط"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Doesn't contain"
+msgstr "شامل نمی‌شود"
+
+#: src/pages/settings/SettingsWorkspace.tsx
+#: src/pages/settings/workspace/SettingsDomain.tsx
+#: src/pages/settings/workspace/SettingsDomain.tsx
+#: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
+msgid "Domain"
+msgstr "دامنه"
+
+#: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
+msgid "Domain added successfully."
+msgstr "دامنه با موفقیت اضافه شد."
+
+#: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
+msgid "Domains have to be smaller than 256 characters, cannot contain spaces and cannot contain any special characters."
+msgstr "طول دامنه باید کمتر از ۲۵۶ کاراکتر باشد، شامل فاصله نباشد و شامل کاراکترهای خاص نباشد."
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageAutoCreationCard.tsx
+msgid "Don’t auto-create contacts."
+msgstr "مخاطبان را به‌صورت خودکار ایجاد نکن."
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageChannelDetails.tsx
+msgid "Don’t create contacts from/to Gmail, Outlook emails"
+msgstr "مخاطبان را از/به ایمیل‌های Gmail، Outlook ایجاد نکن"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageChannelDetails.tsx
+msgid "Don’t sync emails from team@ support@ noreply@..."
+msgstr "ایمیل‌های مرتبط با team@، support@، noreply@ و ... را همگام‌سازی نکن"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
+msgid "Download file"
+msgstr "دانلود فایل"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Dutch"
+msgstr "هلندی"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "E.g. backoffice integration"
+msgstr "مثلاً یکپارچگی backoffice"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
+msgid "Earliest"
+msgstr "اولین"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Earliest date"
+msgstr "اولین تاریخ"
+
+#: src/modules/views/view-picker/components/ViewPickerOptionDropdown.tsx
+#: src/modules/settings/data-model/object-details/components/SettingsObjectFieldDisabledActionDropdown.tsx
+msgid "Edit"
+msgstr "ویرایش"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Edit billing interval"
+msgstr "ویرایش دوره پرداخت"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownHiddenRecordGroupsContent.tsx
+msgid "Edit field values"
+msgstr "ویرایش مقادیر فیلد"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownHiddenFieldsContent.tsx
+msgid "Edit Fields"
+msgstr "ویرایش فیلدها"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Edit payment method, see your invoices and more"
+msgstr "روش پرداخت را ویرایش کنید، فاکتورها را ببینید و موارد دیگر"
+
+#: src/pages/settings/SettingsWorkspace.tsx
+msgid "Edit your subdomain name or set a custom domain."
+msgstr "زیردامنه خود را ویرایش کنید یا یک دامنه سفارشی تنظیم کنید."
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+#: src/pages/settings/SettingsProfile.tsx
+#: src/pages/auth/PasswordReset.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentTableHeader.tsx
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
+msgid "Email cannot be empty"
+msgstr "ایمیل نمی‌تواند خالی باشد"
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "Email integration"
+msgstr "یکپارچگی ایمیل"
+
+#: src/modules/settings/accounts/components/SettingsAccountsBlocklistInput.tsx
+msgid "Email or domain is already in blocklist"
+msgstr "ایمیل یا دامنه از قبل در فهرست مسدود وجود دارد"
+
+#: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
+msgid "Email verification"
+msgstr "تأیید ایمیل"
+
+#: src/modules/auth/components/VerifyEmailEffect.tsx
+msgid "Email verification failed."
+msgstr "تأیید ایمیل ناموفق بود."
+
+#: src/modules/auth/sign-in-up/hooks/useHandleResendEmailVerificationToken.ts
+msgid "Email verification link resent!"
+msgstr "لینک تأیید ایمیل مجدداً ارسال شد!"
+
+#: src/modules/auth/components/VerifyEmailEffect.tsx
+msgid "Email verified."
+msgstr "ایمیل تأیید شد."
+
+#: src/modules/settings/accounts/components/SettingsAccountsBlocklistTable.tsx
+msgid "Email/Domain"
+msgstr "ایمیل/دامنه"
+
+#: src/pages/settings/accounts/SettingsAccountsEmails.tsx
+#: src/pages/settings/accounts/SettingsAccountsEmails.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+#: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Emails"
+msgstr "ایمیل‌ها"
+
+#: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
+msgid "Emails settings"
+msgstr "تنظیمات ایمیل"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Emailst"
+msgstr "لیست ایمیل"
+
+#: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
+msgid "employees"
+msgstr "کارمندان"
+
+#: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
+msgid "Employees"
+msgstr "کارمندان"
+
+#: src/modules/object-record/record-inline-cell/components/RecordInlineCellDisplayMode.tsx
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
+#: src/modules/activities/timeline-activities/rows/main-object/components/EventFieldDiff.tsx
+msgid "Empty"
+msgstr "خالی"
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "Empty Inbox"
+msgstr "صندوق خالی است"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Endpoint URL"
+msgstr "نشانی پایانه (Endpoint)"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "English"
+msgstr "انگلیسی"
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "Enjoy a {withCreditCardTrialPeriodDuration}-days free trial"
+msgstr "از دوره آزمایشی {withCreditCardTrialPeriodDuration} روزه رایگان لذت ببرید"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Enter the credentials to set the connection"
+msgstr "برای راه‌اندازی اتصال، مشخصات لازم را وارد کنید"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
+msgid "Enter the infos to set the connection"
+msgstr "برای راه‌اندازی اتصال، اطلاعات موردنظر را وارد کنید"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "Enter user ID or email address"
+msgstr "شناسه کاربر یا آدرس ایمیل را وارد کنید"
+
+#: src/pages/settings/security/SettingsSecurity.tsx
+msgid "Enterprise"
+msgstr "نسخه سازمانی"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
+msgid "Entity ID copied to clipboard"
+msgstr "شناسه موجودیت در کلیپ‌بورد کپی شد"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminContent.tsx
+msgid "Env Variables"
+msgstr "متغیرهای محیطی"
+
+#: src/modules/object-record/record-field/meta-types/display/components/PhonesFieldDisplay.tsx
+msgid "Error copying to clipboard"
+msgstr "خطا در کپی به کلیپ‌بورد"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "Error deleting api key: {err}"
+msgstr "خطا در حذف کلید API: {err}"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "Error deleting invitation"
+msgstr "خطا در حذف دعوتنامه"
+
+#: src/modules/settings/security/components/SSO/SettingsSecuritySSORowDropdownMenu.tsx
+msgid "Error deleting SSO Identity Provider"
+msgstr "خطا در حذف ارائه‌دهنده هویت SSO"
+
+#: src/modules/settings/security/components/SSO/SettingsSecuritySSORowDropdownMenu.tsx
+msgid "Error editing SSO Identity Provider"
+msgstr "خطا در ویرایش ارائه‌دهنده هویت SSO"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "Error regenerating api key: {err}"
+msgstr "خطا در بازتولید کلید API: {err}"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "Error resending invitation"
+msgstr "خطا در ارسال مجدد دعوتنامه"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Error while switching subscription {to}."
+msgstr "خطا در تغییر اشتراک به {to}."
+
+#: src/pages/settings/developers/SettingsDevelopers.tsx
+msgid "Establish Webhook endpoints for notifications on asynchronous events."
+msgstr "برای اطلاع‌رسانی رویدادهای ناهمگام، نقاط پایانی وبهوک ایجاد کنید."
+
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarChannelDetails.tsx
+msgid "Event visibility"
+msgstr "قابلیت مشاهده رویداد"
+
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarChannelsGeneral.tsx
+msgid "Events you participated in are displayed in red."
+msgstr "رویدادهایی که در آن‌ها شرکت کرده‌اید با رنگ قرمز نشان داده می‌شوند."
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarVisibilitySettingsCard.tsx
+#: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
+msgid "Everything"
+msgstr "همه‌چیز"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageChannelDetails.tsx
+msgid "Exclude group emails"
+msgstr "حذف ایمیل‌های گروهی"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageChannelDetails.tsx
+msgid "Exclude non-professional emails"
+msgstr "حذف ایمیل‌های غیراداری"
+
+#: src/modules/settings/accounts/components/SettingsAccountsBlocklistSection.tsx
+msgid "Exclude the following people and domains from my email sync. Internal conversations will not be imported"
+msgstr "افراد و دامنه‌های زیر را از همگام‌سازی ایمیل حذف کن. مکالمات داخلی وارد نخواهند شد"
+
+#: src/pages/settings/data-model/SettingsObjects.tsx
+msgid "Existing objects"
+msgstr "آبجکت‌های موجود"
+
+#: src/modules/navigation/components/AppNavigationDrawer.tsx
+msgid "Exit Settings"
+msgstr "خروج از تنظیمات"
+
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Experience"
+msgstr "تجربه کاربری"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+#: src/modules/settings/developers/components/SettingsApiKeysTable.tsx
+msgid "Expiration"
+msgstr "تاریخ انقضا"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx
+msgid "Expiration Date"
+msgstr "تاریخ انقضا"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "Expired"
+msgstr "منقضی شده"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "Expires in"
+msgstr "منقضی می‌شود در"
+
+#: src/modules/object-record/record-index/export/hooks/useExportRecords.ts
+#: src/modules/action-menu/components/__stories__/RightDrawerActionMenuDropdown.stories.tsx
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowRunsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowRunsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "Export"
+msgstr "صادر کردن"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowRunsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "Export records"
+msgstr "صادر کردن رکوردها"
+
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+msgid "Export to PDF"
+msgstr "صادر کردن به PDF"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowRunsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "Export view"
+msgstr "صادر کردن نما"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Export Workflows"
+msgstr "صادر کردن گردش‌کارها"
+
+#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+msgid "False"
+msgstr "غلط"
+
+#: src/modules/favorites/components/CurrentWorkspaceMemberFavoritesFolders.tsx
+msgid "Favorites"
+msgstr "علاقه‌مندی‌ها"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
+msgid "Feature Flag"
+msgstr "ویژگی آزمایشی (Feature Flag)"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "Feature Flags & Impersonation"
+msgstr "ویژگی‌های آزمایشی و ورود موقت به‌جای کاربر"
+
+#: src/modules/settings/data-model/fields/forms/relation/components/SettingsDataModelFieldRelationForm.tsx
+msgid "Field name"
+msgstr "نام فیلد"
+
+#: src/pages/settings/data-model/SettingsObjectFieldTable.tsx
+msgid "Field type"
+msgstr "نوع فیلد"
+
+#: src/pages/settings/data-model/SettingsObjectIndexTable.tsx
+#: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
+#: src/pages/settings/data-model/constants/SettingsObjectTableMetadata.ts
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownFieldsContent.tsx
+msgid "Fields"
+msgstr "فیلدها"
+
+#: src/testing/mock-data/tableData.ts
+msgid "Fields Count"
+msgstr "تعداد فیلد"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Files"
+msgstr "فایل‌ها"
+
+#: src/modules/object-record/record-table/record-table-header/components/RecordTableColumnHeadDropdownMenu.tsx
+#: src/modules/object-record/object-filter-dropdown/components/SingleEntityObjectFilterDropdownButton.tsx
+#: src/modules/object-record/object-filter-dropdown/components/MultipleFiltersButton.tsx
+msgid "Filter"
+msgstr "فیلتر"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Filters"
+msgstr "فیلترها"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Finnish"
+msgstr "فنلاندی"
+
+#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+msgid "First 10 lines"
+msgstr "۱۰ خط اول"
+
+#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+msgid "First 2 lines"
+msgstr "۲ خط اول"
+
+#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+msgid "First 5 lines"
+msgstr "۵ خط اول"
+
+#: src/pages/onboarding/CreateProfile.tsx
+#: src/modules/settings/profile/components/NameFields.tsx
+#: src/modules/object-record/record-field/meta-types/input/constants/FirstNamePlaceholder.ts
+msgid "First Name"
+msgstr "نام"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Flow"
+msgstr "جریان"
+
+#: src/modules/auth/sign-in-up/components/SignInUpWorkspaceScopeForm.tsx
+msgid "Forgot your password?"
+msgstr "گذرواژه خود را فراموش کرده‌اید؟"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "French"
+msgstr "فرانسوی"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "from monthly to yearly"
+msgstr "از ماهیانه به سالیانه"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "from yearly to monthly"
+msgstr "از سالیانه به ماهیانه"
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "Full access"
+msgstr "دسترسی کامل"
+
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Functions"
+msgstr "توابع"
+
+#: src/pages/settings/SettingsWorkspace.tsx
+#: src/pages/settings/SettingsWorkspace.tsx
+#: src/pages/settings/workspace/SettingsDomain.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+#: src/modules/settings/admin-panel/components/SettingsAdminContent.tsx
+msgid "General"
+msgstr "عمومی"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "German"
+msgstr "آلمانی"
+
+#: src/pages/onboarding/InviteTeam.tsx
+msgid "Get the most out of your workspace by inviting your team."
+msgstr "با دعوت از تیمتان، حداکثر بهره را از فضای کاری خود ببرید."
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "Get your subscription"
+msgstr "دریافت اشتراک"
+
+#: src/modules/command-menu/components/CommandMenu.tsx
+msgid "Global"
+msgstr "سراسری"
+
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to Companies"
+msgstr "رفتن به شرکت‌ها"
+
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to Opportunities"
+msgstr "رفتن به فرصت‌ها"
+
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to People"
+msgstr "رفتن به افراد"
+
+#: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to Settings"
+msgstr "رفتن به تنظیمات"
+
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to Tasks"
+msgstr "رفتن به وظایف"
+
+#: src/pages/settings/SettingsWorkspace.tsx
+msgid "Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."
+msgstr "به پشتیبانی Twenty دسترسی موقت بدهید تا مشکلات را بررسی کرده یا محتوا را بازیابی کند. هر زمان می‌توانید این دسترسی را لغو کنید."
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Greater than"
+msgstr "بزرگ‌تر از"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Greek"
+msgstr "یونانی"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownRecordGroupsContent.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
+msgid "Group by"
+msgstr "گروه‌بندی براساس"
+
+#: src/pages/settings/admin-panel/SettingsAdminIndicatorHealthStatus.tsx
+#: src/modules/settings/admin-panel/components/SettingsAdminContent.tsx
+msgid "Health Status"
+msgstr "وضعیت سلامت سیستم"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Hebrew"
+msgstr "عبری"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownHiddenFieldsContent.tsx
+msgid "Hidden"
+msgstr "مخفی"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownHiddenFieldsContent.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownFieldsContent.tsx
+msgid "Hidden Fields"
+msgstr "فیلدهای مخفی"
+
+#: src/modules/object-record/record-table/record-table-header/components/RecordTableColumnHeadDropdownMenu.tsx
+msgid "Hide"
+msgstr "مخفی‌کردن"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownRecordGroupsContent.tsx
+msgid "Hide empty groups"
+msgstr "مخفی‌کردن گروه‌های خالی"
+
+#: src/pages/onboarding/CreateProfile.tsx
+msgid "How you'll be identified on the app."
+msgstr "چگونگی نمایش شما در اپلیکیشن."
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Hungarian"
+msgstr "مجاری"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+msgid "Icon"
+msgstr "آیکن"
+
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
+msgid "Icon and Name"
+msgstr "آیکن و نام"
+
+#: src/pages/settings/data-model/SettingsObjectFieldTable.tsx
+msgid "Identifier"
+msgstr "شناسه"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Identity Provider"
+msgstr "ارائه‌دهنده هویت"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
+msgid "Identity Provider Metadata XML"
+msgstr "Metadata XML ارائه‌دهنده هویت"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "If you’ve lost this key, you can regenerate it, but be aware that any script using this key will need to be updated. Please type\"{confirmationValue}\" to confirm."
+msgstr "اگر این کلید را گم کرده‌اید، می‌توانید آن را بازتولید کنید اما توجه داشته باشید هر اسکریپتی که از این کلید استفاده می‌کند باید به‌روزرسانی شود. لطفاً برای تأیید، عبارت «{confirmationValue}» را وارد کنید."
+
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
+msgid "Impersonate"
+msgstr "ورود موقت به‌جای کاربر"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
+msgid "Import"
+msgstr "وارد کردن"
+
+#: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsRowRightContainer.tsx
+msgid "Importing"
+msgstr "در حال واردسازی"
+
+#: src/pages/settings/data-model/SettingsObjects.tsx
+#: src/pages/settings/data-model/SettingsObjectFieldTable.tsx
+msgid "Inactive"
+msgstr "غیرفعال"
+
+#: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
+msgid "Indexes"
+msgstr "ایندکس‌ها"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
+msgid "Input must be in camel case and cannot start with a number"
+msgstr "ورودی باید به‌صورت camelCase باشد و با عدد شروع نشود"
+
+#: src/pages/settings/data-model/constants/SettingsObjectTableMetadata.ts
+msgid "Instances"
+msgstr "نمونه‌ها"
+
+#: src/pages/settings/integrations/SettingsIntegrations.tsx
+#: src/pages/settings/integrations/SettingsIntegrations.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Integrations"
+msgstr "یکپارچگی‌ها"
+
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "Invalid auth provider"
+msgstr "ارائه‌دهنده احراز هویت نامعتبر است"
+
+#: src/pages/settings/workspace/SettingsDomain.tsx
+msgid "Invalid custom domain. Please include at least one subdomain (e.g., sub.example.com)."
+msgstr "دامنه سفارشی نامعتبر است. حداقل یک زیردامنه مثل sub.example.com وارد کنید."
+
+#: src/pages/settings/workspace/SettingsDomain.tsx
+msgid "Invalid domain. Domains have to be smaller than 256 characters in length, cannot be IP addresses, cannot contain spaces, cannot contain any special characters such as _~`!@#$%^*()=+{}[]|\\;:'\",<>/? and cannot begin or end with a '-' character."
+msgstr "دامنه نامعتبر است. دامنه باید کمتر از ۲۵۶ کاراکتر باشد، آدرس IP نباشد، فاصله و کاراکترهای خاص نداشته باشد و با خط تیره شروع یا تمام نشود."
+
+#: src/modules/settings/profile/components/ChangePassword.tsx
+#: src/modules/auth/sign-in-up/hooks/useHandleResetPassword.ts
+#: src/modules/auth/sign-in-up/hooks/useHandleResendEmailVerificationToken.ts
+msgid "Invalid email"
+msgstr "ایمیل نامعتبر است"
+
+#: src/modules/settings/accounts/components/SettingsAccountsBlocklistInput.tsx
+#: src/modules/settings/accounts/components/SettingsAccountsBlocklistInput.tsx
+msgid "Invalid email or domain"
+msgstr "ایمیل یا دامنه نامعتبر است"
+
+#: src/modules/auth/components/VerifyEmailEffect.tsx
+msgid "Invalid email verification link."
+msgstr "لینک تأیید ایمیل نامعتبر است."
+
+#: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
+msgid "Invalid File"
+msgstr "فایل نامعتبر است"
+
+#: src/pages/settings/workspace/SettingsDomain.tsx
+msgid "Invalid form values"
+msgstr "مقادیر فرم نامعتبر هستند"
+
+#: src/modules/workspace/components/WorkspaceInviteTeam.tsx
+msgid "Invite"
+msgstr "دعوت کردن"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "Invite by email"
+msgstr "دعوت با ایمیل"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "Invite by link"
+msgstr "دعوت با لینک"
+
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "Invite by Link"
+msgstr "دعوت با لینک"
+
+#: src/pages/onboarding/InviteTeam.tsx
+msgid "Invite link sent to email addresses"
+msgstr "لینک دعوت برای آدرس‌های ایمیل ارسال شد"
+
+#: src/pages/onboarding/InviteTeam.tsx
+msgid "Invite your team"
+msgstr "تیم خود را دعوت کنید"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is"
+msgstr "برابر است با"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is after"
+msgstr "بعد از"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is before"
+msgstr "قبل از"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is empty"
+msgstr "خالی است"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is in future"
+msgstr "در آینده است"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is in past"
+msgstr "در گذشته است"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is not"
+msgstr "برابر نیست با"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is not empty"
+msgstr "خالی نیست"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is not null"
+msgstr "تهی (null) نیست"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is relative"
+msgstr "نسبی است"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Is today"
+msgstr "امروز است"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Issuer URI"
+msgstr "آدرس Issuer"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Italian"
+msgstr "ایتالیایی"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Japanese"
+msgstr "ژاپنی"
+
+#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+msgid "Kanban"
+msgstr "کانبان"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Korean"
+msgstr "کره‌ای"
+
+#: src/pages/settings/lab/SettingsLab.tsx
+#: src/pages/settings/lab/SettingsLab.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Lab"
+msgstr "آزمایشگاه"
+
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+msgid "Language"
+msgstr "زبان"
+
+#: src/pages/onboarding/CreateProfile.tsx
+#: src/modules/settings/profile/components/NameFields.tsx
+#: src/modules/object-record/record-field/meta-types/input/constants/LastNamePlaceholder.ts
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
+msgid "Latest"
+msgstr "جدیدترین"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Latest date"
+msgstr "جدیدترین تاریخ"
+
+#: src/modules/object-record/object-filter-dropdown/utils/getOperandLabel.ts
+msgid "Less than"
+msgstr "کم‌تر از"
+
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+msgid "Light"
+msgstr "روشن"
+
+#: src/pages/onboarding/InviteTeam.tsx
+#: src/modules/workspace/components/WorkspaceInviteLink.tsx
+msgid "Link copied to clipboard"
+msgstr "لینک در کلیپ‌بورد کپی شد"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+msgid "Listings"
+msgstr "لیست‌ها"
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "Log out"
+msgstr "خروج از حساب"
+
+#: src/modules/settings/components/SettingsNavigationDrawerItems.tsx
+msgid "Logout"
+msgstr "خروج از حساب"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "Look up users and manage their workspace feature flags or impersonate them."
+msgstr "کاربران را جستجو کنید و ویژگی‌های آزمایشی یا دسترسی موقت به‌جای آن‌ها را مدیریت کنید."
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "Look up users to impersonate them."
+msgstr "برای ورود موقت به‌جای کاربران، آن‌ها را جستجو کنید."
+
+#: src/modules/views/view-picker/components/ViewPickerOptionDropdown.tsx
+#: src/modules/views/view-picker/components/ViewPickerOptionDropdown.tsx
+msgid "Manage favorite"
+msgstr "مدیریت علاقه‌مندی‌ها"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "Manage Members"
+msgstr "مدیریت اعضا"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "Manage the members of your space here"
+msgstr "اعضای فضای کاری خود را اینجا مدیریت کنید"
+
+#: src/pages/settings/accounts/SettingsAccounts.tsx
+msgid "Manage your internet accounts."
+msgstr "حساب‌های اینترنتی خود را مدیریت کنید."
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Manage your subscription"
+msgstr "مدیریت اشتراک شما"
+
+#: src/modules/action-menu/components/__stories__/RecordIndexActionMenuDropdown.stories.tsx
+#: src/modules/action-menu/components/__stories__/RecordIndexActionMenuBarEntry.stories.tsx
+msgid "Mark as done"
+msgstr "علامت‌گذاری به‌عنوان انجام‌شده"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Max"
+msgstr "بیشترین"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Members"
+msgstr "اعضا"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarVisibilitySettingsCard.tsx
+#: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
+msgid "Metadata"
+msgstr "متادیتا"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
+msgid "Metadata file generation failed"
+msgstr "تولید فایل متادیتا ناموفق بود"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Min"
+msgstr "کمترین"
+
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "Mission accomplished!"
+msgstr "ماموریت انجام شده!"
+
+#: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterMenuContent.tsx
+#: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterDropdownContent.tsx
+#: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownMenuContent.tsx
+msgid "More options"
+msgstr "گزینه‌های بیشتر"
+
+#: src/modules/object-record/record-table/record-table-header/components/RecordTableColumnHeadDropdownMenu.tsx
+msgid "Move left"
+msgstr "انتقال به چپ"
+
+#: src/modules/object-record/record-table/record-table-header/components/RecordTableColumnHeadDropdownMenu.tsx
+msgid "Move right"
+msgstr "انتقال به راست"
+
+#: src/testing/mock-data/tableData.ts
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+#: src/pages/settings/SettingsWorkspace.tsx
+#: src/pages/settings/SettingsProfile.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+#: src/pages/settings/data-model/SettingsObjectFieldTable.tsx
+#: src/pages/settings/data-model/SettingsObjectFieldTable.tsx
+#: src/pages/settings/data-model/constants/SettingsObjectTableMetadata.ts
+#: src/pages/onboarding/CreateProfile.tsx
+#: src/modules/settings/workspace/components/NameField.tsx
+#: src/modules/settings/security/components/SSO/SettingsSSOIdentitiesProvidersForm.tsx
+#: src/modules/settings/security/components/SSO/SettingsSSOIdentitiesProvidersForm.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissionsSettingsTableHeader.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissionsObjectsTableHeader.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentTableHeader.tsx
+#: src/modules/settings/roles/components/RolesTableHeader.tsx
+#: src/modules/settings/developers/components/SettingsApiKeysTable.tsx
+msgid "Name"
+msgstr "نام"
+
+#: src/pages/onboarding/CreateWorkspace.tsx
+msgid "Name can not be empty"
+msgstr "نام نمی‌تواند خالی باشد"
+
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
+msgid "Name in both singular (e.g., 'Invoice') and plural (e.g., 'Invoices') forms."
+msgstr "نام را هم به صورت مفرد (مثلاً: «Invoice») و هم جمع (مثلاً: «Invoices») وارد کنید."
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "Name of your API key"
+msgstr "نام کلید API شما"
+
+#: src/pages/settings/SettingsWorkspace.tsx
+msgid "Name of your workspace"
+msgstr "نام فضای کاری شما"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowRunsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+msgid "Navigate to next record"
+msgstr "رفتن به رکورد بعدی"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+msgid "Navigate to next version"
+msgstr "رفتن به نسخه بعدی"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Navigate to next workflow"
+msgstr "رفتن به گردش‌کار بعدی"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowRunsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+msgid "Navigate to previous record"
+msgstr "رفتن به رکورد قبلی"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+msgid "Navigate to previous version"
+msgstr "رفتن به نسخه قبلی"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Navigate to previous workflow"
+msgstr "رفتن به گردش‌کار قبلی"
+
+#: src/pages/settings/data-model/SettingsNewObject.tsx
+msgid "New"
+msgstr "جدید"
+
+#: src/modules/command-menu/hooks/useCommandMenu.ts
+msgid "New {capitalizedObjectNameSingular}"
+msgstr "ایجاد {capitalizedObjectNameSingular} جدید"
+
+#: src/modules/settings/accounts/components/SettingsNewAccountSection.tsx
+msgid "New account"
+msgstr "حساب جدید"
+
+#: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
+msgid "New Approved Access Domain"
+msgstr "دامنه مجاز جدید"
+
+#: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
+msgid "New Field"
+msgstr "فیلد جدید"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx
+msgid "New key"
+msgstr "کلید جدید"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx
+msgid "New Key"
+msgstr "کلید جدید"
+
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "New note"
+msgstr "افزودن یادداشت"
+
+#: src/pages/settings/data-model/SettingsNewObject.tsx
+msgid "New Object"
+msgstr "آبجکت جدید"
+
+#: src/pages/auth/PasswordReset.tsx
+msgid "New Password"
+msgstr "گذرواژه جدید"
+
+#: src/modules/ui/layout/page/components/PageAddButton.tsx
+#: src/modules/ui/layout/page/components/PageAddButton.tsx
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+msgid "New record"
+msgstr "رکورد جدید"
+
+#: src/pages/settings/security/SettingsSecuritySSOIdentifyProvider.tsx
+msgid "New SSO Configuration"
+msgstr "پیکربندی SSO جدید"
+
+#: src/pages/settings/security/SettingsSecuritySSOIdentifyProvider.tsx
+msgid "New SSO provider"
+msgstr "ارائه‌دهنده SSO جدید"
+
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "New task"
+msgstr "افزودن وظیفه"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+msgid "No {objectLabel} found"
+msgstr "آیتمی پیدا نشد"
+
+#: src/pages/settings/workspace/SettingsDomain.tsx
+msgid "No change detected"
+msgstr "تغییری مشاهده نشد"
+
+#: src/modules/settings/accounts/components/SettingsAccountsListEmptyStateCard.tsx
+msgid "No connected account"
+msgstr "هیچ حساب متصلی وجود ندارد"
+
+#: src/modules/settings/data-model/fields/forms/phones/components/SettingsDataModelFieldPhonesForm.tsx
+msgid "No country"
+msgstr "بدون کشور"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateSoftDelete.tsx
+msgid "No Deleted {objectLabel} found"
+msgstr "هیچ {objectLabel} حذف شده یافت نشد"
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "No email exchange has occurred with this record yet."
+msgstr "هنوز هیچ تبادل ایمیلی با این رکورد انجام نشده است."
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "No Events"
+msgstr "رویدادی وجود ندارد"
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "No events have been scheduled with this"
+msgstr "هیچی رویدادی ثبت نشده با"
+
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "No Files"
+msgstr "فایلی وجود ندارد"
+
+#: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
+msgid "No more members to assign"
+msgstr "عضو دیگری برای تخصیص باقی نمانده است"
+
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "No notes"
+msgstr "یادداشتی وجود ندارد"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
+msgid "No records found"
+msgstr "هیچ رکوردی یافت نشد"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+msgid "No records matching the filter criteria were found."
+msgstr "هیچ رکوردی مطابق با معیارهای فیلتر یافت نشد."
+
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentWorkspaceMemberPickerDropdownContent.tsx
+msgid "No Results"
+msgstr "بدون نتیجه"
+
+#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+msgid "No Select field"
+msgstr "هیچ فیلد Select وجود ندارد"
+
+#: src/modules/object-record/record-table/empty-state/utils/getEmptyStateTitle.ts
+msgid "No workflow runs yet"
+msgstr "هنوز اجرایی برای گردش‌کار وجود ندارد"
+
+#: src/modules/object-record/record-table/empty-state/utils/getEmptyStateTitle.ts
+msgid "No workflow versions yet"
+msgstr "هنوز نسخه‌ای برای گردش‌کار وجود ندارد"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageAutoCreationCard.tsx
+#: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterMenuContent.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownRecordGroupFieldsContent.tsx
+msgid "None"
+msgstr "هیچ"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Norwegian"
+msgstr "نروژی"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
+msgid "Not available on Default View"
+msgstr "در نمای پیش‌فرض در دسترس نیست"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
+msgid "Not empty"
+msgstr "خالی نیست"
+
+#: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsRowRightContainer.tsx
+msgid "Not synced"
+msgstr "همگام‌سازی نشده"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Note"
+msgstr "یادداشت"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Notes"
+msgstr "یادداشت‌ها"
+
+#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+msgid "Number"
+msgstr "عدد"
+
+#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+msgid "Number of decimals"
+msgstr "تعداد ارقام اعشاری"
+
+#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+msgid "Number type"
+msgstr "نوع عدد"
+
+#: src/modules/command-menu/components/CommandMenu.tsx
+msgid "Object"
+msgstr "آبجکت"
+
+#: src/testing/decorators/getFieldDecorator.tsx
+msgid "Object {objectNameSingular} not found"
+msgstr "آیتمی پیدا نشد"
+
+#: src/modules/settings/data-model/fields/forms/relation/components/SettingsDataModelFieldRelationForm.tsx
+msgid "Object destination"
+msgstr "آبجکت مقصد"
+
+#: src/pages/settings/data-model/SettingsObjects.tsx
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
+#: src/pages/settings/data-model/SettingsNewObject.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldSelect.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissions.tsx
+msgid "Objects"
+msgstr "آبجکت‌ها"
+
+#: src/pages/not-found/NotFound.tsx
+msgid "Off the beaten path"
+msgstr "صفحه موردنظر یافت نشد"
+
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarVisibilitySettingsCard.tsx
+msgid "Only date & participants will be shared with your team."
+msgstr "فقط تاریخ و شرکت‌کنندگان با تیمتان به اشتراک گذاشته می‌شود."
+
+#: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
+msgid "Only the timestamp & participants will be shared with your team."
+msgstr "فقط زمان و شرکت‌کنندگان با تیمتان به اشتراک گذاشته می‌شود."
+
+#: src/modules/ui/layout/page-header/components/PageHeaderOpenCommandMenuButton.tsx
+msgid "Open command menu"
+msgstr "باز کردن منوی فرمان"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownViewSettingsOpenInContent.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownViewSettingsContent.tsx
+msgid "Open in"
+msgstr "باز کردن در"
+
+#: src/modules/object-metadata/components/NavigationDrawerOpenedSection.tsx
+msgid "Opened"
+msgstr "باز شده"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Optional: Define a secret string that we will include in every webhook. Use this to authenticate and verify the webhook upon receipt."
+msgstr "اختیاری: یک رشته محرمانه تعریف کنید که در همه وبهوک‌ها گنجانده خواهد شد. برای احراز هویت و تأیید وبهوک هنگام دریافت استفاده کنید."
+
+#: src/modules/settings/roles/components/RolesDefaultRole.tsx
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
+#: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectForm.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdown.tsx
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: src/pages/onboarding/InviteTeam.tsx
+msgid "or"
+msgstr "یا"
+
+#: src/pages/settings/Releases.tsx
+#: src/pages/settings/lab/SettingsLab.tsx
+#: src/pages/settings/admin-panel/SettingsAdminIndicatorHealthStatus.tsx
+#: src/pages/settings/admin-panel/SettingsAdmin.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Other"
+msgstr "سایر"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Output"
+msgstr "خروجی"
+
+#: src/pages/not-found/NotFound.tsx
+msgid "Page Not Found"
+msgstr "صفحه پیدا نشد"
+
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "Password"
+msgstr "گذرواژه"
+
+#: src/pages/auth/PasswordReset.tsx
+msgid "Password has been updated"
+msgstr "گذرواژه به‌روزرسانی شد"
+
+#: src/modules/settings/profile/components/ChangePassword.tsx
+#: src/modules/auth/sign-in-up/hooks/useHandleResetPassword.ts
+msgid "Password reset link has been sent to the email"
+msgstr "لینک بازیابی گذرواژه به ایمیل ارسال شد"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageAutoCreationCard.tsx
+msgid "People I’ve sent emails to and received emails from."
+msgstr "افرادی که به آن‌ها ایمیل فرستاده‌ام و از آن‌ها ایمیل گرفته‌ام."
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageAutoCreationCard.tsx
+msgid "People I’ve sent emails to."
+msgstr "افرادی که فقط به آن‌ها ایمیل فرستاده‌ام."
+
+#: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterMenuContent.tsx
+#: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterDropdownContent.tsx
+#: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownMenuContent.tsx
+msgid "Percent"
+msgstr "درصد"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Percent empty"
+msgstr "درصد خالی"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Percent not empty"
+msgstr "درصد غیرخالی"
+
+#: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
+msgid "Percentage"
+msgstr "درصدی"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+msgid "Permanently destroy record"
+msgstr "حذف دائم رکورد"
+
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+msgid "Permanently destroy records"
+msgstr "حذف دائم رکوردها"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Permanently destroy workflows"
+msgstr "حذف دائم چند گردش‌کار"
+
+#: src/pages/settings/roles/SettingsRoleEdit.tsx
+msgid "Permissions"
+msgstr "سطح دسترسی"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Persian"
+msgstr "فارسی"
+
+#: src/modules/object-record/record-field/meta-types/display/components/PhonesFieldDisplay.tsx
+msgid "Phone number copied to clipboard"
+msgstr "شماره تلفن در کلیپ‌بورد کپی شد"
+
+#: src/pages/settings/SettingsWorkspace.tsx
+#: src/pages/settings/SettingsProfile.tsx
+msgid "Picture"
+msgstr "تصویر"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Please enter a valid URL"
+msgstr "لطفاً یک URL معتبر وارد کنید"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
+msgid "Please search for a user first"
+msgstr "ابتدا کاربر را جستجو کنید"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "Please type \"{confirmationValue}\" to confirm you want to delete this API Key. Be aware that any script using this key will stop working."
+msgstr "لطفاً برای تأیید حذف این کلید API، عبارت «{confirmationValue}» را وارد کنید. توجه داشته باشید تمام اسکریپت‌های استفاده‌کننده از این کلید متوقف می‌شوند."
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Please type {confirmationText} to confirm you want to delete this webhook."
+msgstr "لطفاً برای تأیید حذف این وبهوک، عبارت {confirmationText} را وارد کنید."
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+msgid "Plural"
+msgstr "جمع"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Polish"
+msgstr "لهستانی"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Portuguese — Brazil"
+msgstr "پرتغالی - برزیل"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Portuguese — Portugal"
+msgstr "پرتغالی - پرتغال"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectSettingsFormCard.tsx
+#: src/modules/settings/data-model/components/SettingsDataModelPreviewFormCard.tsx
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: src/modules/auth/sign-in-up/components/FooterNote.tsx
+msgid "Privacy Policy"
+msgstr "سیاست حفظ حریم خصوصی"
+
+#: src/pages/settings/SettingsProfile.tsx
+#: src/pages/settings/SettingsProfile.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Profile"
+msgstr "پروفایل"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Provide your OIDC provider details"
+msgstr "جزئیات ارائه‌دهنده OIDC خود را وارد کنید"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Pseudo-English"
+msgstr "شبه‌انگلیسی"
+
+#: src/modules/settings/developers/components/SettingsReadDocumentationButton.tsx
+msgid "Read documentation"
+msgstr "مطالعه مستندات"
+
+#: src/modules/settings/profile/components/ChangePassword.tsx
+msgid "Receive an email containing password update link"
+msgstr "دریافت ایمیلی که لینک به‌روزرسانی گذرواژه را دارد"
+
+#: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
+msgid "Reconnect"
+msgstr "اتصال مجدد"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectIdentifiersForm.tsx
+msgid "Record image"
+msgstr "تصویر رکورد"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectIdentifiersForm.tsx
+msgid "Record label"
+msgstr "برچسب رکورد"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownViewSettingsOpenInContent.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownViewSettingsContent.tsx
+msgid "Record Page"
+msgstr "صفحه رکورد"
+
+#: src/modules/command-menu/components/CommandMenu.tsx
+msgid "Record Selection"
+msgstr "انتخاب رکورد"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Redirect Url copied to clipboard"
+msgstr "URL تغییرمسیر در کلیپ‌بورد کپی شد"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
+msgid "Redirection URI"
+msgstr "URI تغییرمسیر"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "Regenerate an API key"
+msgstr "بازتولید کلید API"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "Regenerate key"
+msgstr "بازتولید کلید"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "Regenerate Key"
+msgstr "بازتولید کلید"
+
+#: src/modules/settings/data-model/fields/forms/relation/components/SettingsDataModelFieldRelationForm.tsx
+msgid "Relation type"
+msgstr "نوع رابطه"
+
+#: src/pages/settings/Releases.tsx
+#: src/pages/settings/Releases.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Releases"
+msgstr "انتشارها"
+
+#: src/modules/ui/input/components/ImageInput.tsx
+msgid "Remove"
+msgstr "حذف"
+
+#: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
+msgid "Remove account"
+msgstr "حذف حساب"
+
+#: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
+msgid "Remove as default"
+msgstr "حذف به‌عنوان مقدار پیش‌فرض"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowRunsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowRunsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "Remove from favorites"
+msgstr "حذف از علاقه‌مندی‌ها"
+
+#: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
+msgid "Remove option"
+msgstr "حذف گزینه"
+
+#: src/modules/views/components/ViewBarDetails.tsx
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: src/pages/auth/PasswordReset.tsx
+msgid "Reset Password"
+msgstr "بازیابی گذرواژه"
+
+#: src/modules/command-menu/components/ResetContextToSelectionCommandButton.tsx
+msgid "Reset to"
+msgstr "بازنشانی به"
+
+#: src/modules/command-menu/hooks/useSearchRecords.tsx
+msgid "Results"
+msgstr "نتایج"
+
+#: src/pages/settings/roles/SettingsRoles.tsx
+#: src/pages/settings/roles/SettingsRoles.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Roles"
+msgstr "نقش‌ها"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Romanian"
+msgstr "رومانیایی"
+
+#: src/modules/object-record/record-table/empty-state/utils/getEmptyStateSubTitle.ts
+msgid "Run a workflow and return here to view its executions"
+msgstr "یک گردش‌کار را اجرا کنید و برای مشاهده اجراها به اینجا برگردید"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Russian"
+msgstr "روسی"
+
+#: src/modules/settings/components/SaveAndCancelButtons/SaveButton.tsx
+msgid "Save"
+msgstr "ذخیره"
+
+#: src/modules/views/components/UpdateViewButtonGroup.tsx
+msgid "Save as new view"
+msgstr "ذخیره به‌عنوان نمای جدید"
+
+#: src/modules/sign-in-background-mock/components/SignInAppNavigationDrawerMock.tsx
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+#: src/modules/navigation/components/MainNavigationDrawerItems.tsx
+#: src/modules/action-menu/actions/record-agnostic-actions/constants/RecordAgnosticActionsConfig.ts
+#: src/modules/action-menu/actions/record-agnostic-actions/constants/RecordAgnosticActionsConfig.ts
+msgid "Search"
+msgstr "جستجو"
+
+#: src/modules/command-menu/components/CommandMenu.tsx
+msgid "Search ''{commandMenuSearch}'' with..."
+msgstr "جستجوی «{commandMenuSearch}» با..."
+
+#: src/pages/settings/data-model/SettingsObjectFieldTable.tsx
+msgid "Search a field..."
+msgstr "جستجوی فیلد..."
+
+#: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
+msgid "Search a member"
+msgstr "جستجوی یک عضو"
+
+#: src/modules/settings/data-model/fields/forms/components/SettingsObjectNewFieldSelector.tsx
+msgid "Search a type"
+msgstr "جستجوی نوع"
+
+#: src/pages/settings/data-model/SettingsObjectIndexTable.tsx
+msgid "Search an index..."
+msgstr "جستجوی یک ایندکس..."
+
+#: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownRecordGroupFieldsContent.tsx
+#: src/modules/object-record/object-filter-dropdown/components/ObjectFilterDropdownFilterSelect.tsx
+msgid "Search fields"
+msgstr "جستجوی فیلدها"
+
+#: src/pages/settings/data-model/SettingsObjects.tsx
+msgid "Search for an object..."
+msgstr "جستجوی یک آبجکت..."
+
+#: src/modules/ui/input/components/IconPicker.tsx
+msgid "Search icon"
+msgstr "جستجوی آیکن"
+
+#: src/modules/action-menu/actions/record-agnostic-actions/constants/RecordAgnosticActionsConfig.ts
+#: src/modules/action-menu/actions/record-agnostic-actions/constants/RecordAgnosticActionsConfig.ts
+msgid "Search records"
+msgstr "جستجوی رکوردها"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Secret"
+msgstr "کلید محرمانه"
+
+#: src/pages/settings/security/SettingsSecuritySSOIdentifyProvider.tsx
+#: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
+#: src/pages/settings/security/SettingsSecurity.tsx
+#: src/pages/settings/security/SettingsSecurity.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Security"
+msgstr "امنیت"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "See active version"
+msgstr "مشاهده نسخه فعال"
+
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "See deleted records"
+msgstr "دیدن رکوردهای حذف شده"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "See runs"
+msgstr "مشاهده اجراها"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "See versions"
+msgstr "مشاهده نسخه‌ها"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "See versions history"
+msgstr "مشاهده تاریخچه نسخه‌ها"
+
+#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+msgid "Select the default value for this boolean field"
+msgstr "مقدار پیش‌فرض این فیلد بولین را مشخص کنید"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Select the events you wish to send to this endpoint"
+msgstr "رویدادهایی را که می‌خواهید به این نقطه پایانی ارسال شوند، انتخاب کنید"
+
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+msgid "Select your preferred language"
+msgstr "زبان دلخواه خود را انتخاب کنید"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "Send an invite email to your team"
+msgstr "برای تیمتان یک ایمیل دعوت بفرستید"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageAutoCreationCard.tsx
+msgid "Sent"
+msgstr "فرستاده شده"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageAutoCreationCard.tsx
+msgid "Sent and Received"
+msgstr "فرستاده شده و دریافت شده"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Serbian (Cyrillic)"
+msgstr "صربی (سیریلیک)"
+
+#: src/pages/settings/admin-panel/SettingsAdmin.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+msgid "Server Admin"
+msgstr "مدیریت سرور"
+
+#: src/pages/settings/admin-panel/SettingsAdminIndicatorHealthStatus.tsx
+#: src/pages/settings/admin-panel/SettingsAdmin.tsx
+msgid "Server Admin Panel"
+msgstr "پنل مدیریت سرور"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
+msgid "Service Provider Details"
+msgstr "جزئیات سرویس‌ دهنده"
+
+#: src/modules/settings/roles/components/RolesDefaultRole.tsx
+msgid "Set a default role for this workspace"
+msgstr "یک نقش پیش‌فرض برای این فضای کاری تعیین کنید"
+
+#: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
+msgid "Set as default"
+msgstr "تنظیم به‌عنوان پیش‌فرض"
+
+#: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+msgid "Set email visibility, manage your blocklist and more."
+msgstr "قابلیت مشاهده ایمیل، مدیریت فهرست مسدود و موارد دیگر را تنظیم کنید."
+
+#: src/pages/settings/workspace/SettingsCustomDomain.tsx
+msgid "Set the name of your custom domain and configure your DNS records."
+msgstr "نام دامنه سفارشی خود را تعیین کنید و رکوردهای DNS را پیکربندی نمایید."
+
+#: src/pages/settings/workspace/SettingsSubdomain.tsx
+msgid "Set the name of your subdomain"
+msgstr "نام زیردامنه خود را تعیین کنید"
+
+#: src/pages/settings/roles/SettingsRoleEdit.tsx
+#: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
+#: src/modules/sign-in-background-mock/components/SignInAppNavigationDrawerMock.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissions.tsx
+#: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/navigation/components/MainNavigationDrawerItems.tsx
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: src/modules/settings/roles/role-permissions/components/RolePermissions.tsx
+msgid "Settings permissions"
+msgstr "دسترسی‌های بخش تنظیمات"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "Share this link to invite users to join your workspace"
+msgstr "این لینک را به اشتراک بگذارید تا کاربران بتوانند به فضای کاری شما بپیوندند"
+
+#: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
+msgid "Should changing a field's label also change the API name?"
+msgstr "آیا با تغییر برچسب فیلد، نام API هم تغییر کند؟"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+msgid "Should changing an object's label also change the API?"
+msgstr "آیا با تغییر برچسب آبجکت، نام API هم تغییر کند؟"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownViewSettingsOpenInContent.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownViewSettingsContent.tsx
+msgid "Side Panel"
+msgstr "پنل کناری"
+
+#: src/modules/auth/sign-in-up/components/SignInUpWithCredentials.tsx
+msgid "Sign in"
+msgstr "ورود"
+
+#: src/modules/auth/sign-in-up/components/SignInUpWithCredentials.tsx
+msgid "Sign up"
+msgstr "ثبت‌نام"
+
+#: src/modules/auth/sign-in-up/components/SignInUpWithSSO.tsx
+msgid "Single sign-on (SSO)"
+msgstr "ورود تک‌مرحله‌ای (SSO)"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+msgid "Singular"
+msgstr "مفرد"
+
+#: src/pages/onboarding/InviteTeam.tsx
+msgid "Skip"
+msgstr "رد کردن"
+
+#: src/modules/object-record/record-table/record-table-header/components/RecordTableColumnHeadDropdownMenu.tsx
+#: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownRecordGroupsContent.tsx
+msgid "Sort"
+msgstr "مرتب‌سازی"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Spanish"
+msgstr "اسپانیایی"
+
+#: src/pages/settings/security/SettingsSecurity.tsx
+msgid "SSO"
+msgstr "SSO"
+
+#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+msgid "Stages"
+msgstr "مراحل"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/pages/settings/workspace/SettingsSubdomain.tsx
+msgid "Subdomain"
+msgstr "زیردامنه"
+
+#: src/pages/settings/workspace/SettingsDomain.tsx
+#: src/pages/settings/workspace/SettingsDomain.tsx
+msgid "Subdomain already taken"
+msgstr "این زیردامنه قبلاً گرفته شده است"
+
+#: src/pages/settings/workspace/SettingsDomain.tsx
+msgid "Subdomain can not be longer than 30 characters"
+msgstr "زیردامنه نمی‌تواند طولی بیش از ۳۰ کاراکتر داشته باشد"
+
+#: src/pages/settings/workspace/SettingsDomain.tsx
+msgid "Subdomain can not be shorter than 3 characters"
+msgstr "زیردامنه نمی‌تواند کوتاه‌تر از ۳ کاراکتر باشد"
+
+#: src/pages/settings/workspace/SettingsDomain.tsx
+msgid "Subdomain updated"
+msgstr "زیردامنه به‌روزرسانی شد"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
+#: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
+msgid "Subject and metadata"
+msgstr "موضوع و متادیتا"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
+msgid "Subject and metadata will be shared with your team."
+msgstr "موضوع و متادیتا با تیمتان به اشتراک گذاشته خواهد شد."
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
+msgid "Subject, body and attachments will be shared with your team."
+msgstr "موضوع، متن و پیوست‌ها با تیمتان به اشتراک گذاشته خواهند شد."
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Subscription has been switched {to}"
+msgstr "اشتراک به {to} تغییر یافت"
+
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
+msgid "Sum"
+msgstr "مجموع"
+
+#: src/pages/settings/SettingsWorkspace.tsx
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Swedish"
+msgstr "سوئدی"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Switch {from}"
+msgstr "تغییر {from}"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Switch {to}"
+msgstr "تغییر {to}"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Switch billing {to}"
+msgstr "تغییر دوره پرداخت به {to}"
+
+#: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsRowRightContainer.tsx
+msgid "Sync failed"
+msgstr "همگام‌سازی ناموفق بود"
+
+#: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsRowRightContainer.tsx
+msgid "Synced"
+msgstr "همگام‌سازی شد"
+
+#: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
+msgid "Synchronize Field Label and API Name"
+msgstr "همگام‌سازی برچسب فیلد و نام API"
+
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+msgid "Synchronize Objects Labels and API Names"
+msgstr "همگام‌سازی برچسب و نام API آبجکت‌ها"
+
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+#: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeZoneSelect.tsx
+#: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeZoneSelect.tsx
+msgid "System settings"
+msgstr "تنظیمات سیستم"
+
+#: src/pages/settings/profile/appearance/components/DateTimeSettingsDateFormatSelect.tsx
+msgid "System settings - {systemDateFormatLabel}"
+msgstr "تنظیمات سیستم - {systemDateFormatLabel}"
+
+#: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeFormatSelect.tsx
+msgid "System Settings - {systemTimeFormatLabel}"
+msgstr "تنظیمات سیستم - {systemTimeFormatLabel}"
+
+#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+msgid "Table"
+msgstr "جدول"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Tasks"
+msgstr "وظایف"
+
+#: src/modules/auth/sign-in-up/components/FooterNote.tsx
+msgid "Terms of Service"
+msgstr "شرایط سرویس"
+
+#: src/modules/workflow/components/RecordShowPageWorkflowHeader.tsx
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Test"
+msgstr "تست"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+msgid "Test Workflow"
+msgstr "تست گردش‌کار"
+
+#: src/modules/object-record/record-field/components/LightCopyIconButton.tsx
+msgid "Text copied to clipboard"
+msgstr "متن در کلیپ‌بورد کپی شد"
+
+#: src/modules/settings/data-model/fields/forms/phones/components/SettingsDataModelFieldPhonesForm.tsx
+msgid "The default country code for new phone numbers."
+msgstr "کد کشور پیش‌فرض برای شماره تلفن‌های جدید."
+
+#: src/modules/settings/data-model/fields/forms/address/components/SettingsDataModelFieldAddressForm.tsx
+msgid "The default country for new addresses"
+msgstr "کشور پیش‌فرض برای آدرس‌های جدید"
+
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
+msgid "The description of this field"
+msgstr "توضیحات این فیلد"
+
+#: src/pages/settings/SettingsProfile.tsx
+msgid "The email associated to your account"
+msgstr "ایمیل مرتبط با حساب شما"
+
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
+msgid "The name and icon of this field"
+msgstr "نام و آیکن این فیلد"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOIdentitiesProvidersForm.tsx
+msgid "The name of your connection"
+msgstr "نام اتصال شما"
+
+#: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
+msgid "The name of your Domain"
+msgstr "نام دامنه شما"
+
+#: src/pages/onboarding/CreateWorkspace.tsx
+msgid "The name of your organization"
+msgstr "نام سازمان شما"
+
+#: src/pages/not-found/NotFound.tsx
+msgid "The page you're seeking is either gone or never was. Let's get you back on track"
+msgstr "صفحه‌ای که دنبال آن هستید وجود ندارد یا حذف شده است. برگردیم به مسیر اصلی"
+
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
+msgid "The values of this field"
+msgstr "مقادیر این فیلد"
+
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+msgid "The values of this field must be unique"
+msgstr "مقادیر این فیلد باید یکتا باشد"
+
+#: src/modules/settings/accounts/components/SettingsAccountsCalendarVisibilitySettingsCard.tsx
+msgid "The whole event details will be shared with your team."
+msgstr "تمام جزئیات رویداد با تیمتان به اشتراک گذاشته می‌شود."
+
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "There are no associated files with this record."
+msgstr "هیچ فایل مرتبطی با این رکورد وجود ندارد."
+
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "There are no associated notes with this record."
+msgstr "هیچ یادداشت مرتبطی با این رکورد وجود ندارد."
+
+#: src/pages/auth/PasswordReset.tsx
+msgid "There was an error while updating password."
+msgstr "هنگام به‌روزرسانی گذرواژه خطایی رخ داد."
+
+#: src/modules/settings/profile/components/ChangePassword.tsx
+#: src/modules/auth/sign-in-up/hooks/useHandleResetPassword.ts
+#: src/modules/auth/sign-in-up/hooks/useHandleResendEmailVerificationToken.ts
+msgid "There was an issue"
+msgstr "مشکلی پیش آمد"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+msgid "This action cannot be undone. This will permanently delete this user and remove them from all their assignments."
+msgstr "این عمل برگشت‌پذیر نیست. این کاربر برای همیشه حذف شده و از تمامی تخصیص‌های خود خارج می‌شود."
+
+#: src/modules/settings/profile/components/DeleteWorkspace.tsx
+msgid "This action cannot be undone. This will permanently delete your entire workspace. <0/> Please type in your email to confirm."
+msgstr "این عمل قابل بازگشت نیست. با این کار کل فضای کاری شما برای همیشه حذف خواهد شد. <0/> لطفاً برای تأیید ایمیل خود را وارد کنید."
+
+#: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
+msgid "This role is assigned to these workspace members."
+msgstr "این نقش به اعضای زیر در فضای کاری تخصیص داده شده است."
+
+#: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeFormatSelect.tsx
+msgid "Time format"
+msgstr "فرمت زمان"
+
+#: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeZoneSelect.tsx
+msgid "Time zone"
+msgstr "منطقه زمانی"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Timeline"
+msgstr "خط زمانی"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
+msgid "Timestamp and participants will be shared with your team."
+msgstr "زمان و شرکت‌کنندگان با تیمتان به اشتراک گذاشته می‌شوند."
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "to monthly"
+msgstr "به ماهیانه"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "to yearly"
+msgstr "به سالیانه"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
+msgid "Total Users"
+msgstr "تعداد کل کاربران"
+
+#: src/modules/workflow/workflow-diagram/components/WorkflowDiagramCanvasEditableEffect.tsx
+msgid "Trigger Type"
+msgstr "نوع تریگر"
+
+#: src/modules/workflow/components/RecordShowPageWorkflowHeader.tsx
+msgid "Trigger type should be Manual - when no record(s) are selected"
+msgstr "نوع تریگر باید دستی (Manual) باشد - وقتی هیچ رکوردی انتخاب نشده است"
+
+#: src/modules/settings/data-model/fields/forms/boolean/components/SettingsDataModelFieldBooleanForm.tsx
+msgid "True"
+msgstr "درست"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Turkish"
+msgstr "ترکی استانبولی"
+
+#: src/pages/settings/data-model/SettingsObjectIndexTable.tsx
+#: src/pages/settings/data-model/constants/SettingsObjectTableMetadata.ts
+#: src/modules/settings/security/components/SSO/SettingsSSOIdentitiesProvidersForm.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissionsSettingsTableHeader.tsx
+msgid "Type"
+msgstr "نوع"
+
+#: src/modules/command-menu/components/CommandMenuTopBar.tsx
+msgid "Type anything"
+msgstr "هرچیزی بنویسید"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Ukrainian"
+msgstr "اوکراینی"
+
+#: src/pages/settings/data-model/SettingsObjectIndexTable.tsx
+#: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
+msgid "Unique"
+msgstr "منحصربه‌فرد"
+
+#: src/pages/onboarding/CreateWorkspace.tsx
+msgid "Unknown error"
+msgstr "خطای نامشخص"
+
+#: src/pages/onboarding/ChooseYourPlan.tsx
+msgid "Unlimited contacts"
+msgstr "تعداد نامحدود مخاطبین"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Updated"
+msgstr "به‌روزرسانی شد"
+
+#: src/modules/ui/input/components/ImageInput.tsx
+msgid "Upload"
+msgstr "آپلود"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
+msgid "Upload file"
+msgstr "آپلود فایل"
+
+#: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
+msgid "Upload the XML file with your connection infos"
+msgstr "فایل XML حاوی اطلاعات اتصال خود را بارگذاری کنید"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "URL"
+msgstr "URL"
+
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+#: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
+msgid "Use as draft"
+msgstr "استفاده به‌عنوان پیش‌نویس"
+
+#: src/pages/settings/workspace/SettingsDomain.tsx
+msgid "Use letter, number and dash only. Start and finish with a letter or a number"
+msgstr "فقط از حروف، اعداد و خط تیره استفاده کنید. با حرف یا عدد شروع و تمام شود."
+
+#: src/modules/object-record/record-table/empty-state/utils/getEmptyStateSubTitle.ts
+msgid "Use our API or add your first {objectLabel} manually"
+msgstr "از API ما استفاده کنید یا اولین {objectLabel} خود را به‌صورت دستی اضافه کنید"
+
+#: src/pages/settings/SettingsProfile.tsx
+#: src/pages/settings/profile/appearance/components/SettingsExperience.tsx
+#: src/pages/settings/accounts/SettingsAccountsEmails.tsx
+#: src/pages/settings/accounts/SettingsAccountsCalendars.tsx
+#: src/pages/settings/accounts/SettingsAccounts.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
+msgid "User"
+msgstr "کاربر"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "User Email"
+msgstr "ایمیل کاربر"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "User ID"
+msgstr "شناسه کاربر"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "User Impersonation"
+msgstr "ورود موقت به‌جای کاربر"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "User Info"
+msgstr "اطلاعات کاربر"
+
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "User is not logged in"
+msgstr "کاربر وارد سیستم نشده است"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "User Name"
+msgstr "نام کاربر"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
+msgid "Users"
+msgstr "کاربران"
+
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
+msgid "Values"
+msgstr "مقادیر"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "Version of the application"
+msgstr "نسخه برنامه"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Vietnamese"
+msgstr "ویتنامی"
+
+#: src/modules/settings/data-model/object-details/components/SettingsObjectFieldDisabledActionDropdown.tsx
+msgid "View"
+msgstr "نما"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "View billing details"
+msgstr "مشاهده جزئیات صورت‌حساب"
+
+#: src/modules/workflow/hooks/useRunWorkflowVersion.tsx
+msgid "View execution details"
+msgstr "مشاهده جزئیات اجرا"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownViewSettingsContent.tsx
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
+msgid "View settings"
+msgstr "تنظیمات نما"
+
+#: src/modules/views/view-picker/components/ViewPickerContentCreateMode.tsx
+msgid "View type"
+msgstr "نوع نما"
+
+#: src/modules/settings/accounts/components/SettingsAccountsMessageChannelDetails.tsx
+msgid "Visibility"
+msgstr "قابلیت مشاهده"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownFieldsContent.tsx
+msgid "Visible"
+msgstr "قابل مشاهده"
+
+#: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownRecordGroupsContent.tsx
+msgid "Visible groups"
+msgstr "گروه‌های قابل مشاهده"
+
+#: src/modules/settings/data-model/objects/components/SettingsObjectCoverImage.tsx
+msgid "Visualize"
+msgstr "بصری‌سازی"
+
+#: src/modules/ui/input/components/ImageInput.tsx
+msgid "We support your square PNGs, JPEGs and GIFs under 10MB"
+msgstr "ما از تصاویر مربعی PNG، JPEG و GIF تا حجم ۱۰ مگابایت پشتیبانی می‌کنیم"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "We will send POST requests to this endpoint for every new event"
+msgstr "ما برای هر رویداد جدید، درخواست‌های POST به این نشانی ارسال خواهیم کرد"
+
+#: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
+msgid "We will send your a link to verify domain ownership"
+msgstr "ما لینکی برای تأیید مالکیت دامنه برایتان ارسال خواهیم کرد"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Webhook"
+msgstr "وبهوک"
+
+#: src/pages/settings/developers/SettingsDevelopers.tsx
+msgid "Webhooks"
+msgstr "وبهوک‌ها"
+
+#: src/pages/auth/SignInUp.tsx
+msgid "Welcome to {workspaceName}"
+msgstr "خوش آمدید به {workspaceName}"
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx
+msgid "When the API key will expire."
+msgstr "زمان انقضای کلید API."
+
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "When the key will be disabled"
+msgstr "زمانی که این کلید غیرفعال می‌شود"
+
+#: src/modules/workflow/components/RecordShowPageWorkflowHeader.tsx
+msgid "Workflow cannot be tested"
+msgstr "این گردش‌کار قابل تست نیست"
+
+#: src/modules/workflow/hooks/useRunWorkflowVersion.tsx
+msgid "Workflow is running..."
+msgstr "گردش‌کار در حال اجراست..."
+
+#: src/modules/workflow/hooks/useRunWorkflowVersion.tsx
+msgid "Workflow run failed"
+msgstr "اجرای گردش‌کار ناموفق بود"
+
+#: src/pages/settings/SettingsWorkspaceMembers.tsx
+#: src/pages/settings/SettingsWorkspace.tsx
+#: src/pages/settings/SettingsBilling.tsx
+#: src/pages/settings/workspace/SettingsDomain.tsx
+#: src/pages/settings/security/SettingsSecuritySSOIdentifyProvider.tsx
+#: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
+#: src/pages/settings/security/SettingsSecurity.tsx
+#: src/pages/settings/roles/SettingsRoles.tsx
+#: src/pages/settings/integrations/SettingsIntegrations.tsx
+#: src/pages/settings/developers/SettingsDevelopers.tsx
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+#: src/pages/settings/data-model/SettingsObjects.tsx
+#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
+#: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
+#: src/pages/settings/data-model/SettingsNewObject.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldSelect.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
+#: src/modules/sign-in-background-mock/components/SignInAppNavigationDrawerMock.tsx
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+#: src/modules/favorites/components/WorkspaceFavorites.tsx
+msgid "Workspace"
+msgstr "فضای کاری"
+
+#: src/modules/settings/profile/components/DeleteWorkspace.tsx
+msgid "Workspace Deletion"
+msgstr "حذف فضای کاری"
+
+#: src/pages/onboarding/CreateWorkspace.tsx
+msgid "Workspace logo"
+msgstr "لوگوی فضای کاری"
+
+#: src/pages/onboarding/CreateWorkspace.tsx
+msgid "Workspace name"
+msgstr "نام فضای کاری"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
+msgid "Workspace Name"
+msgstr "نام فضای کاری"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "Workspaces"
+msgstr "فضاهای کاری"
+
+#: src/modules/settings/data-model/fields/forms/components/text/SettingsDataModelFieldTextForm.tsx
+msgid "Wrap on record pages"
+msgstr "شکستن خطوط در صفحات رکورد"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+#: src/modules/settings/roles/role-settings/components/RoleSettings.tsx
+#: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
+#: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldDescriptionForm.tsx
+msgid "Write a description"
+msgstr "یک توضیح بنویسید"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+msgid "Write a secret"
+msgstr "یک کلید محرمانه بنویسید"
+
+#: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+msgid "yes"
+msgstr "بله"
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "yet."
+msgstr "تا به حال"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
+msgid "You are not allowed to create records for this object"
+msgstr "اجازه ایجاد رکورد برای این آبجکت را ندارید"
+
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+msgid "You do not have access to impersonate users."
+msgstr "شما دسترسی ورود موقت به‌جای کاربران را ندارید."
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "You will be charged immediately for the full year."
+msgstr "فوراً بابت کل سال هزینه از شما کسر خواهد شد."
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Your credit balance will be used to pay the monthly bills."
+msgstr "اعتبار شما برای تسویه صورت‌حساب‌های ماهانه استفاده خواهد شد."
+
+#: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
+msgid "Your email subjects and meeting titles will be shared with your team."
+msgstr "عناوین ایمیل‌ها و جلسات شما با تیمتان به اشتراک گذاشته می‌شود."
+
+#: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
+msgid "Your emails and events content will be shared with your team."
+msgstr "محتوای ایمیل‌ها و رویدادهایتان با تیمتان به اشتراک گذاشته می‌شود."
+
+#: src/pages/settings/SettingsProfile.tsx
+msgid "Your name as it will be displayed"
+msgstr "نام شما همان‌گونه که نمایش داده می‌شود"
+
+#: src/pages/onboarding/CreateProfile.tsx
+msgid "Your name as it will be displayed on the app"
+msgstr "نام شما به شکلی که در اپلیکیشن نشان داده می‌شود"
+
+#: src/pages/auth/SignInUp.tsx
+msgid "Your Workspace"
+msgstr "فضای کاری شما"
+
+#: src/pages/settings/SettingsBilling.tsx
+msgid "Your workspace will be disabled"
+msgstr "فضای کاری شما غیرفعال خواهد شد"

@@ -8,6 +8,7 @@ import { RecordLayout } from '@/object-record/record-show/types/RecordLayout';
 import { SingleTabProps } from '@/ui/layout/tab/components/TabList';
 import { RecordLayoutTab } from '@/ui/layout/tab/types/RecordLayoutTab';
 import { useIsMobile } from '@/ui/utilities/responsive/hooks/useIsMobile';
+import { t } from '@lingui/core/macro';
 import { useRecoilValue } from 'recoil';
 import {
   IconCalendarEvent,
@@ -37,7 +38,7 @@ export const useRecordShowContainerTabs = (
     [CoreObjectNameSingular.Note]: {
       tabs: {
         richText: {
-          title: 'Note',
+          title: t`Note`,
           position: 0,
           Icon: IconNotes,
           cards: [{ type: CardType.RichTextCard }],
@@ -57,7 +58,7 @@ export const useRecordShowContainerTabs = (
     [CoreObjectNameSingular.Task]: {
       tabs: {
         richText: {
-          title: 'Note',
+          title: t`Note`,
           position: 0,
           Icon: IconNotes,
           cards: [{ type: CardType.RichTextCard }],
@@ -77,7 +78,7 @@ export const useRecordShowContainerTabs = (
     [CoreObjectNameSingular.Company]: {
       tabs: {
         emails: {
-          title: 'Emails',
+          title: t`Emailst`,
           position: 600,
           Icon: IconMail,
           cards: [{ type: CardType.EmailCard }],
@@ -91,7 +92,7 @@ export const useRecordShowContainerTabs = (
           },
         },
         calendar: {
-          title: 'Calendar',
+          title: t`Calendar`,
           position: 700,
           Icon: IconCalendarEvent,
           cards: [{ type: CardType.CalendarCard }],
@@ -109,7 +110,7 @@ export const useRecordShowContainerTabs = (
     [CoreObjectNameSingular.Person]: {
       tabs: {
         emails: {
-          title: 'Emails',
+          title: t`Emails`,
           position: 600,
           Icon: IconMail,
           cards: [{ type: CardType.EmailCard }],
@@ -123,7 +124,7 @@ export const useRecordShowContainerTabs = (
           },
         },
         calendar: {
-          title: 'Calendar',
+          title: t`Calendar`,
           position: 700,
           Icon: IconCalendarEvent,
           cards: [{ type: CardType.CalendarCard }],
@@ -142,7 +143,7 @@ export const useRecordShowContainerTabs = (
       hideSummaryAndFields: true,
       tabs: {
         workflow: {
-          title: 'Flow',
+          title: t`Flow`,
           position: 0,
           Icon: IconSettings,
           cards: [{ type: CardType.WorkflowCard }],
@@ -162,7 +163,7 @@ export const useRecordShowContainerTabs = (
     [CoreObjectNameSingular.WorkflowVersion]: {
       tabs: {
         workflowVersion: {
-          title: 'Flow',
+          title: t`Flow`,
           position: 0,
           Icon: IconSettings,
           cards: [{ type: CardType.WorkflowVersionCard }],
@@ -181,7 +182,7 @@ export const useRecordShowContainerTabs = (
     [CoreObjectNameSingular.WorkflowRun]: {
       tabs: {
         workflowRunOutput: {
-          title: 'Output',
+          title: t`Output`,
           position: 0,
           Icon: IconPrinter,
           cards: [{ type: CardType.WorkflowRunOutputCard }],
@@ -195,7 +196,7 @@ export const useRecordShowContainerTabs = (
           },
         },
         workflowRunFlow: {
-          title: 'Flow',
+          title: t`Flow`,
           position: 0,
           Icon: IconSettings,
           cards: [{ type: CardType.WorkflowRunCard }],

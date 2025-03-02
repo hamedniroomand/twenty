@@ -1,3 +1,4 @@
+import { t } from '@lingui/core/macro';
 import { ObjectMetadataStandardIdToIdMap } from 'src/engine/metadata-modules/object-metadata/interfaces/object-metadata-standard-id-to-id-map';
 
 import {
@@ -10,7 +11,7 @@ export const tasksByStatusView = (
   objectMetadataStandardIdToIdMap: ObjectMetadataStandardIdToIdMap,
 ) => {
   return {
-    name: 'By Status',
+    name: t`By Status`,
     objectMetadataId:
       objectMetadataStandardIdToIdMap[STANDARD_OBJECT_IDS.task].id,
     type: 'kanban',

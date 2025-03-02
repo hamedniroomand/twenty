@@ -1,5 +1,6 @@
 import { ObjectMetadataStandardIdToIdMap } from 'src/engine/metadata-modules/object-metadata/interfaces/object-metadata-standard-id-to-id-map';
 
+import { t } from '@lingui/core/macro';
 import { AGGREGATE_OPERATIONS } from 'src/engine/api/graphql/graphql-query-runner/constants/aggregate-operations.constant';
 import {
   BASE_OBJECT_STANDARD_FIELD_IDS,
@@ -11,7 +12,7 @@ export const peopleAllView = (
   objectMetadataStandardIdToIdMap: ObjectMetadataStandardIdToIdMap,
 ) => {
   return {
-    name: 'All',
+    name: t`All`,
     objectMetadataId:
       objectMetadataStandardIdToIdMap[STANDARD_OBJECT_IDS.person].id,
     type: 'table',
