@@ -1448,25 +1448,24 @@ msgstr "Global"
 #~ msgstr "Go to Activities"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to Companies"
-msgstr "Go to Companies"
+#~ msgid "Go to Companies"
+#~ msgstr "Go to Companies"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to Opportunity"
-msgstr "Go to Opportunity"
+#~ msgid "Go to Opportunity"
+#~ msgstr "Go to Opportunity"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to People"
-msgstr "Go to People"
+#~ msgid "Go to People"
+#~ msgstr "Go to People"
 
 #: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
-#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
 msgid "Go to Settings"
 msgstr "Go to Settings"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to Tasks"
-msgstr "Go to Tasks"
+#~ msgid "Go to Tasks"
+#~ msgstr "Go to Tasks"
 
 #: src/pages/settings/SettingsWorkspace.tsx
 msgid "Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."

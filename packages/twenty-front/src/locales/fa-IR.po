@@ -54,7 +54,7 @@ msgstr "کلید API «{apiKeyName}»"
 msgid "{name}"
 msgstr "{name}"
 
-#: src/pages/settings/roles/role-assignment/components/RoleAssignmentConfirmationModalSubtitle.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentConfirmationModalSubtitle.tsx
 msgid "{workspaceMemberName} will be unassigned from the following role:"
 msgstr "نقش زیر از «{workspaceMemberName}» گرفته خواهد شد:"
 
@@ -92,7 +92,7 @@ msgstr "۲۴ساعته ({hour24Label})"
 msgid "A shared environment where you will be able to manage your customer relations with your team."
 msgstr "یک فضای مشترک که در آن می‌توانید روابط مشتریان خود را با تیمتان مدیریت کنید."
 
-#: src/pages/settings/roles/role-permissions/components/RolePermissions.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissions.tsx
 msgid "Ability to interact with each object"
 msgstr "امکان تعامل با هر آبجکت (شیء)"
 
@@ -100,11 +100,9 @@ msgstr "امکان تعامل با هر آبجکت (شیء)"
 msgid "Abort"
 msgstr "انصراف"
 
-#: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
-#: src/modules/workflow/components/RecordShowPageWorkflowHeader.tsx
-#: src/modules/settings/security/components/SSO/SettingsSecuritySSORowDropdownMenu.tsx
-#: src/modules/settings/data-model/object-details/components/SettingsObjectFieldDisabledActionDropdown.tsx
-#: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
+#: src/pages/settings/data-model/SettingsNewObject.tsx
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
+#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
 msgid "About"
 msgstr "درباره"
 
@@ -124,9 +122,9 @@ msgstr "حذف حساب"
 msgid "Accounts"
 msgstr "حساب‌ها"
 
-#: src/pages/settings/roles/role-permissions/components/RolePermissionsSettingsTableHeader.tsx
-#: src/pages/settings/roles/role-permissions/components/RolePermissionsObjectsTableHeader.tsx
-#: src/pages/settings/roles/role-assignment/components/RoleAssignmentTableHeader.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissionsSettingsTableHeader.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissionsObjectsTableHeader.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentTableHeader.tsx
 msgid "Actions"
 msgstr "عملیات"
 
@@ -230,7 +228,7 @@ msgstr "افزوده‌شده {beautifyPastDateRelative}"
 msgid "Added to blocklist"
 msgstr "به فهرست مسدود اضافه شد"
 
-#: src/pages/settings/roles/components/RolesDefaultRole.tsx
+#: src/modules/settings/roles/components/RolesDefaultRole.tsx
 msgid "Adjust the role-related settings"
 msgstr "تنظیمات مربوط به نقش را مدیریت کنید"
 
@@ -266,7 +264,7 @@ msgstr "همه خطوط"
 msgid "All Objects"
 msgstr "همه آبجکت‌ها"
 
-#: src/pages/settings/roles/components/Roles.tsx
+#: src/modules/settings/roles/components/Roles.tsx
 msgid "All roles"
 msgstr "همه نقش‌ها"
 
@@ -357,23 +355,23 @@ msgstr "آیا مطمئنید که می‌خواهید دوره‌ی پرداخ�
 msgid "Ascending"
 msgstr "صعودی"
 
-#: src/pages/settings/roles/role-assignment/components/RoleAssignmentConfirmationModal.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentConfirmationModal.tsx
 msgid "Assign {workspaceMemberName}?"
 msgstr "واگذاری نقش به {workspaceMemberName}؟"
 
-#: src/pages/settings/roles/components/Roles.tsx
+#: src/modules/settings/roles/components/Roles.tsx
 msgid "Assign roles to specify each member's access permissions"
 msgstr "برای مشخص کردن سطح دسترسی هر عضو، نقش‌ها را تخصیص دهید"
 
-#: src/pages/settings/roles/role-assignment/components/RoleAssignment.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
 msgid "Assign to member"
 msgstr "واگذاری به عضو"
 
-#: src/pages/settings/roles/role-assignment/components/RoleAssignment.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
 msgid "Assigned members"
 msgstr "اعضای تخصیص‌یافته"
 
-#: src/pages/settings/roles/components/RolesTableHeader.tsx
+#: src/modules/settings/roles/components/RolesTableHeader.tsx
 msgid "Assigned to"
 msgstr "تخصیص‌یافته به"
 
@@ -587,7 +585,7 @@ msgstr "تعیین کنید رویدادهایتان در تقویم چگونه 
 msgid "Configure your emails and calendar settings."
 msgstr "تنظیمات ایمیل و تقویم خود را پیکربندی کنید."
 
-#: src/pages/settings/roles/role-assignment/components/RoleAssignmentConfirmationModal.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentConfirmationModal.tsx
 msgid "Confirm"
 msgstr "تأیید"
 
@@ -710,7 +708,7 @@ msgstr "ایجاد رکورد جدید"
 msgid "Create profile"
 msgstr "ایجاد پروفایل"
 
-#: src/pages/settings/roles/components/Roles.tsx
+#: src/modules/settings/roles/components/Roles.tsx
 msgid "Create Role"
 msgstr "ایجاد نقش"
 
@@ -801,6 +799,7 @@ msgstr "نوع داده"
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterMenuContent.tsx
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterDropdownContent.tsx
 #: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownMenuContent.tsx
+#: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownContent.tsx
 msgid "Date"
 msgstr "تاریخ"
 
@@ -880,6 +879,7 @@ msgstr "مشخص کنید چه بخش‌هایی برای سایر کاربرا�
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
 msgid "Delete"
 msgstr "حذف"
 
@@ -939,8 +939,13 @@ msgid "Deleted"
 msgstr "حذف شده"
 
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
-msgid "Deleted {objectNamePlural}"
-msgstr "{objectNamePlural} حذف شد"
+#~ msgid "Deleted {objectNamePlural}"
+#~ msgstr "{objectNamePlural} حذف شد"
+
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "Deleted records"
+msgstr "رکوردهای حذف شده"
 
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
@@ -948,11 +953,8 @@ msgid "Descending"
 msgstr "نزولی"
 
 #: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
-#: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
 #: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
-#: src/modules/settings/profile/components/DeleteWorkspace.tsx
-#: src/modules/settings/profile/components/DeleteAccount.tsx
-#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
+#: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
 msgid "Description"
 msgstr "توضیحات"
 
@@ -1047,7 +1049,7 @@ msgid "Earliest date"
 msgstr "اولین تاریخ"
 
 #: src/modules/views/view-picker/components/ViewPickerOptionDropdown.tsx
-#: src/modules/views/view-picker/components/ViewPickerOptionDropdown.tsx
+#: src/modules/settings/data-model/object-details/components/SettingsObjectFieldDisabledActionDropdown.tsx
 msgid "Edit"
 msgstr "ویرایش"
 
@@ -1074,8 +1076,8 @@ msgstr "زیردامنه خود را ویرایش کنید یا یک دامنه 
 #: src/pages/settings/SettingsWorkspaceMembers.tsx
 #: src/pages/settings/SettingsWorkspaceMembers.tsx
 #: src/pages/settings/SettingsProfile.tsx
-#: src/pages/settings/roles/role-assignment/components/RoleAssignmentTableHeader.tsx
 #: src/pages/auth/PasswordReset.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentTableHeader.tsx
 msgid "Email"
 msgstr "ایمیل"
 
@@ -1112,7 +1114,7 @@ msgid "Email/Domain"
 msgstr "ایمیل/دامنه"
 
 #: src/pages/settings/accounts/SettingsAccountsEmails.tsx
-#: src/pages/settings/accounts/SettingsAccountsCalendars.tsx
+#: src/pages/settings/accounts/SettingsAccountsEmails.tsx
 #: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
 msgid "Emails"
@@ -1312,7 +1314,7 @@ msgstr "غلط"
 msgid "Favorites"
 msgstr "علاقه‌مندی‌ها"
 
-#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
 msgid "Feature Flag"
 msgstr "ویژگی آزمایشی (Feature Flag)"
 
@@ -1422,25 +1424,24 @@ msgid "Global"
 msgstr "سراسری"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to Companies"
-msgstr "رفتن به شرکت‌ها"
+#~ msgid "Go to Companies"
+#~ msgstr "رفتن به شرکت‌ها"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to Opportunity"
-msgstr "رفتن به فرصت"
+#~ msgid "Go to Opportunity"
+#~ msgstr "رفتن به فرصت"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to People"
-msgstr "رفتن به افراد"
+#~ msgid "Go to People"
+#~ msgstr "رفتن به افراد"
 
 #: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
-#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
 msgid "Go to Settings"
 msgstr "رفتن به تنظیمات"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to Tasks"
-msgstr "رفتن به وظایف"
+#~ msgid "Go to Tasks"
+#~ msgstr "رفتن به وظایف"
 
 #: src/pages/settings/SettingsWorkspace.tsx
 msgid "Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."
@@ -1804,10 +1805,6 @@ msgstr "انتقال به راست"
 #: src/pages/settings/SettingsWorkspaceMembers.tsx
 #: src/pages/settings/SettingsWorkspace.tsx
 #: src/pages/settings/SettingsProfile.tsx
-#: src/pages/settings/roles/role-permissions/components/RolePermissionsSettingsTableHeader.tsx
-#: src/pages/settings/roles/role-permissions/components/RolePermissionsObjectsTableHeader.tsx
-#: src/pages/settings/roles/role-assignment/components/RoleAssignmentTableHeader.tsx
-#: src/pages/settings/roles/components/RolesTableHeader.tsx
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeysNew.tsx
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
 #: src/pages/settings/data-model/SettingsObjectFieldTable.tsx
@@ -1817,6 +1814,10 @@ msgstr "انتقال به راست"
 #: src/modules/settings/workspace/components/NameField.tsx
 #: src/modules/settings/security/components/SSO/SettingsSSOIdentitiesProvidersForm.tsx
 #: src/modules/settings/security/components/SSO/SettingsSSOIdentitiesProvidersForm.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissionsSettingsTableHeader.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissionsObjectsTableHeader.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentTableHeader.tsx
+#: src/modules/settings/roles/components/RolesTableHeader.tsx
 #: src/modules/settings/developers/components/SettingsApiKeysTable.tsx
 msgid "Name"
 msgstr "نام"
@@ -1927,7 +1928,7 @@ msgstr "هیچ حساب متصلی وجود ندارد"
 msgid "No country"
 msgstr "بدون کشور"
 
-#: src/pages/settings/roles/role-assignment/components/RoleAssignment.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
 msgid "No more members to assign"
 msgstr "عضو دیگری برای تخصیص باقی نمانده است"
 
@@ -1935,7 +1936,7 @@ msgstr "عضو دیگری برای تخصیص باقی نمانده است"
 msgid "No records found"
 msgstr "هیچ رکوردی یافت نشد"
 
-#: src/pages/settings/roles/role-assignment/components/RoleAssignmentWorkspaceMemberPickerDropdownContent.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignmentWorkspaceMemberPickerDropdownContent.tsx
 msgid "No Results"
 msgstr "بدون نتیجه"
 
@@ -1994,13 +1995,13 @@ msgstr "آبجکت"
 msgid "Object destination"
 msgstr "آبجکت مقصد"
 
-#: src/pages/settings/roles/role-permissions/components/RolePermissions.tsx
 #: src/pages/settings/data-model/SettingsObjects.tsx
 #: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
 #: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
 #: src/pages/settings/data-model/SettingsNewObject.tsx
 #: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldSelect.tsx
 #: src/pages/settings/data-model/SettingsObjectNewField/SettingsObjectNewFieldConfigure.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissions.tsx
 msgid "Objects"
 msgstr "آبجکت‌ها"
 
@@ -2033,7 +2034,7 @@ msgstr "باز شده"
 msgid "Optional: Define a secret string that we will include in every webhook. Use this to authenticate and verify the webhook upon receipt."
 msgstr "اختیاری: یک رشته محرمانه تعریف کنید که در همه وبهوک‌ها گنجانده خواهد شد. برای احراز هویت و تأیید وبهوک هنگام دریافت استفاده کنید."
 
-#: src/pages/settings/roles/components/RolesDefaultRole.tsx
+#: src/modules/settings/roles/components/RolesDefaultRole.tsx
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectForm.tsx
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdown.tsx
@@ -2129,7 +2130,7 @@ msgstr "تصویر"
 msgid "Please enter a valid URL"
 msgstr "لطفاً یک URL معتبر وارد کنید"
 
-#: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
+#: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
 msgid "Please search for a user first"
 msgstr "ابتدا کاربر را جستجو کنید"
 
@@ -2326,7 +2327,7 @@ msgstr "جستجوی «{commandMenuSearch}» با..."
 msgid "Search a field..."
 msgstr "جستجوی فیلد..."
 
-#: src/pages/settings/roles/role-assignment/components/RoleAssignment.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
 msgid "Search a member"
 msgstr "جستجوی یک عضو"
 
@@ -2339,8 +2340,8 @@ msgid "Search an index..."
 msgstr "جستجوی یک ایندکس..."
 
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
-#: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownRecordGroupFieldsContent.tsx
+#: src/modules/object-record/object-filter-dropdown/components/ObjectFilterDropdownFilterSelect.tsx
 msgid "Search fields"
 msgstr "جستجوی فیلدها"
 
@@ -2373,6 +2374,11 @@ msgstr "امنیت"
 #: src/modules/action-menu/actions/record-actions/constants/WorkflowActionsConfig.ts
 msgid "See active version"
 msgstr "مشاهده نسخه فعال"
+
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
+#: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
+msgid "See deleted records"
+msgstr "دیدن رکوردهای حذف شده"
 
 #: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
 #: src/modules/action-menu/actions/record-actions/constants/WorkflowVersionsActionsConfig.ts
@@ -2433,7 +2439,7 @@ msgstr "پنل مدیریت سرور"
 msgid "Service Provider Details"
 msgstr "جزئیات سرویس‌ دهنده"
 
-#: src/pages/settings/roles/components/RolesDefaultRole.tsx
+#: src/modules/settings/roles/components/RolesDefaultRole.tsx
 msgid "Set a default role for this workspace"
 msgstr "یک نقش پیش‌فرض برای این فضای کاری تعیین کنید"
 
@@ -2454,15 +2460,15 @@ msgid "Set the name of your subdomain"
 msgstr "نام زیردامنه خود را تعیین کنید"
 
 #: src/pages/settings/roles/SettingsRoleEdit.tsx
-#: src/pages/settings/roles/role-permissions/components/RolePermissions.tsx
 #: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
 #: src/modules/sign-in-background-mock/components/SignInAppNavigationDrawerMock.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissions.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
 #: src/modules/navigation/components/MainNavigationDrawerItems.tsx
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: src/pages/settings/roles/role-permissions/components/RolePermissions.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissions.tsx
 msgid "Settings permissions"
 msgstr "دسترسی‌های بخش تنظیمات"
 
@@ -2547,7 +2553,6 @@ msgid "Subdomain updated"
 msgstr "زیردامنه به‌روزرسانی شد"
 
 #: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
-#: src/modules/settings/accounts/components/SettingsAccountsCalendarVisibilitySettingsCard.tsx
 #: src/modules/onboarding/components/onboardingSyncEmailsOptions.tsx
 msgid "Subject and metadata"
 msgstr "موضوع و متادیتا"
@@ -2709,7 +2714,7 @@ msgstr "این عمل برگشت‌پذیر نیست. این کاربر برای
 msgid "This action cannot be undone. This will permanently delete your entire workspace. <0/> Please type in your email to confirm."
 msgstr "این عمل قابل بازگشت نیست. با این کار کل فضای کاری شما برای همیشه حذف خواهد شد. <0/> لطفاً برای تأیید ایمیل خود را وارد کنید."
 
-#: src/pages/settings/roles/role-assignment/components/RoleAssignment.tsx
+#: src/modules/settings/roles/role-assignment/components/RoleAssignment.tsx
 msgid "This role is assigned to these workspace members."
 msgstr "این نقش به اعضای زیر در فضای کاری تخصیص داده شده است."
 
@@ -2753,10 +2758,10 @@ msgstr "درست"
 msgid "Turkish"
 msgstr "ترکی استانبولی"
 
-#: src/pages/settings/roles/role-permissions/components/RolePermissionsSettingsTableHeader.tsx
 #: src/pages/settings/data-model/SettingsObjectIndexTable.tsx
 #: src/pages/settings/data-model/constants/SettingsObjectTableMetadata.ts
 #: src/modules/settings/security/components/SSO/SettingsSSOIdentitiesProvidersForm.tsx
+#: src/modules/settings/roles/role-permissions/components/RolePermissionsSettingsTableHeader.tsx
 msgid "Type"
 msgstr "نوع"
 
@@ -2997,8 +3002,8 @@ msgstr "فضاهای کاری"
 msgid "Wrap on record pages"
 msgstr "شکستن خطوط در صفحات رکورد"
 
-#: src/pages/settings/roles/role-settings/components/RoleSettings.tsx
 #: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhookDetail.tsx
+#: src/modules/settings/roles/role-settings/components/RoleSettings.tsx
 #: src/modules/settings/data-model/objects/forms/components/SettingsDataModelObjectAboutForm.tsx
 #: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldDescriptionForm.tsx
 msgid "Write a description"

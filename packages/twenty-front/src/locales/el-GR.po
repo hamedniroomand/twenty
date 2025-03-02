@@ -1453,25 +1453,24 @@ msgstr "Παγκόσμιο"
 #~ msgstr ""
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to Companies"
-msgstr ""
+#~ msgid "Go to Companies"
+#~ msgstr ""
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to Opportunity"
-msgstr ""
+#~ msgid "Go to Opportunity"
+#~ msgstr ""
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to People"
-msgstr ""
+#~ msgid "Go to People"
+#~ msgstr ""
 
 #: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
-#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
 msgid "Go to Settings"
 msgstr "Μετάβαση στις Ρυθμίσεις"
 
 #: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
-msgid "Go to Tasks"
-msgstr ""
+#~ msgid "Go to Tasks"
+#~ msgstr ""
 
 #: src/pages/settings/SettingsWorkspace.tsx
 msgid "Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."
