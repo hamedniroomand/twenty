@@ -20,6 +20,8 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
       - name: Build the Docker image
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
         run: |
           docker build -f ./packages/twenty-docker/twenty/Dockerfile \
             --build-arg REACT_APP_SERVER_BASE_URL=${{ secrets.REACT_APP_SERVER_BASE_URL }} \

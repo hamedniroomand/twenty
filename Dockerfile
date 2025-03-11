@@ -8,7 +8,7 @@ RUN echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && \
     echo fs.inotify.max_user_instances=512 | tee -a /etc/sysctl.conf
 
 # Setup build environment
-ENV NODE_OPTIONS="--max-old-space-size=4096 --no-warnings"
+ENV NODE_OPTIONS="--max-old-space-size=8192 --no-warnings"
 ENV NODE_ENV=production
 ENV CHOKIDAR_USEPOLLING=1
 ENV WATCHPACK_POLLING=true
