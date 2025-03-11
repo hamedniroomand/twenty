@@ -2,7 +2,7 @@ import { currentWorkspaceState } from '@/auth/states/currentWorkspaceState';
 import { objectMetadataItemsState } from '@/object-metadata/states/objectMetadataItemsState';
 import { CoreObjectNameSingular } from '@/object-metadata/types/CoreObjectNameSingular';
 import { ObjectMetadataItem } from '@/object-metadata/types/ObjectMetadataItem';
-import { BASE_RECORD_LAYOUT } from '@/object-record/record-show/constants/BaseRecordLayout';
+import { GET_BASE_RECORD_LAYOUT } from '@/object-record/record-show/constants/BaseRecordLayout';
 import { CardType } from '@/object-record/record-show/types/CardType';
 import { RecordLayout } from '@/object-record/record-show/types/RecordLayout';
 import { SingleTabProps } from '@/ui/layout/tab/components/TabList';
@@ -12,11 +12,11 @@ import { t } from '@lingui/core/macro';
 import { useRecoilValue } from 'recoil';
 import {
   IconCalendarEvent,
+  IconHome,
   IconMail,
   IconNotes,
   IconPrinter,
   IconSettings,
-  IconHome,
 } from 'twenty-ui';
 import { FieldMetadataType } from '~/generated-metadata/graphql';
 import { FeatureFlagKey } from '~/generated/graphql';
@@ -217,10 +217,10 @@ export const useRecordShowContainerTabs = (
 
   // Merge base layout with object-specific layout
   const recordLayout: RecordLayout = {
-    ...BASE_RECORD_LAYOUT,
+    ...GET_BASE_RECORD_LAYOUT(),
     ...(OBJECT_SPECIFIC_LAYOUTS[targetObjectNameSingular] || {}),
     tabs: {
-      ...BASE_RECORD_LAYOUT.tabs,
+      ...GET_BASE_RECORD_LAYOUT().tabs,
       ...(OBJECT_SPECIFIC_LAYOUTS[targetObjectNameSingular]?.tabs || {}),
     },
   };
