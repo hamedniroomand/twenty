@@ -23,6 +23,7 @@ jobs:
         run: |
           docker build -f ./packages/twenty-docker/twenty/Dockerfile \
             --build-arg REACT_APP_SERVER_BASE_URL=${{ secrets.REACT_APP_SERVER_BASE_URL }} \
+            --build-arg NODE_OPTIONS="--max-old-space-size=4096" \
             --build-arg SENTRY_RELEASE=${{ github.sha }} \
             -t ${{ secrets.DOCKERHUB_USERNAME }}/twenty:latest .
           
