@@ -6,6 +6,8 @@ import { EventList } from '@/activities/timeline-activities/components/EventList
 import { useTimelineActivities } from '@/activities/timeline-activities/hooks/useTimelineActivities';
 import { ActivityTargetableObject } from '@/activities/types/ActivityTargetableEntity';
 import { useIsMobile } from '@/ui/utilities/responsive/hooks/useIsMobile';
+import { Trans } from '@lingui/react/macro';
+
 import {
   AnimatedPlaceholder,
   AnimatedPlaceholderEmptyContainer,
@@ -62,10 +64,10 @@ export const TimelineActivities = ({
         <AnimatedPlaceholder type="emptyTimeline" />
         <AnimatedPlaceholderEmptyTextContainer>
           <AnimatedPlaceholderEmptyTitle>
-            No activity yet
+            <Trans>No activity yet</Trans>
           </AnimatedPlaceholderEmptyTitle>
           <AnimatedPlaceholderEmptySubTitle>
-            There is no activity associated with this record.
+            <Trans>There is no activity associated with this record.</Trans>
           </AnimatedPlaceholderEmptySubTitle>
         </AnimatedPlaceholderEmptyTextContainer>
       </AnimatedPlaceholderEmptyContainer>

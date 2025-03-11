@@ -262,6 +262,10 @@ msgstr "پنل مدیریت"
 msgid "Advanced filter"
 msgstr "فیلتر پیشرفته"
 
+#: src/modules/navigation/components/AppNavigationDrawer.tsx
+msgid "Advanced:"
+msgstr "پیشرفته"
+
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
 msgid "Afrikaans"
 msgstr "آفریکانس"
@@ -2155,6 +2159,10 @@ msgstr "وظیفه جدید"
 msgid "No {objectLabel} found"
 msgstr "هیچ {objectLabel} یافت نشد"
 
+#: src/modules/activities/timeline-activities/components/TimelineActivities.tsx
+msgid "No activity yet"
+msgstr "هنوز فعالیتی وجود ندارد"
+
 #: src/pages/settings/workspace/SettingsDomain.tsx
 msgid "No change detected"
 msgstr "هیچ تغییری شناسایی نشد"
@@ -3063,6 +3071,10 @@ msgstr "هیچ فایلی با این رکورد پیوست نشده است."
 #: src/modules/activities/notes/components/Notes.tsx
 msgid "There are no associated notes with this record."
 msgstr "هیچ یادداشتی با این رکورد مرتبط نشده است."
+
+#: src/modules/activities/timeline-activities/components/TimelineActivities.tsx
+msgid "There is no activity associated with this record."
+msgstr "هیچ فعالیتی با این رکورد مرتبط نیست."
 
 #: src/pages/auth/PasswordReset.tsx
 msgid "There was an error while updating password."

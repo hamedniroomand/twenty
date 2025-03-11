@@ -265,6 +265,10 @@ msgstr "Admin Panel"
 msgid "Advanced filter"
 msgstr "Advanced filter"
 
+#: src/modules/navigation/components/AppNavigationDrawer.tsx
+msgid "Advanced:"
+msgstr "Advanced:"
+
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
 msgid "Afrikaans"
 msgstr "Afrikaans"
@@ -2210,6 +2214,10 @@ msgstr "New task"
 msgid "No {objectLabel} found"
 msgstr "No {objectLabel} found"
 
+#: src/modules/activities/timeline-activities/components/TimelineActivities.tsx
+msgid "No activity yet"
+msgstr "No activity yet"
+
 #: src/pages/settings/workspace/SettingsDomain.tsx
 msgid "No change detected"
 msgstr "No change detected"
@@ -3174,6 +3182,10 @@ msgstr "There are no associated files with this record."
 #: src/modules/activities/notes/components/Notes.tsx
 msgid "There are no associated notes with this record."
 msgstr "There are no associated notes with this record."
+
+#: src/modules/activities/timeline-activities/components/TimelineActivities.tsx
+msgid "There is no activity associated with this record."
+msgstr "There is no activity associated with this record."
 
 #: src/pages/auth/PasswordReset.tsx
 msgid "There was an error while updating password."

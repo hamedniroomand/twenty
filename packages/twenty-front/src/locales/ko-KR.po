@@ -267,6 +267,10 @@ msgstr "관리자 패널"
 msgid "Advanced filter"
 msgstr "고급 필터"
 
+#: src/modules/navigation/components/AppNavigationDrawer.tsx
+msgid "Advanced:"
+msgstr ""
+
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
 msgid "Afrikaans"
 msgstr "아프리칸스어"
@@ -2208,6 +2212,10 @@ msgstr ""
 msgid "No {objectLabel} found"
 msgstr ""
 
+#: src/modules/activities/timeline-activities/components/TimelineActivities.tsx
+msgid "No activity yet"
+msgstr ""
+
 #: src/pages/settings/workspace/SettingsDomain.tsx
 msgid "No change detected"
 msgstr "변경 사항이 감지되지 않았습니다"
@@ -3171,6 +3179,10 @@ msgstr ""
 
 #: src/modules/activities/notes/components/Notes.tsx
 msgid "There are no associated notes with this record."
+msgstr ""
+
+#: src/modules/activities/timeline-activities/components/TimelineActivities.tsx
+msgid "There is no activity associated with this record."
 msgstr ""
 
 #: src/pages/auth/PasswordReset.tsx

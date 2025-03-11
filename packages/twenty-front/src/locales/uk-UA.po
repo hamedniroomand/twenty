@@ -267,6 +267,10 @@ msgstr "Панель адміністратора"
 msgid "Advanced filter"
 msgstr "Розширений фільтр"
 
+#: src/modules/navigation/components/AppNavigationDrawer.tsx
+msgid "Advanced:"
+msgstr ""
+
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
 msgid "Afrikaans"
 msgstr "Африкаанс"
@@ -2260,6 +2264,10 @@ msgstr ""
 msgid "No {objectLabel} found"
 msgstr ""
 
+#: src/modules/activities/timeline-activities/components/TimelineActivities.tsx
+msgid "No activity yet"
+msgstr ""
+
 #: src/pages/settings/workspace/SettingsDomain.tsx
 msgid "No change detected"
 msgstr "Змін не виявлено"
@@ -3223,6 +3231,10 @@ msgstr ""
 
 #: src/modules/activities/notes/components/Notes.tsx
 msgid "There are no associated notes with this record."
+msgstr ""
+
+#: src/modules/activities/timeline-activities/components/TimelineActivities.tsx
+msgid "There is no activity associated with this record."
 msgstr ""
 
 #: src/pages/auth/PasswordReset.tsx

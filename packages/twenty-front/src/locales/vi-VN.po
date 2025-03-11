@@ -270,6 +270,10 @@ msgstr "Bảng Điều Khiển Admin"
 msgid "Advanced filter"
 msgstr "Bộ lọc nâng cao"
 
+#: src/modules/navigation/components/AppNavigationDrawer.tsx
+msgid "Advanced:"
+msgstr ""
+
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
 msgid "Afrikaans"
 msgstr "Tiếng Afrikaans"
@@ -2207,6 +2211,10 @@ msgstr ""
 msgid "No {objectLabel} found"
 msgstr ""
 
+#: src/modules/activities/timeline-activities/components/TimelineActivities.tsx
+msgid "No activity yet"
+msgstr ""
+
 #: src/pages/settings/workspace/SettingsDomain.tsx
 msgid "No change detected"
 msgstr "Không phát hiện thay đổi"
@@ -3170,6 +3178,10 @@ msgstr ""
 
 #: src/modules/activities/notes/components/Notes.tsx
 msgid "There are no associated notes with this record."
+msgstr ""
+
+#: src/modules/activities/timeline-activities/components/TimelineActivities.tsx
+msgid "There is no activity associated with this record."
 msgstr ""
 
 #: src/pages/auth/PasswordReset.tsx
