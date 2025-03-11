@@ -22,7 +22,7 @@ form {
   visibility: hidden !important;
 }
 
-html[lang="fa"] input:not([placeholder]="email") {
+html[lang="fa"] input:not([placeholder="email"]) {
   direction: rtl;
 }
 html[lang="fa"] div[contenteditable=true] {
