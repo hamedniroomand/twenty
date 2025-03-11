@@ -15,6 +15,8 @@ type Checkers = Parameters<typeof checker>[0];
 export default defineConfig(({ command, mode }) => {
   const env = loadEnv(mode, __dirname, '');
 
+  console.log('NODE_OPTIONS from within vite.config.ts:', env.NODE_OPTIONS);
+
   const {
     REACT_APP_SERVER_BASE_URL,
     VITE_BUILD_SOURCEMAP,
