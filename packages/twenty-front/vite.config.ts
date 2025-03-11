@@ -144,7 +144,7 @@ export default defineConfig(({ command, mode }) => {
 
     build: {
       outDir: 'build',
-      sourcemap: VITE_BUILD_SOURCEMAP === 'true',
+      sourcemap: false,
     },
 
     envPrefix: 'REACT_APP_',
