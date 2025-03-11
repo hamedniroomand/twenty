@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import { Trans, useLingui } from '@lingui/react/macro';
 import { IconPoint } from '@ui/display';
 import { Toggle } from '@ui/input';
 import { MAIN_COLORS } from '@ui/theme';
@@ -38,15 +37,16 @@ const StyledIconPoint = styled(IconPoint)`
 `;
 
 type AdvancedSettingsToggleProps = {
+  text: string;
   isAdvancedModeEnabled: boolean;
   setIsAdvancedModeEnabled: (enabled: boolean) => void;
 };
 
 export const AdvancedSettingsToggle = ({
+  text,
   isAdvancedModeEnabled,
   setIsAdvancedModeEnabled,
 }: AdvancedSettingsToggleProps) => {
-  const { t } = useLingui();
   const onChange = (newValue: boolean) => {
     setIsAdvancedModeEnabled(newValue);
   };
@@ -62,9 +62,7 @@ export const AdvancedSettingsToggle = ({
         />
       </StyledIconContainer>
       <StyledToggleContainer htmlFor={inputId}>
-        <StyledText>
-          <Trans>Advanced:</Trans>
-        </StyledText>
+        <StyledText>{text}</StyledText>
 
         <Toggle
           id={inputId}

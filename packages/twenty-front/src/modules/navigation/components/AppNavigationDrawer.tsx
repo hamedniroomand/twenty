@@ -37,6 +37,7 @@ export const AppNavigationDrawer = ({
         children: <SettingsNavigationDrawerItems />,
         footer: (
           <AdvancedSettingsToggle
+            text={t`Advanced:`}
             isAdvancedModeEnabled={isAdvancedModeEnabled}
             setIsAdvancedModeEnabled={setIsAdvancedModeEnabled}
           />
