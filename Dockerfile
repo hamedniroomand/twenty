@@ -63,7 +63,7 @@ COPY ./packages/twenty-ui /app/packages/twenty-ui
 COPY ./packages/twenty-shared /app/packages/twenty-shared
 
 # Build frontend with production settings
-RUN npx nx build twenty-front
+RUN NODE_OPTIONS="--max-old-space-size=4096" npx nx build twenty-front
 
 # Clean up temporary empty directories
 RUN find /app -type d -name "node_modules" -prune -o -type d -name ".nx" -prune -o -type d -name "build" -prune -o -type d -empty -delete || true
