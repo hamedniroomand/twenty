@@ -88,16 +88,14 @@ export const useDeleteSingleRecordAction: ActionHookWithObjectMetadataItem = ({
         isOpen={isDeleteRecordsModalOpen}
         setIsOpen={setIsDeleteRecordsModalOpen}
         title={t`Delete Record`}
-        subtitle={
-          t`Are you sure you want to delete this record? It can be recovered from the Options menu.`
-        }
+        subtitle={t`Are you sure you want to delete this record? It can be recovered from the Options menu.`}
         onConfirmClick={() => {
           handleDeleteClick();
           if (isInRightDrawer) {
             closeRightDrawer({ emitCloseEvent: false });
           }
         }}
-        deleteButtonText={t`Delete Record`}
+        confirmButtonText={t`Delete Record`}
       />
     ),
   };
