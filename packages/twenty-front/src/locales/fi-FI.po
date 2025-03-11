@@ -411,16 +411,17 @@ msgstr "Oletko varma, että haluat muuttaa laskutusväliäsi?"
 #~ msgid "Are you sure you want to assign this role?"
 #~ msgstr "Are you sure you want to assign this role?"
 
-#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
-msgid "Are you sure you want to delete this record? It can be recovered from the Options menu."
-msgstr ""
 #: src/modules/action-menu/actions/record-actions/multiple-records/hooks/useDeleteMultipleRecordsAction.tsx
 msgid "Are you sure you want to delete these records? They can be recovered from the Command menu ({osControlSymbol} + K)."
 msgstr "Haluatko varmasti poistaa nämä tietueet? Ne voidaan palauttaa komento-valikosta ({osControlSymbol} + K)."
 
 #: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
-msgid "Are you sure you want to delete this record? It can be recovered from the Command menu ({osControlSymbol} + K)."
-msgstr "Haluatko varmasti poistaa tämän tietueen? Se voidaan palauttaa komento-valikosta ({osControlSymbol} + K)."
+#~ msgid "Are you sure you want to delete this record? It can be recovered from the Command menu ({osControlSymbol} + K)."
+#~ msgstr "Haluatko varmasti poistaa tämän tietueen? Se voidaan palauttaa komento-valikosta ({osControlSymbol} + K)."
+
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Are you sure you want to delete this record? It can be recovered from the Options menu."
+msgstr ""
 
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
@@ -1249,12 +1250,13 @@ msgstr "Ty\\u00f6ntekij\\u00e4t"
 msgid "Empty"
 msgstr "Tyhj\\u00e4"
 
-#: src/modules/activities/emails/components/EmailThreads.tsx
-msgid "Empty Inbox"
-msgstr ""
 #: src/modules/workflow/components/json-visualizer/components/JsonArrayNode.tsx
 msgid "Empty Array"
 msgstr "Tyhjä taulukko"
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "Empty Inbox"
+msgstr ""
 
 #: src/modules/workflow/components/json-visualizer/components/JsonObjectNode.tsx
 msgid "Empty Object"
@@ -2413,9 +2415,6 @@ msgstr "tai"
 msgid "Other"
 msgstr "Muu"
 
-#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
-msgid "Output"
-msgstr ""
 #: src/pages/settings/admin-panel/SettingsAdminSecondaryEnvVariables.tsx
 msgid "Other Environment Variables"
 msgstr "Muut ympäristömuuttujat"
@@ -2423,6 +2422,10 @@ msgstr "Muut ympäristömuuttujat"
 #: src/modules/settings/admin-panel/components/SettingsAdminEnvVariables.tsx
 msgid "Other Variables"
 msgstr "Muut muuttujat"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Output"
+msgstr ""
 
 #: src/pages/not-found/NotFound.tsx
 msgid "Page Not Found"

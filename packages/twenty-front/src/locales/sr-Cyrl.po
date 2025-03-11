@@ -164,6 +164,13 @@ msgstr "Активни API кључеви које сте креирали ви 
 msgid "Add"
 msgstr "Додајте"
 
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoGroupNoRecordAtAll.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateByGroupNoRecordAtAll.tsx
+msgid "Add a {objectLabel}"
+msgstr ""
+
 #: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsListCard.tsx
 msgid "Add account"
 msgstr "Додајте налог"
@@ -175,6 +182,11 @@ msgstr "Додај одобрен домен приступа"
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
 msgid "Add Field"
 msgstr "Додајте поље"
+
+#: src/modules/activities/files/components/Attachments.tsx
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "Add file"
+msgstr ""
 
 #: src/modules/object-record/object-filter-dropdown/components/AddObjectFilterFromDetailsButton.tsx
 msgid "Add filter"
@@ -286,6 +298,10 @@ msgstr "Сви објекти"
 #: src/modules/settings/roles/components/Roles.tsx
 msgid "All roles"
 msgstr "Све улоге"
+
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "All tasks addressed. Maintain the momentum."
+msgstr ""
 
 #: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
 msgid "Allow logins through Google's single sign-on functionality."
@@ -400,8 +416,12 @@ msgid "Are you sure you want to delete these records? They can be recovered from
 msgstr "Да ли сте сигурни да желите да обришете ове записе? Могу се повратити из командног менија ({osControlSymbol} + K)."
 
 #: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
-msgid "Are you sure you want to delete this record? It can be recovered from the Command menu ({osControlSymbol} + K)."
-msgstr "Да ли сте сигурни да желите да обришете овај запис? Може се повратити из командног менија ({osControlSymbol} + K)."
+#~ msgid "Are you sure you want to delete this record? It can be recovered from the Command menu ({osControlSymbol} + K)."
+#~ msgstr "Да ли сте сигурни да желите да обришете овај запис? Може се повратити из командног менија ({osControlSymbol} + K)."
+
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Are you sure you want to delete this record? It can be recovered from the Options menu."
+msgstr ""
 
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
@@ -508,6 +528,8 @@ msgid "Calculate"
 msgstr "Израчунај"
 
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
 msgid "Calendar"
 msgstr "Календар"
 
@@ -971,6 +993,11 @@ msgstr "Обриши API кључ"
 msgid "Delete record"
 msgstr "Обриши запис"
 
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Delete Record"
+msgstr ""
+
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
 msgid "Delete records"
@@ -1197,12 +1224,17 @@ msgstr "Имејл/Домен"
 #: src/pages/settings/accounts/SettingsAccountsEmails.tsx
 #: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
 msgid "Emails"
 msgstr "Имејлови"
 
 #: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
 msgid "Emails settings"
 msgstr "Подешавања имејлова"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Emailst"
+msgstr ""
 
 #: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
 msgid "employees"
@@ -1221,6 +1253,10 @@ msgstr "Празно"
 #: src/modules/workflow/components/json-visualizer/components/JsonArrayNode.tsx
 msgid "Empty Array"
 msgstr "Празан низ"
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "Empty Inbox"
+msgstr ""
 
 #: src/modules/workflow/components/json-visualizer/components/JsonObjectNode.tsx
 msgid "Empty Object"
@@ -1464,6 +1500,7 @@ msgstr "Тип поља"
 #: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
 #: src/pages/settings/data-model/constants/SettingsObjectTableMetadata.ts
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownFieldsContent.tsx
 msgid "Fields"
@@ -1472,6 +1509,10 @@ msgstr "Поља"
 #: src/testing/mock-data/tableData.ts
 msgid "Fields Count"
 msgstr "Број поља"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Files"
+msgstr ""
 
 #: src/modules/object-record/record-table/record-table-header/components/RecordTableColumnHeadDropdownMenu.tsx
 #: src/modules/object-record/object-filter-dropdown/components/SingleEntityObjectFilterDropdownButton.tsx
@@ -1501,8 +1542,15 @@ msgstr "Првих 5 линија"
 
 #: src/pages/onboarding/CreateProfile.tsx
 #: src/modules/settings/profile/components/NameFields.tsx
+#: src/modules/object-record/record-field/meta-types/input/constants/FirstNamePlaceholder.ts
 msgid "First Name"
 msgstr "Име"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Flow"
+msgstr ""
 
 #: src/modules/auth/sign-in-up/components/SignInUpWorkspaceScopeForm.tsx
 msgid "Forgot your password?"
@@ -1552,9 +1600,26 @@ msgstr "Набави претплату"
 msgid "Global"
 msgstr "Глобално"
 
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to Companies"
+msgstr ""
+
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to Opportunities"
+msgstr ""
+
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to People"
+msgstr ""
+
 #: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
 msgid "Go to Settings"
 msgstr "Идите на Подешавања"
+
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to Tasks"
+msgstr ""
 
 #: src/pages/settings/SettingsWorkspace.tsx
 msgid "Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."
@@ -1866,6 +1931,7 @@ msgstr "Последњих 7 дана (од најстаријег → најн�
 
 #: src/pages/onboarding/CreateProfile.tsx
 #: src/modules/settings/profile/components/NameFields.tsx
+#: src/modules/object-record/record-field/meta-types/input/constants/LastNamePlaceholder.ts
 msgid "Last Name"
 msgstr "Презиме"
 
@@ -1979,6 +2045,10 @@ msgstr "Генерисање датотеке метаподатака није 
 msgid "Min"
 msgstr "Минимум"
 
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "Mission accomplished!"
+msgstr ""
+
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterMenuContent.tsx
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterDropdownContent.tsx
 #: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownMenuContent.tsx
@@ -2091,6 +2161,10 @@ msgstr "Нови кључ"
 msgid "New Key"
 msgstr "Нови кључ"
 
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "New note"
+msgstr ""
+
 #: src/pages/settings/data-model/SettingsNewObject.tsx
 msgid "New Object"
 msgstr "Нови објекат"
@@ -2118,9 +2192,17 @@ msgstr "Нова SSO Конфигурација"
 msgid "New SSO provider"
 msgstr "Нови провајдер за SSO"
 
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "New task"
+msgstr ""
+
 #: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhooksNew.tsx
 #~ msgid "New Webhook"
 #~ msgstr "New Webhook"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+msgid "No {objectLabel} found"
+msgstr ""
 
 #: src/pages/settings/workspace/SettingsDomain.tsx
 msgid "No change detected"
@@ -2133,6 +2215,26 @@ msgstr "Није повезан налог"
 #: src/modules/settings/data-model/fields/forms/phones/components/SettingsDataModelFieldPhonesForm.tsx
 msgid "No country"
 msgstr "Нема земље"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateSoftDelete.tsx
+msgid "No Deleted {objectLabel} found"
+msgstr ""
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "No email exchange has occurred with this record yet."
+msgstr ""
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "No Events"
+msgstr ""
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "No events have been scheduled with this"
+msgstr ""
+
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "No Files"
+msgstr ""
 
 #: src/pages/settings/roles/components/RoleAssignment.tsx
 #~ msgid "No members assigned to this role yet"
@@ -2158,9 +2260,17 @@ msgstr "Нема доступних података о метрикама"
 msgid "No more members to assign"
 msgstr "Нема више чланова за доделу"
 
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "No notes"
+msgstr ""
+
 #: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
 msgid "No records found"
 msgstr "Нису пронађени подаци"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+msgid "No records matching the filter criteria were found."
+msgstr ""
 
 #: src/pages/settings/roles/components/RoleWorkspaceMemberPickerDropdownContent.tsx
 #~ msgid "No Result"
@@ -2209,6 +2319,15 @@ msgstr "Није пронађено"
 msgid "Not synced"
 msgstr "Није синхронизовано"
 
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Note"
+msgstr ""
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Notes"
+msgstr ""
+
 #: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
 msgid "Number"
 msgstr "Број"
@@ -2224,6 +2343,10 @@ msgstr "Тип броја"
 #: src/modules/command-menu/components/CommandMenu.tsx
 msgid "Object"
 msgstr "Објекат"
+
+#: src/testing/decorators/getFieldDecorator.tsx
+msgid "Object {objectNameSingular} not found"
+msgstr ""
 
 #: src/modules/settings/data-model/fields/forms/relation/components/SettingsDataModelFieldRelationForm.tsx
 msgid "Object destination"
@@ -2296,6 +2419,10 @@ msgstr "Друге променљиве окружења"
 msgid "Other Variables"
 msgstr "Остале променљиве"
 
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Output"
+msgstr ""
+
 #: src/pages/not-found/NotFound.tsx
 msgid "Page Not Found"
 msgstr "Страница није пронађена"
@@ -2354,6 +2481,10 @@ msgstr "Трајно уништите радне процесе"
 #: src/pages/settings/roles/SettingsRoleEdit.tsx
 msgid "Permissions"
 msgstr "Дозволе"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Persian"
+msgstr ""
 
 #: src/modules/object-record/record-field/meta-types/display/components/PhonesFieldDisplay.tsx
 msgid "Phone number copied to clipboard"
@@ -2958,6 +3089,10 @@ msgstr "Подешавања система - {systemTimeFormatLabel}"
 msgid "Table"
 msgstr "Табела"
 
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Tasks"
+msgstr ""
+
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
 msgid "Terms of Service"
 msgstr "Услови коришћења сервиса"
@@ -3026,6 +3161,14 @@ msgstr "Вредности овог поља морају бити јединс�
 msgid "The whole event details will be shared with your team."
 msgstr "Цели детаљи догађаја ће бити подељени са вашим тимом."
 
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "There are no associated files with this record."
+msgstr ""
+
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "There are no associated notes with this record."
+msgstr ""
+
 #: src/pages/auth/PasswordReset.tsx
 msgid "There was an error while updating password."
 msgstr "Дошло је до грешке при ажурирању лозинке."
@@ -3070,6 +3213,10 @@ msgstr "Формат времена"
 #: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeZoneSelect.tsx
 msgid "Time zone"
 msgstr "Временска зона"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Timeline"
+msgstr ""
 
 #: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
 msgid "Timestamp and participants will be shared with your team."
@@ -3385,6 +3532,10 @@ msgstr "Напишите тајну"
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
 msgid "yes"
 msgstr "да"
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "yet."
+msgstr ""
 
 #: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
 msgid "You are not allowed to create records for this object"

@@ -164,6 +164,13 @@ msgstr "Активні API-ключі, створені вами або вашо
 msgid "Add"
 msgstr "Додати"
 
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoGroupNoRecordAtAll.tsx
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateByGroupNoRecordAtAll.tsx
+msgid "Add a {objectLabel}"
+msgstr ""
+
 #: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsListCard.tsx
 msgid "Add account"
 msgstr "Додати обліковий запис"
@@ -175,6 +182,11 @@ msgstr "Додати затверджений домен доступу"
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
 msgid "Add Field"
 msgstr "Додати поле"
+
+#: src/modules/activities/files/components/Attachments.tsx
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "Add file"
+msgstr ""
 
 #: src/modules/object-record/object-filter-dropdown/components/AddObjectFilterFromDetailsButton.tsx
 msgid "Add filter"
@@ -286,6 +298,10 @@ msgstr "Всі об'єкти"
 #: src/modules/settings/roles/components/Roles.tsx
 msgid "All roles"
 msgstr "Всі ролі"
+
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "All tasks addressed. Maintain the momentum."
+msgstr ""
 
 #: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
 msgid "Allow logins through Google's single sign-on functionality."
@@ -400,8 +416,12 @@ msgid "Are you sure you want to delete these records? They can be recovered from
 msgstr "Ви впевнені, що хочете видалити ці записи? Їх можна відновити з меню Command ({osControlSymbol} + K)."
 
 #: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
-msgid "Are you sure you want to delete this record? It can be recovered from the Command menu ({osControlSymbol} + K)."
-msgstr "Ви впевнені, що хочете видалити цей запис? Його можна відновити з меню Command ({osControlSymbol} + K)."
+#~ msgid "Are you sure you want to delete this record? It can be recovered from the Command menu ({osControlSymbol} + K)."
+#~ msgstr "Ви впевнені, що хочете видалити цей запис? Його можна відновити з меню Command ({osControlSymbol} + K)."
+
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Are you sure you want to delete this record? It can be recovered from the Options menu."
+msgstr ""
 
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
@@ -508,6 +528,8 @@ msgid "Calculate"
 msgstr "Розрахувати"
 
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
 msgid "Calendar"
 msgstr "Календар"
 
@@ -971,6 +993,11 @@ msgstr "Видалити ключ API"
 msgid "Delete record"
 msgstr "Видалити запис"
 
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+#: src/modules/action-menu/actions/record-actions/single-record/hooks/useDeleteSingleRecordAction.tsx
+msgid "Delete Record"
+msgstr ""
+
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV2.ts
 #: src/modules/action-menu/actions/record-actions/constants/DefaultActionsConfigV1.ts
 msgid "Delete records"
@@ -1248,12 +1275,17 @@ msgstr "Електронна пошта/Домен"
 #: src/pages/settings/accounts/SettingsAccountsEmails.tsx
 #: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
 msgid "Emails"
 msgstr "Електронні листи"
 
 #: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
 msgid "Emails settings"
 msgstr "Налаштування електронної пошти"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Emailst"
+msgstr ""
 
 #: src/modules/settings/data-model/fields/forms/components/SettingsDataModelFieldIconLabelForm.tsx
 msgid "employees"
@@ -1274,6 +1306,10 @@ msgstr "Порожньо"
 #: src/modules/workflow/components/json-visualizer/components/JsonArrayNode.tsx
 msgid "Empty Array"
 msgstr "Порожній масив"
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "Empty Inbox"
+msgstr ""
 
 #: src/modules/workflow/components/json-visualizer/components/JsonObjectNode.tsx
 msgid "Empty Object"
@@ -1520,6 +1556,7 @@ msgstr "Тип поля"
 #: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
 #: src/pages/settings/data-model/constants/SettingsObjectTableMetadata.ts
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectFields.tsx
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownMenuContent.tsx
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownFieldsContent.tsx
 msgid "Fields"
@@ -1528,6 +1565,10 @@ msgstr "Поля"
 #: src/testing/mock-data/tableData.ts
 msgid "Fields Count"
 msgstr "Кількість полів"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Files"
+msgstr ""
 
 #: src/modules/object-record/record-table/record-table-header/components/RecordTableColumnHeadDropdownMenu.tsx
 #: src/modules/object-record/object-filter-dropdown/components/SingleEntityObjectFilterDropdownButton.tsx
@@ -1557,8 +1598,15 @@ msgstr "Перші 5 рядків"
 
 #: src/pages/onboarding/CreateProfile.tsx
 #: src/modules/settings/profile/components/NameFields.tsx
+#: src/modules/object-record/record-field/meta-types/input/constants/FirstNamePlaceholder.ts
 msgid "First Name"
 msgstr "Ім’я"
+
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Flow"
+msgstr ""
 
 #: src/modules/auth/sign-in-up/components/SignInUpWorkspaceScopeForm.tsx
 msgid "Forgot your password?"
@@ -1608,9 +1656,26 @@ msgstr "Отримайте свою передплату"
 msgid "Global"
 msgstr "Глобальні"
 
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to Companies"
+msgstr ""
+
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to Opportunities"
+msgstr ""
+
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to People"
+msgstr ""
+
 #: src/modules/views/view-picker/components/ViewPickerCreateButton.tsx
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
 msgid "Go to Settings"
 msgstr "Перейти до налаштувань"
+
+#: src/modules/command-menu/constants/CommandMenuNavigateCommands.ts
+msgid "Go to Tasks"
+msgstr ""
 
 #: src/pages/settings/SettingsWorkspace.tsx
 msgid "Grant Twenty support temporary access to your workspace so we can troubleshoot problems or recover content on your behalf. You can revoke access at any time."
@@ -1922,6 +1987,7 @@ msgstr "Останні 7 днів (найстаріший → найновіши
 
 #: src/pages/onboarding/CreateProfile.tsx
 #: src/modules/settings/profile/components/NameFields.tsx
+#: src/modules/object-record/record-field/meta-types/input/constants/LastNamePlaceholder.ts
 msgid "Last Name"
 msgstr "Прізвище"
 
@@ -2035,6 +2101,10 @@ msgstr "Не вдалося згенерувати файл метаданих"
 msgid "Min"
 msgstr "Мінімум"
 
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "Mission accomplished!"
+msgstr ""
+
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterMenuContent.tsx
 #: src/modules/object-record/record-table/record-table-footer/components/RecordTableColumnAggregateFooterDropdownContent.tsx
 #: src/modules/object-record/record-board/record-board-column/components/RecordBoardColumnHeaderAggregateDropdownMenuContent.tsx
@@ -2147,6 +2217,10 @@ msgstr "Новий ключ"
 msgid "New Key"
 msgstr "Новий ключ"
 
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "New note"
+msgstr ""
+
 #: src/pages/settings/data-model/SettingsNewObject.tsx
 msgid "New Object"
 msgstr "Новий об'єкт"
@@ -2174,9 +2248,17 @@ msgstr "Нова конфігурація SSO"
 msgid "New SSO provider"
 msgstr "Новий провайдер єдиної системи входу"
 
+#: src/modules/activities/tasks/components/TaskGroups.tsx
+msgid "New task"
+msgstr ""
+
 #: src/pages/settings/developers/webhooks/components/SettingsDevelopersWebhooksNew.tsx
 #~ msgid "New Webhook"
 #~ msgstr "New Webhook"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+msgid "No {objectLabel} found"
+msgstr ""
 
 #: src/pages/settings/workspace/SettingsDomain.tsx
 msgid "No change detected"
@@ -2189,6 +2271,26 @@ msgstr "Немає підключеного акаунту"
 #: src/modules/settings/data-model/fields/forms/phones/components/SettingsDataModelFieldPhonesForm.tsx
 msgid "No country"
 msgstr "Немає країни"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateSoftDelete.tsx
+msgid "No Deleted {objectLabel} found"
+msgstr ""
+
+#: src/modules/activities/emails/components/EmailThreads.tsx
+msgid "No email exchange has occurred with this record yet."
+msgstr ""
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "No Events"
+msgstr ""
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "No events have been scheduled with this"
+msgstr ""
+
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "No Files"
+msgstr ""
 
 #: src/pages/settings/roles/components/RoleAssignment.tsx
 #~ msgid "No members assigned to this role yet"
@@ -2214,9 +2316,17 @@ msgstr "Дані метрик недоступні"
 msgid "No more members to assign"
 msgstr "Більше немає учасників для призначення"
 
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "No notes"
+msgstr ""
+
 #: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
 msgid "No records found"
 msgstr "Записів не знайдено"
+
+#: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
+msgid "No records matching the filter criteria were found."
+msgstr ""
 
 #: src/pages/settings/roles/components/RoleWorkspaceMemberPickerDropdownContent.tsx
 #~ msgid "No Result"
@@ -2265,6 +2375,15 @@ msgstr "Не знайдено"
 msgid "Not synced"
 msgstr "Не синхронізовано"
 
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Note"
+msgstr ""
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Notes"
+msgstr ""
+
 #: src/modules/settings/data-model/fields/forms/number/components/SettingsDataModelFieldNumberForm.tsx
 msgid "Number"
 msgstr "Число"
@@ -2280,6 +2399,10 @@ msgstr "Тип числа"
 #: src/modules/command-menu/components/CommandMenu.tsx
 msgid "Object"
 msgstr "Об'єкт"
+
+#: src/testing/decorators/getFieldDecorator.tsx
+msgid "Object {objectNameSingular} not found"
+msgstr ""
 
 #: src/modules/settings/data-model/fields/forms/relation/components/SettingsDataModelFieldRelationForm.tsx
 msgid "Object destination"
@@ -2352,6 +2475,10 @@ msgstr "Інші змінні середовища"
 msgid "Other Variables"
 msgstr "Інші змінні"
 
+#: src/modules/object-record/record-show/hooks/useRecordShowContainerTabs.ts
+msgid "Output"
+msgstr ""
+
 #: src/pages/not-found/NotFound.tsx
 msgid "Page Not Found"
 msgstr "Сторінку не знайдено"
@@ -2410,6 +2537,10 @@ msgstr "Назавжди знищити Workflow"
 #: src/pages/settings/roles/SettingsRoleEdit.tsx
 msgid "Permissions"
 msgstr "Дозволи"
+
+#: src/pages/settings/profile/appearance/components/LocalePicker.tsx
+msgid "Persian"
+msgstr ""
 
 #: src/modules/object-record/record-field/meta-types/display/components/PhonesFieldDisplay.tsx
 msgid "Phone number copied to clipboard"
@@ -3014,6 +3145,10 @@ msgstr "Системні налаштування - {systemTimeFormatLabel}"
 msgid "Table"
 msgstr "Таблиця"
 
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Tasks"
+msgstr ""
+
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
 msgid "Terms of Service"
 msgstr "Умови надання послуг"
@@ -3082,6 +3217,14 @@ msgstr "Значення цього поля повинні бути уніка�
 msgid "The whole event details will be shared with your team."
 msgstr "Всі подробиці подій будуть поділені з вашою командою."
 
+#: src/modules/activities/files/components/Attachments.tsx
+msgid "There are no associated files with this record."
+msgstr ""
+
+#: src/modules/activities/notes/components/Notes.tsx
+msgid "There are no associated notes with this record."
+msgstr ""
+
 #: src/pages/auth/PasswordReset.tsx
 msgid "There was an error while updating password."
 msgstr "Сталася помилка під час оновлення пароля."
@@ -3126,6 +3269,10 @@ msgstr "Формат часу"
 #: src/pages/settings/profile/appearance/components/DateTimeSettingsTimeZoneSelect.tsx
 msgid "Time zone"
 msgstr "Часовий пояс"
+
+#: src/modules/object-record/record-show/constants/BaseRecordLayout.ts
+msgid "Timeline"
+msgstr ""
 
 #: src/modules/settings/accounts/components/SettingsAccountsMessageVisibilityCard.tsx
 msgid "Timestamp and participants will be shared with your team."
@@ -3441,6 +3588,10 @@ msgstr "Написати секрет"
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
 msgid "yes"
 msgstr "так"
+
+#: src/modules/activities/calendar/components/Calendar.tsx
+msgid "yet."
+msgstr ""
 
 #: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateReadOnly.tsx
 msgid "You are not allowed to create records for this object"

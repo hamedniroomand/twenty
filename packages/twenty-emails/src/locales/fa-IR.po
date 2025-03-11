@@ -49,6 +49,10 @@ msgstr "کاربر گرامی {userName},"
 msgid "Deleted Workspace"
 msgstr "فضای کاری حذف‌شده"
 
+#: src/emails/validate-approved-access-domain.email.tsx
+msgid "email addresses to join your workspace without requiring an invitation."
+msgstr "آدرس‌های ایمیل برای پیوستن به فضای کاری شما بدون نیاز به دعوت‌نامه."
+
 #: src/emails/send-invite-link.email.tsx
 msgid "has invited you to join a workspace called "
 msgstr "شما را دعوت کرده تا به فضای کاری زیر بپیوندید: "
@@ -86,8 +90,12 @@ msgid "Password updated"
 msgstr "گذرواژه به‌روزرسانی شد"
 
 #: src/emails/validate-approved-access-domain.email.tsx
-msgid "Please validate this domain to allow users with <0>@{domain}</0> email addresses to join your workspace without requiring an invitation."
-msgstr "لطفاً این دامنه را تأیید کنید تا کاربران با آدرس ایمیل <0>@{domain}</0> بتوانند بدون نیاز به دعوت به فضای کاری شما بپیوندند."
+msgid "Please validate this domain to allow users with"
+msgstr "لطفاً این دامنه را تأیید کنید تا کاربران دارای"
+
+#: src/emails/validate-approved-access-domain.email.tsx
+#~ msgid "Please validate this domain to allow users with <0>@{domain}</0> email addresses to join your workspace without requiring an invitation."
+#~ msgstr "لطفاً این دامنه را تأیید کنید تا کاربران با آدرس ایمیل <0>@{domain}</0> بتوانند بدون نیاز به دعوت‌نامه به فضای کاری شما ملحق شوند."
 
 #: src/emails/password-reset-link.email.tsx
 msgid "Reset"
