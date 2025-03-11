@@ -76,6 +76,9 @@ export default defineConfig(({ command }) => {
         // External packages that should not be bundled into your library.
         external: Object.keys(packageJson.dependencies || {}),
       },
+      onwarn: () => {
+        return;
+      },
     },
   };
 });

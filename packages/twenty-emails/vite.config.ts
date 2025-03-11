@@ -48,6 +48,9 @@ export default defineConfig({
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'react/jsx-runtime'],
+      onwarn: () => {
+        return;
+      },
     },
   },
 });

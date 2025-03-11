@@ -145,6 +145,11 @@ export default defineConfig(({ command, mode }) => {
     build: {
       outDir: 'build',
       sourcemap: false,
+      rollupOptions: {
+        onwarn: () => {
+          return;
+        },
+      },
     },
 
     envPrefix: 'REACT_APP_',

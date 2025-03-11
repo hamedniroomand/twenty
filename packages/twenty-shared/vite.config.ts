@@ -29,5 +29,10 @@ export default defineConfig({
       fileName: 'index',
       formats: ['es', 'cjs'],
     },
+    rollupOptions: {
+      onwarn: () => {
+        return;
+      },
+    },
   },
 });
