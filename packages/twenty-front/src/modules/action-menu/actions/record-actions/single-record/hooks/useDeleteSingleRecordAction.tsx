@@ -14,6 +14,7 @@ import { isNull } from '@sniptt/guards';
 import { useCallback, useContext, useState } from 'react';
 import { useRecoilValue } from 'recoil';
 import { isDefined } from 'twenty-shared';
+import { getOsControlSymbol } from 'twenty-ui';
 
 export const useDeleteSingleRecordAction: ActionHookWithObjectMetadataItem = ({
   objectMetadataItem,
@@ -76,6 +77,8 @@ export const useDeleteSingleRecordAction: ActionHookWithObjectMetadataItem = ({
 
     setIsDeleteRecordsModalOpen(true);
   };
+
+  const osControlSymbol = getOsControlSymbol();
 
   return {
     shouldBeRegistered,
