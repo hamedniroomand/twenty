@@ -21,6 +21,7 @@ import { getTimelineThreadsFromPersonId } from '@/activities/emails/graphql/quer
 import { useCustomResolver } from '@/activities/hooks/useCustomResolver';
 import { ActivityTargetableObject } from '@/activities/types/ActivityTargetableEntity';
 import { CoreObjectNameSingular } from '@/object-metadata/types/CoreObjectNameSingular';
+import { Trans } from '@lingui/react/macro';
 import { TimelineThread, TimelineThreadsWithTotal } from '~/generated/graphql';
 
 const StyledContainer = styled.div`
@@ -85,10 +86,10 @@ export const EmailThreads = ({
         <AnimatedPlaceholder type="emptyInbox" />
         <AnimatedPlaceholderEmptyTextContainer>
           <AnimatedPlaceholderEmptyTitle>
-            Empty Inbox
+            <Trans>Empty Inbox</Trans>
           </AnimatedPlaceholderEmptyTitle>
           <AnimatedPlaceholderEmptySubTitle>
-            No email exchange has occurred with this record yet.
+            <Trans>No email exchange has occurred with this record yet.</Trans>
           </AnimatedPlaceholderEmptySubTitle>
         </AnimatedPlaceholderEmptyTextContainer>
       </AnimatedPlaceholderEmptyContainer>

@@ -31,6 +31,7 @@ import { WorkspaceMigrationEnumService } from 'src/engine/workspace-manager/work
 import { convertOnDeleteActionToOnDelete } from 'src/engine/workspace-manager/workspace-migration-runner/utils/convert-on-delete-action-to-on-delete.util';
 import { tableDefaultColumns } from 'src/engine/workspace-manager/workspace-migration-runner/utils/table-default-column.util';
 
+import { t } from '@lingui/core/macro';
 import { WorkspaceMigrationTypeService } from './services/workspace-migration-type.service';
 
 @Injectable()
@@ -514,7 +515,7 @@ export class WorkspaceMigrationRunnerService {
     const table = await queryRunner.getTable(`${schemaName}.${tableName}`);
 
     if (!table) {
-      throw new Error(`Table "${tableName}" not found`);
+      throw new Error(t`Table "${tableName}" not found`);
     }
 
     const existingColumns = new Set(table.columns.map((column) => column.name));

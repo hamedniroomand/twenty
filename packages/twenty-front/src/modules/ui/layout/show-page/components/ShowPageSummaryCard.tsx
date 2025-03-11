@@ -126,13 +126,13 @@ export const ShowPageSummaryCard = ({
 
   if (loading)
     return (
-      <StyledShowPageSummaryCard isMobile={isMobile}>
+      <StyledShowPageSummaryCard isMobile={isMobile} className='StyledShowPageSummaryCard'>
         <StyledShowPageSummaryCardSkeletonLoader />
       </StyledShowPageSummaryCard>
     );
 
   return (
-    <StyledShowPageSummaryCard isMobile={isMobile}>
+    <StyledShowPageSummaryCard isMobile={isMobile} className='StyledShowPageSummaryCard'>
       <StyledAvatarWrapper isAvatarEditable={!!onUploadPicture}>
         <Avatar
           avatarUrl={logoOrAvatar}

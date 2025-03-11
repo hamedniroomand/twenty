@@ -6,6 +6,8 @@ import { ActivityTargetableObject } from '@/activities/types/ActivityTargetableE
 import { CoreObjectNameSingular } from '@/object-metadata/types/CoreObjectNameSingular';
 import { useHasObjectReadOnlyPermission } from '@/settings/roles/hooks/useHasObjectReadOnlyPermission';
 import styled from '@emotion/styled';
+import { t } from '@lingui/core/macro';
+import { Trans } from '@lingui/react/macro';
 import {
   AnimatedPlaceholder,
   AnimatedPlaceholderEmptyContainer,
@@ -14,7 +16,7 @@ import {
   AnimatedPlaceholderEmptyTitle,
   Button,
   EMPTY_PLACEHOLDER_TRANSITION_PROPS,
-  IconPlus,
+  IconPlus
 } from 'twenty-ui';
 
 const StyledNotesContainer = styled.div`
@@ -53,16 +55,16 @@ export const Notes = ({
         <AnimatedPlaceholder type="noNote" />
         <AnimatedPlaceholderEmptyTextContainer>
           <AnimatedPlaceholderEmptyTitle>
-            No notes
+           <Trans>No notes</Trans>
           </AnimatedPlaceholderEmptyTitle>
           <AnimatedPlaceholderEmptySubTitle>
-            There are no associated notes with this record.
+            <Trans>There are no associated notes with this record.</Trans>
           </AnimatedPlaceholderEmptySubTitle>
         </AnimatedPlaceholderEmptyTextContainer>
         {!hasObjectReadOnlyPermission && (
           <Button
             Icon={IconPlus}
-            title="New note"
+            title={t`New note`}
             variant="secondary"
             onClick={() =>
               openCreateActivity({

@@ -1,6 +1,7 @@
 import { CoreObjectNameSingular } from '@/object-metadata/types/CoreObjectNameSingular';
 import { CardType } from '@/object-record/record-show/types/CardType';
 import { RecordLayout } from '@/object-record/record-show/types/RecordLayout';
+import { t } from '@lingui/core/macro';
 import {
   IconCheckbox,
   IconList,
@@ -12,7 +13,7 @@ import {
 export const BASE_RECORD_LAYOUT: RecordLayout = {
   tabs: {
     fields: {
-      title: 'Fields',
+      title: t`Fields`,
       Icon: IconList,
       position: 100,
       cards: [{ type: CardType.FieldCard }],
@@ -26,7 +27,7 @@ export const BASE_RECORD_LAYOUT: RecordLayout = {
       },
     },
     timeline: {
-      title: 'Timeline',
+      title: t`Timeline`,
       Icon: IconTimelineEvent,
       position: 200,
       cards: [{ type: CardType.TimelineCard }],
@@ -40,7 +41,7 @@ export const BASE_RECORD_LAYOUT: RecordLayout = {
       },
     },
     tasks: {
-      title: 'Tasks',
+      title: t`Tasks`,
       Icon: IconCheckbox,
       position: 300,
       cards: [{ type: CardType.TaskCard }],
@@ -54,7 +55,7 @@ export const BASE_RECORD_LAYOUT: RecordLayout = {
       },
     },
     notes: {
-      title: 'Notes',
+      title: t`Notes`,
       Icon: IconNotes,
       position: 400,
       cards: [{ type: CardType.NoteCard }],
@@ -68,7 +69,7 @@ export const BASE_RECORD_LAYOUT: RecordLayout = {
       },
     },
     files: {
-      title: 'Files',
+      title: t`Files`,
       Icon: IconPaperclip,
       position: 500,
       cards: [{ type: CardType.FileCard }],

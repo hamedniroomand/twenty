@@ -5,7 +5,7 @@ import {
 } from '@/action-menu/types/ActionMenuEntry';
 import { useOpenCopilotRightDrawer } from '@/activities/copilot/right-drawer/hooks/useOpenCopilotRightDrawer';
 import { copilotQueryState } from '@/activities/copilot/right-drawer/states/copilotQueryState';
-import { COMMAND_MENU_NAVIGATE_COMMANDS } from '@/command-menu/constants/CommandMenuNavigateCommands';
+import { getCommandMenuNavigateCommand } from '@/command-menu/constants/CommandMenuNavigateCommands';
 import { commandMenuSearchState } from '@/command-menu/states/commandMenuSearchState';
 import {
   Command,
@@ -46,7 +46,7 @@ export const useCommandMenuCommands = () => {
 
   const copilotCommands: Command[] = isCopilotEnabled ? [copilotCommand] : [];
 
-  const navigateCommands = Object.values(COMMAND_MENU_NAVIGATE_COMMANDS);
+  const navigateCommands = Object.values(getCommandMenuNavigateCommand());
 
   const actionRecordSelectionCommands: Command[] = actionMenuEntries
     ?.filter(
