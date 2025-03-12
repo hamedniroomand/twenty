@@ -2,14 +2,14 @@ import { currentWorkspaceMemberState } from '@/auth/states/currentWorkspaceMembe
 import { useRecoilState } from 'recoil';
 
 type Props = {
-    children: JSX.Element;
+  children: JSX.Element;
 };
 
-export function ThalesProvider({ children }: Props) {
-    const [currentWorkspaceMember] = useRecoilState(currentWorkspaceMemberState);
+export function ThalesProvider({ children }: ThalesProviderProps) {
+  const [currentWorkspaceMember] = useRecoilState(currentWorkspaceMemberState);
 
-    const locale = currentWorkspaceMember?.locale ?? 'en-US';
-    document.documentElement.setAttribute('lang', locale.split('-')[0]);
+  const locale = currentWorkspaceMember?.locale ?? 'en-US';
+  document.documentElement.setAttribute('lang', locale.split('-')[0]);
 
-    return <>{children}</>
-};
+  return <>{children}</>;
+}
